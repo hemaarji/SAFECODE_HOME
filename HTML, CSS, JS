@@ -1,0 +1,2344 @@
+**HTML**
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SafeCodeSoft - Connecting people and technology</title>
+  <!--Linking css file-->
+  <link rel="stylesheet" href="safecodesoft.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- Link Swiper's CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+
+  <!-- Boxicons -->
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+  <!--Link text animation-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/d38609c0ef.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+
+ <!--Header and Navbar-->
+ <header>
+  <a href="#">
+    <img class="image" src="https://safecodesoft.com/wp-content/uploads/2022/11/logo.jpeg" alt="">
+  </a>
+  <div class="menuToggle" onclick="toggleMenu()">☰</div>
+  <nav>
+    <ul class="main-nav">
+      <li><a href="#">Home</a></li>
+      <li>
+        <a href="#" onclick="toggleDropdown(event, 'company-dropdown')">
+          Company
+          <i class="fa fa-caret-down caret"></i>
+        </a>
+        <ul class="dropdown-container" id="company-dropdown">
+          <li><a href="http://127.0.0.1:5500/safecode_about.html">About us</a></li>
+          <li><a href="http://127.0.0.1:5500/safecode_clients.html">Our Clients</a></li>
+          <li><a href="http://127.0.0.1:5500/safecode_career.html">Career</a></li>
+        </ul>
+      </li>
+      <li>
+        <a href="#" onclick="toggleDropdown(event, 'services-dropdown')">
+          Services
+          <i class="fa fa-caret-down caret"></i>
+        </a>
+        <ul class="dropdown-container" id="services-dropdown">
+          <li><a href="http://127.0.0.1:5500/safecode_erp.html">ERP Services</a></li>
+          <li><a href="http://127.0.0.1:5500/safecode_application-management.html">Application Managed Services</a></li>
+          <li><a href="http://127.0.0.1:5500/safecode_it-staff.html">IT Staffing & Recruitment Services</a></li>
+          <li><a href="http://127.0.0.1:5500/safecode_lean-on.html">Lean on IT Services</a></li>
+          <li><a href="http://127.0.0.1:5500/safecode_cloud-migration.html">Cloud Migration</a></li>
+          <li><a href="http://127.0.0.1:5500/safecode_data-migration.html">Data Migrations</a></li>
+          <li><a href="http://127.0.0.1:5500/safecode_nearshore.html">Nearshore Development & Support Services</a></li>
+          <li><a href="http://127.0.0.1:5500/safecode_database-management.html">Database Administration</a></li>
+          <li><a href="http://127.0.0.1:5500/safecode_bi-analytics.html">Bi Advanced Analytics</a></li>
+          <li><a href="http://127.0.0.1:5500/safecode_web-development.html">Web Development</a></li>
+          <li><a href="http://127.0.0.1:5500/safecode_custom-development.html">Custom Development</a></li>
+          <li><a href="http://127.0.0.1:5500/safecode_cyber-security.html">Cyber Security</a></li>
+          <li><a href="http://127.0.0.1:5500/safecode_mobile-application.html">Mobile Application Development Services</a></li>
+        </ul>
+      </li>
+      <li>
+        <a href="#" onclick="toggleDropdown(event, 'practice-dropdown')">
+          Practices
+          <i class="fa fa-caret-down caret"></i>
+        </a>
+        <ul class="dropdown-container" id="practice-dropdown">
+          <li><a href="http://127.0.0.1:5500/safecode_people-soft.html">People Soft</a></li>
+          <li><a href="http://127.0.0.1:5500/safecode_oracle-cloud.html">Oracle Cloud Applications</a></li>
+          <li><a href="http://127.0.0.1:5500/safecode_oracle-ebusiness.html">Cloud E-Business Suite</a></li>
+          <li><a href="http://127.0.0.1:5500/safecode_sap.html">SAP</a></li>
+          <li><a href="http://127.0.0.1:5500/safecode_workday.html">Workday</a></li>
+          <li><a href="http://127.0.0.1:5500/safecode_salesforce.html">Salesforce</a></li>
+          <li><a href="http://127.0.0.1:5500/safecode_robotics.html"></a></li>
+          <li><a href="#">Robotic Process Automation</a></li>
+          <li><a href="http://127.0.0.1:5500/safecode_AR&VR.html">AR & VR</a></li>
+        </ul>
+      </li>
+      <li><a href="http://127.0.0.1:5500/safecode_contact.html">Contact us</a></li>
+    </ul>
+  </nav>
+</header>
+
+  <div id="carouselExampleCaptions" class="carousel slide">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="https://www.rapidsslonline.com/blog/wp-content/uploads/2014/06/mobile-coud-computing.jpg" class="d-block w-100" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>IT STAFF AUGMENTATION</h5>
+          <p>OnSite | Remote-Onshore | Nearshore | Offshore<br>
+            We partner with you to augment your IT team with qualified and experienced IT<br>
+            resources across technologies.
+          </p>
+          <a href="safecodecontact.html" >
+            <input type="button" value="Contact Us">
+          </a>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="https://media.istockphoto.com/id/1669453534/photo/3d-render-cloud-computing-circuit-board-background.webp?b=1&s=170667a&w=0&k=20&c=6HOp923EltMS7cGKWbf5MsWVTt4osvs8kNqo5MZkMEg=" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>APPLICATION MANAGED SERVICES</h5>
+          <p>Application Support | Continuous Improvements | Strategic Resourcing<br>We take care of your critical enterprise applications while you focus on your<br> core business and processes.</p>
+          <a href="safecodecontact.html" id="button">
+            <input type="button" value="Contact Us">
+          </a>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="https://www.shutterstock.com/image-photo/young-friendly-operator-woman-agent-600nw-2304327843.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>SYSTEM INTEGRATIONS</h5>
+          <p>ERPs | Cloud Solutions | Web Applications | Mobile Apps | BI & Analytics<br>We deliver comprehensive integrated solutions addressing your business needs.</p>
+          <a href="safecodecontact.html" >
+            <input type="button" value="Contact Us">
+          </a>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+<!-- Swiper -->
+<div class="swiper-container">
+  <div class="swiper-wrapper" id="swiper-wrapper">
+      <div class="swiper-slide slide_1">
+          <img src="https://safecodesoft.com/wp-content/uploads/2023/03/SC5-150x150.png" alt="Image 1">
+        </div>
+        <div class="swiper-slide" id="swiper-slide">
+          <img src="https://safecodesoft.com/wp-content/uploads/2023/03/SC4-150x150.png" alt="Image 2">
+        </div>
+        <div class="swiper-slide" id="swiper-slide">
+          <img src="https://safecodesoft.com/wp-content/uploads/2023/03/SC3-150x150.png" alt="Image 3">
+        </div>
+        <div class="swiper-slide" id="swiper-slide">
+          <img src="https://safecodesoft.com/wp-content/uploads/2023/03/SC2-150x150.png" alt="Image 4">
+        </div>
+        <div class="swiper-slide" id="swiper-slide">
+          <img src="https://safecodesoft.com/wp-content/uploads/2023/03/SC1-150x150.png" alt="Image 5">
+        </div>
+        <div class="swiper-slide" id="swiper-slide">
+          <img src="https://safecodesoft.com/wp-content/uploads/2023/10/axio-150x150.png" alt="Image 6">
+        </div>
+        <div class="swiper-slide" id="swiper-slide">
+          <img src="https://safecodesoft.com/wp-content/uploads/2023/10/AGCSlogo-150x150.png" alt="Image 7">
+        </div>
+        <div class="swiper-slide" id="swiper-slide">
+          <img src="https://safecodesoft.com/wp-content/uploads/2023/10/Callaway-150x100.png" alt="Image 8">
+        </div>
+        <div class="swiper-slide" id="swiper-slide">
+          <img src="https://safecodesoft.com/wp-content/uploads/2023/10/ATT-150x150.png" alt="Image 9">
+        </div>
+        <div class="swiper-slide" id="swiper-slide">
+          <img src="https://safecodesoft.com/wp-content/uploads/2023/10/JPMC-150x150.png" alt="Image 10">
+        </div>
+        <div class="swiper-slide" id="swiper-slide">
+          <img src="https://safecodesoft.com/wp-content/uploads/2023/10/Scepter-1-150x150.png" alt="Image 11">
+        </div>
+  </div>
+  <!-- Add Pagination -->
+  <div class="swiper-pagination"></div>
+  <!-- Add Navigation -->
+  <div class="swiper-button-next button"></div>
+  <div class="swiper-button-prev"></div>
+</div>
+
+  <div class="main-1">
+    <h3 class="our-clients">Our Clients</h3>
+    <h1 class="mission1" id="mission1">Our Mission Statement</h1>
+    <p class="p" id="p">Our Mission is to serve as a strategic partner to our customers from various industry <br/>verticals and other cost-effective, reliable and high-quality IT solutions and services <br/>leveraging our proven methodology and tools, experienced resources and thought <br/> leadership.</p>
+    <img id="movingImage" class="miss" src="https://img.freepik.com/premium-photo/business-technology-finance-investment-background-global-business-network-concept-data_901408-23845.jpg?w=996" alt="">
+  </div>
+<!--Effective Services-->
+<section class="services-section">
+  <h2>The Effective Services</h2>
+    <div class="services-container">
+    <div class="service-card card1">
+      <div class="content">
+        <i class="fas fa-laptop-code"></i>
+        <h3>IT Consulting</h3>
+        <p>Safe Code Soft is committed to being your proactive IT partner. Our ongoing relationships with our clients allow us to meet short-term needs, as well as long-term goals.</p>
+      </div>
+    </div>
+    <div class="service-card card2">
+      <div class="content">
+        <i class="fas fa-mobile-alt"></i>
+        <h3>Application Engineering</h3>
+        <p>Safe Code Soft works closely with our clients to understand their requirements and develop customized application solutions.</p>
+      </div>
+    </div>
+    <div class="service-card card3">
+      <div class="content">
+        <i class="fas fa-users"></i>
+        <h3>Staff Augmentation</h3>
+        <p>Safe Code Soft process begins by thoroughly examining the skills you need and your business goals. This knowledge helps us to develop a customized solution that will provide.</p>
+      </div>
+    </div>
+    <div class="service-card card4">
+      <div class="content">
+        <i class="fas fa-server"></i>
+        <h3>IT Development</h3>
+        <p>Safe Code Soft operational excellence, industry expertise, and transformation capabilities combine to provide clients with proactive and cost-efficient solutions that meet your requirements.</p>
+      </div>
+    </div>
+  </div>
+</section>
+<!--industries-->
+<div class="industries">
+  <h1 class="industry">Industries</h1>
+  <div class="insurances">
+    <i aria-hidden="true" class="far fa-check-square" id="insurance1"></i>
+    <p class="health1">Insurance</p>
+  </div>
+
+  <div class="hospital">
+    <i class="fa-solid fa-heart-pulse"></i>
+    <p class="health">Health Care</p>
+  </div>
+
+  <div class="hospitality">
+    <i aria-hidden="true" class="far fa-hospital" class="class"></i>
+    <p class="hospitality_1">Hospitality</p>
+  </div>
+
+  <div class="Finance">
+    <i class="fa-solid fa-money-check-alt"></i>
+    <p class="Finance_text">Finance</p>
+  </div>
+
+  <div class="public-sector">
+    <i class="fa-solid fa-people-arrows"></i>
+    <p class="public-sector_text">Public Sector</p>
+  </div>
+
+  <div class="logistics">
+    <i class="fa-solid fa-truck"></i>
+    <p class="logistics_text">Logistics</p>
+</div>
+</div>
+
+<!--Circle and AuxdownScale-->
+<div class="circle"></div>
+
+<!--4steps process-->
+  <div class="four_steps">
+    <h5>The 4-step process</h5>
+  <img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcToxNQ7tDPtKtzO1Dgfq8XWf_QIU5JXY6Dt3cmxgoo-kfiWwCTa" alt="">
+  <div class="four_steps_text">
+    <h1>Project Analysis</h1>
+    <i class="fa-solid fa-pen-nib"></i>
+    <p>We Analyse the project</p>
+  </div>
+  <div class="four_steps_text1">
+    <h1>Project Plan</h1>
+    <i class="fa-brands fa-telegram"></i>
+    <p>We will plan how to process<br>the project</p>
+  </div>
+  <div class="four_steps_text2">
+    <h1>Project Execution</h1>
+    <i class="fas fa-globe"></i>
+    <p>The process will be executed<br>over here</p>
+  </div>
+  <div class="four_steps_text3">
+    <h1>Project Support</h1>
+    <i class="fa-solid fa-envelope"></i>
+    <p>We will support our clients in any<br>issue of project</p>
+  </div>
+</div>
+
+
+<!--Footer-->
+<footer class="footer-section" id="footer">
+  <img src="https://safecodesoft.com/wp-content/uploads/2022/11/logo.jpeg" alt="" id="img">
+  <div class="content">
+    <p id="p">
+      IT solutions and services leveraging our<br>
+      proven methodology and tools,<br>
+      experienced resources and thought<br>
+      leadership.
+    </p>
+  </div>
+  <div class="social-media">
+    <div class="footer_social-media">
+      <i class="fa-brands fa-facebook"></i>
+    </div>
+    <div class="footer_social-media">
+      <i class="fa-brands fa-square-instagram"></i>
+    </div>
+    <div class="footer_social-media">
+      <i class="fa-brands fa-square-x-twitter"></i>
+    </div>
+    <div class="footer_social-media">
+      <i class="fa-brands fa-youtube"></i>
+    </div>
+  </div>
+  <div class="rights1">
+     <p>
+      © Safecodesoft. All rights reserved.
+    </p>
+  </div>   
+ 
+  <!--Quick links-->
+  <div class="quick_links">
+    <h1>
+      QUICK LINKS
+    </h1>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Company</a></li>
+      <li><a href="#">Services</a></li>
+      <li><a href="#">Practices</a></li>
+      <li><a href="#">Contact Us</a></li>
+    </ul>
+  </div>
+
+  <div id="contact">
+    <h2>
+      CONTACT US
+    </h2>
+    <div class="contact-info">
+      <i class="fa-solid fa-phone">
+        <span>
+          +1 (512) 846-3799
+        </span>
+      </i>
+      <div class="contact_1">
+        <i class="fa-solid fa-phone">
+          <span>
+            +1 (561) 774-7978
+          </span>
+        </i>
+      </div>
+      <i class="fa-regular fa-envelope letter">
+        <span>
+          info@safecodesoft.com
+        </span>
+      </i>
+      <div class="location">
+        <i class="fa-solid fa-location-dot">
+          <span>
+            507 Denali Pass, Ste: 105, Cedar Park, TX 78613
+          </span>
+        </i>
+      </div>
+    </div>
+  </div>
+</footer>
+    
+  <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="safecodesoft.js"></script>
+</body>
+</html>
+
+
+**CSS**
+
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+*, body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /* Apply box-sizing to all elements */
+}
+body{
+  overflow-x: hidden;
+}
+        /*=================Header================*/
+/* Header Image */
+header img {
+  height: 100px;
+  width: auto;
+  position: relative;
+  margin: 10px 20px;
+}
+
+/* Header Styling */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+  background-color: #f5f5f5; /* Light background color */
+  color: #333; /* Dark text color for contrast */
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Subtle shadow */
+}
+
+/* Header Links */
+header a {
+  color: #333;
+  text-decoration: none;
+}
+
+/* Menu Toggle */
+.menuToggle {
+  display: none;
+  font-size: 30px;
+  cursor: pointer;
+  color: #333;
+  transition: color 0.3s;
+}
+
+.menuToggle:hover {
+  color: #ff5722; /* Bright color on hover */
+}
+
+/* Navigation Styling */
+nav {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  font-weight: 600;
+  
+  margin-left: 20px; /* Adjust space between image and nav */
+}
+
+.main-nav {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.main-nav li {
+  position: relative;
+}
+
+.main-nav li a {
+  padding: 10px 20px;
+  display: block;
+  color: #333;
+  font-weight: 600;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-transform: uppercase;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.main-nav li a:hover {
+  color: #ff5722; /* Bright background on hover */
+}
+
+/* Dropdown Menu Styling */
+.main-nav li ul {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #fff; /* White background */
+  border-radius: 8px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  min-width: 200px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  z-index: 1000;
+}
+
+.main-nav li ul li a {
+  padding: 10px 15px;
+  color: #333;
+}
+
+.main-nav li:hover ul {
+  display: block;
+}
+
+/* Dropdown Container Styling */
+.dropdown-container {
+  max-height: 800px; /* Increase this value as needed */
+  overflow: hidden;
+  background-color: #f5f5f5; /* Light background color */
+  border-radius: 8px;
+  transition: max-height 0.5s ease-in-out;
+}
+
+.dropdown-container.active {
+  max-height: 600px; /* Adjust based on content */
+}
+
+.dropdown-container li:hover a {
+  background-color: #ff5722; /* Bright background on hover */
+  color: #fff; /* Light text color on hover */
+}
+
+/* Caret Icon Styling */
+.caret {
+  margin-left: 5px;
+  transition: transform 0.3s;
+}
+
+/* Rotate caret on active state */
+.dropdown-container.active + a .caret {
+  transform: rotate(180deg);
+}
+#services-dropdown {
+  min-width: 300px; /* Minimum width */
+  width: auto; /* Allow width to adjust based on content */
+  white-space: nowrap; /* Prevent line breaks */
+}
+
+
+/*===========================================CAROUSELS===========================================*/
+.carousel-inner {
+  position: relative;
+  height: 630px; /* Adjust this height as needed */
+  position: absolute;
+  top: 10px;
+  width: 100vw;
+}
+.carousel-item{
+  height: 95%;   
+}
+/*Carousel button*/
+.carousel-caption a input{
+  background: transparent;
+  border: 1px solid #fff;
+  color: #fff;
+  padding: 15px;
+  border-radius: 50px;
+  font-weight: bold;
+  position: relative;
+  top: -50px;
+  font-size: 18px;
+}
+.carousel-caption a:hover input{
+  background-color: #fff;
+  color: #000;
+}
+.carousel-item img {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  height: auto;
+  height: 100%;
+  width: auto;
+  max-width: 100%;  
+}
+.carousel-item::after{
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.55);
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {      
+  border-radius: 50%;
+  width: 2rem;
+  height: 2rem;
+  background-size: 100%, 100%;
+  position: absolute;
+  top: 550px;
+  transform: translateY(-50%);
+}
+.carousel-control-prev, .carousel-control-next{
+  position: relative;
+  top: -250px !important;
+}
+.carousel-control-prev{
+  position: relative;
+  left: -80px !important;
+}
+.carousel-control-next{
+  position: relative;
+  left: 1380px;
+}
+.carousel-indicators {
+  position: relative;
+  top: 710px;  /* Adjusted position */
+  z-index: 2;    /* Increased z-index */
+}
+
+.carousel-caption h5::after {
+  content: '';
+  display: block;
+  width: 23%; /* This will ensure the underline is as wide as the content */
+  height: 2px; /* Adjust the height of the underline */
+  background-color: #fff; /* Set the color of the underline */
+  position: relative;
+  left: 410px;
+  bottom: -5px;
+}
+.carousel-caption h5{
+  color: #fff;
+  font-size: 18px;
+  font-weight: normal;
+  position: relative;
+  top: -50px;
+  letter-spacing: 1px;
+}
+.carousel-caption p{
+  font-size: 187.5%;
+  font-family: 'Playfair Display';
+  position: relative;
+  top: -50px;
+  font-weight: 700;
+}
+.main-1 h3{
+  color: #000;
+  position: relative;
+  top: -265px;
+  left: 670px;
+  font-size: 40px;
+  font-weight: bold;
+  z-index: 10;
+}
+
+/* Positioning the control icons on the image */
+.carousel-control-prev, .carousel-control-next {
+  width: 5%;
+}
+.carousel-caption{
+  z-index: 30;  
+}
+.carousel-caption .h5{
+  color: white;
+  font-weight: 350;
+  font-style: Arial;
+  position: relative;
+  align-items: center;
+  position: relative;
+  bottom: 230px;
+  font-size: 23px;
+}
+.carousel-caption .h5::before{
+  bottom: -5px;
+  letter-spacing: 2px;
+}
+.carousel-caption .h5::after{
+  content: '';
+  display: block;
+  width: 24%; /* This will ensure the underline is as wide as the content */
+  height: 2px; /* Adjust the height of the underline */
+  background-color: #fff; /* Set the color of the underline */
+  position: relative;
+  left: 408px;
+  bottom: -5px;
+}
+.carousel-caption .p{
+  position: relative;
+  top: -160px;
+}
+.carousel-caption p{
+  z-index: 50;
+}
+
+/*==================================SWIPER JS=========================================*/
+body {
+  background: #eee;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+.swiper-wrapper {
+  margin-top: 180px;
+  margin-left: 120px;
+}
+
+.swiper-container .swiper-pagination {
+  position: relative;
+  top: 500px;
+  display: block;
+}
+.swiper-button-prev, .swiper-button-next {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  color: #000;
+  text-align: center;
+  line-height: 40px;
+  font-size: 5px;
+  font-weight: 800;
+  cursor: pointer;
+  position: absolute;
+  top: 20%;
+  transform: translateY(-50%);
+  z-index: 10;
+  transition: background-color 0.3s, color 0.3s;
+  margin-top: 700px !important;
+  font-family: eicons;
+  -webkit-font-smoothing: antialiased;
+  color: hsla(0, 0%, 93.3%, .9);
+}
+
+.swiper-button-prev::after, .swiper-button-next::after {
+  font-size: 20px !important;
+}
+
+.swiper-button-prev {
+  left: -20px;
+}
+
+.swiper-button-next {
+  right: -20px;
+}
+
+.swiper-button-prev:hover, .swiper-button-next:hover {
+  background-color: #000;
+  color: #fff;
+}
+/*===================================Main================================*/
+/*mission statement*/
+.main-1{
+  position: relative;
+  top: 250px;
+}
+.main-1 h3{
+  margin-top: -300px;
+}
+.main-1 h1{
+  position: relative;
+  left: 150px;
+  top: 130px;
+  font-size: 40px;
+  font-weight: bolder;
+}
+.main-1 img{
+  height: 300px;
+  width: 45vw;
+  position: relative;
+  left: 750px;
+  bottom: 190px;
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+/*mission statement description*/
+
+.main-1 .p{
+  margin-left: 50px !important;
+  margin-top: -50px;
+  font-size: 18px;
+  font-weight: 400;
+  color: grey;
+}
+.miss{
+  position: fixed;
+  margin-top: 100px;
+}
+#movingImage {
+  animation: move 5s infinite alternate;
+}
+/*=======Effective Services===========*/
+body {
+  background: #f8f8f8;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+.services-section {
+  padding: 80px 20px;
+  text-align: center;
+  margin-top: 150px;
+  background-color: #f0f0f0;
+}
+
+.services-section h2 {
+  font-size: 40px;
+  color: #2D2D2D;
+  font-weight: bold;
+  margin-bottom: 50px;
+  position: relative;
+  display: inline-block;
+}
+
+.services-section h2::after {
+  content: '';
+  width: 60px;
+  height: 4px;
+  background: #2D2D2D;
+  display: block;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+
+.services-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.service-card {
+  background: #fff;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  width: calc(25% - 20px);
+  padding: 30px 20px;
+  transition: transform 0.3s, box-shadow 0.3s;
+  position: relative;
+  overflow: hidden;
+  border-top: 5px solid #2D2D2D;
+}
+
+.service-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+}
+
+.service-card i {
+  font-size: 40px;
+  margin-bottom: 20px;
+  transition: color 0.3s;
+}
+
+.service-card h3 {
+  font-size: 24px;
+  color: #2D2D2D;
+  margin-bottom: 15px;
+}
+
+.service-card p {
+  font-size: 16px;
+  color: #666;
+}
+
+.service-card::before {
+  content: '';
+  position: absolute;
+  width: 200%;
+  height: 200%;
+  top: -50%;
+  left: -50%;
+  background: rgba(255, 255, 255, 0.2);
+  transform: rotate(45deg);
+  transition: transform 0.5s;
+  z-index: 0;
+}
+
+.service-card:hover::before {
+  transform: rotate(45deg) translate(20%, 20%);
+}
+
+.service-card .content {
+  position: relative;
+  z-index: 1;
+}
+
+.service-card:nth-child(1) {
+  border-top-color: #2196f3;
+}
+
+.service-card:nth-child(1) i {
+  color: #2196f3;
+}
+
+.service-card:nth-child(2) {
+  border-top-color: #4caf50;
+}
+
+.service-card:nth-child(2) i {
+  color: #4caf50;
+}
+
+.service-card:nth-child(3) {
+  border-top-color: #ff9800;
+}
+
+.service-card:nth-child(3) i {
+  color: #ff9800;
+}
+
+.service-card:nth-child(4) {
+  border-top-color: #e91e63;
+}
+
+.service-card:nth-child(4) i {
+  color: #e91e63;
+}
+
+
+
+/*===================Industries=======================*/
+.industries {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+  text-align: center;
+  left: 680px;
+  z-index: 10;
+  top: 50px;
+}
+/*insurance*/
+.insurances i{
+  font-size: 50px;
+  margin-left: -935px;
+  margin-top: 50px;
+  color: #092235;
+}
+.health1{
+  position: relative;
+left: -470px !important;
+  margin-top: 20px;
+  font-size: 23px;
+  font-weight: normal;
+  font-family: Arial, Helvetica, sans-serif;
+}
+/*hospital*/
+.hospital{
+  display: inline-block;
+  position: relative;
+  top: -120px;
+  left: 550px;
+  align-items: center;
+}
+.hospital i{
+  font-size: 50px;
+  position: relative;
+  left: -500px;
+  color: rgb(30, 30, 74);
+}
+.health{
+  margin-left: -990px !important;
+  margin-top: 20px;
+  font-size: 23px;
+  font-weight: normal;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.hospitality i{
+  font-size: 50px;
+  margin-left: 560px;
+ position: relative;
+ top: -240px;
+  color: rgb(30, 30, 74);
+}
+.hospitality_1{
+  margin-left: 5px;
+  position: relative;
+  left: 280px;
+  margin-top: -225px;
+  font-size: 23px;
+  font-weight: normal;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.Finance i{
+  font-size: 50px;
+  margin-left: -925px;
+  margin-top: 130px;
+ position: relative;
+ top: -240px;
+  color: rgb(30, 30, 74);
+}
+.Finance_text{
+  margin-left: 5px;
+  position: relative;
+  left: -465px;
+  margin-top: -225px;
+  font-size: 23px;
+  font-weight: normal;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.public-sector i{
+  font-size: 50px;
+  position: relative;
+  top: -120px;
+  color: rgb(30, 30, 74);
+}
+.public-sector_text{
+  font-size: 23px;
+  font-weight: normal;
+  position: relative;
+  top: -100px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.logistics i{
+  font-size: 50px;
+  margin-left: 560px;
+  margin-top: 20px;
+ position: relative;
+ top: -240px;
+  color: rgb(30, 30, 74);
+}
+.logistics_text{
+  margin-left: 5px;
+  position: relative;
+  left: 280px;
+  top: -225px;
+  font-size: 23px;
+  font-weight: normal;
+  font-family: Arial, Helvetica, sans-serif;
+}
+/*=============Circle and AuxScaledown==========*/
+.circle {
+  width: 110%;
+  height: 500px;
+  border-radius: 50%;
+  position: relative;
+  left: -80px !important;
+  overflow: hidden;
+
+  /* Increased inner shadow */
+  box-shadow: inset 0 0 100px rgba(0, 0, 0, 0.2);
+}
+
+.circle::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 50%;
+  border-radius: 70%;
+  background: linear-gradient(to bottom, #f4f4f4, #fff);
+}
+
+.circle::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 50%;
+  border-radius: 50%;
+  background-color: #fff;
+}
+
+/*====================================4 steps process============================*/
+.four_steps{
+  color: #000;
+  position: relative;
+  top: 305px;
+  left: 570px;
+  font-size: 40px;
+  font-weight: bold;
+  z-index: 10;
+}
+.four_steps h5{
+  font-size: 45px!important;
+    font-weight: bold;
+    line-height: 1.5em;
+    letter-spacing: -1.2px;
+    margin-top: -780px !important;
+    margin-left: 30px !important;
+    color: var(--e-global-color-58ae69eb);
+    margin: 0px 0px 25px 0px;
+}
+
+.four_steps img{
+  height: 50%;
+  width: 700px;
+  position: relative;
+  top: 80px;
+  filter: contrast(110%) brightness(105%);
+  left: -150px;
+}
+.four_steps_text h1{
+  position: relative;
+  left: -480px;
+  top: -250px !important;
+  font-weight: 500;
+  font-size: 20px;
+}
+.four_steps_text i{
+  position: relative;
+  left: -320px;
+  top: -290px;
+  color: #340f7e;
+  font-size: 35px;
+  border: 1px solid #340f7e;
+  padding: 20px;
+  border-radius: 50%;
+}
+.four_steps_text p{
+  position: relative;
+  left: -520px;
+  top: -330px !important;
+  font-weight: normal;
+  font-size: 18px;
+  color: #aba7a7;
+}
+
+.four_steps_text1 h1{
+  position: relative;
+  left: -420px;
+  top: -250px;
+  font-weight: 500;
+  font-size: 20px;
+}
+.four_steps_text1 i{
+  position: relative;
+  left: -280px;
+  top: -290px;
+  color: #340f7e;
+  font-size: 35px;
+  border: 1px solid #340f7e;
+  padding: 20px;
+  border-radius: 50%;
+}
+.four_steps_text1 p{
+  position: relative;
+  left: -530px;
+  top: -330px;
+  font-weight: normal;
+  font-size: 18px;
+  color: #aba7a7;
+}
+
+.four_steps_text2 h1{
+  position: relative;
+  left: 600px;
+  top: -580px;
+  font-weight: 500;
+  font-size: 20px;
+}
+.four_steps_text2 p{
+  position: relative;
+  left: 600px;
+  top: -660px;
+  font-weight: normal;
+  font-size: 18px;
+  color: #aba7a7;
+}
+.four_steps_text2 i{
+  position: relative;
+  left: 500px;
+  top: -620px !important;
+  color: #340f7e;
+  height: 80px;
+  width: 80px;
+  font-size: 35px;
+  padding: 23px !important;
+  border: 1px solid #340f7e;
+  padding: 5px;
+  border-radius: 50%;
+}
+
+.four_steps_text3 h1{
+  position: relative;
+  left: 600px;
+  top: -605px;
+  font-weight: 500;
+  font-size: 20px;
+}
+.four_steps_text3 i{
+  position: relative;
+  left: 480px;
+  top: -650px;
+  color: #340f7e;
+  font-size: 35px;
+  border: 1px solid #340f7e;
+  padding: 20px;
+  border-radius: 50%;
+}
+.four_steps_text3 p{
+  position: relative;
+  left: 600px;
+  top: -680px;
+  font-weight: normal;
+  font-size: 18px;
+  color: #aba7a7;
+}
+
+@keyframes move {
+  from { transform: translateX(0px); }
+  to { transform: translateX(5px); } /* Adjust value for desired movement */
+}
+/* ============== Effective services Heading =============*/
+.main-2{
+  background-color: #e5e5e5;
+  height: 550px;
+  width: 100vw;
+  margin-top: -135px;
+}
+.main-2 h2{
+  font-size: 40px;
+  font-weight: 700;
+  text-align: center;
+  padding-top: 20px;
+  padding-top: 70px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/*=====================================Footer*======================================*/
+#footer {
+  background-color: #000;
+  color: #fff;
+  width: 100%;
+  height: 85vh;
+  padding: 20px 0;
+  margin-top: -90px !important;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+/*
+#footer{
+  background-color: #000;
+  width: 100vw;
+  height: auto !important;
+  margin-top: 20px;
+  padding-bottom: 20px;
+  position: relative; 
+}*/
+#img{
+  height: 110px;
+  width: 350px;
+  position: relative;
+  top: 80px;
+  left: 40px;
+}
+.content{
+  margin-left: 45px;
+}
+#p{
+  color: darkgrey;
+  position: relative;
+  top: 230px;
+  
+  margin-left: -408px;
+  font-size: 18px;
+  font-weight: 450;
+}
+/*social media links*/
+.footer_social-media .fa-facebook{
+  color: #fff;
+  font-size: 25px;
+  position: relative;
+  top: 380px;
+  right: 458px;
+}
+
+.footer_social-media .fa-square-instagram{
+  color: #fff;
+  font-size: 25px;
+  position: relative;
+  top: 355px;
+  left: -395px;
+}
+.footer_social-media .fa-square-x-twitter{
+  color: #fff;
+  font-size: 25px;
+  position: relative;
+  top: 328px;
+  left: -330px;
+}
+.footer_social-media .fa-youtube{
+  color: #fff;
+  font-size: 25px;
+  position: relative;
+  top: 300px;
+  left: -265px;
+}
+.rights1{
+  color: darkgray;
+  position: relative;
+  top: 500px;
+  left: -540px;
+
+}
+/*Quick links*/
+#footer .quick_links h1{
+  color: #fff;
+  position: relative;
+  left: -278px;
+  top: 95px;
+  font-size: 27px;
+  font-family: 'Arial';
+  font-weight: bold;
+  
+}
+/*blue line*/
+.quick_links::after{
+  content: '';
+  display: block;
+  width: 45%; /* This will ensure the underline is as wide as the content */
+  height: 3px; /* Adjust the height of the underline */
+  background-color: blue; /* Set the color of the underline */
+  position: relative;
+  left: -273px;
+  top: -80px;
+}
+.quick_links ul{
+  font-size: 17.5px; 
+  list-style: none;
+}
+.quick_links ul li a{
+  text-decoration: none;
+  color: darkgrey;
+  position: relative;
+  left: -312px;
+  top: 150px;
+  line-height: 35px;
+}
+.quick_links li a:hover {
+  color: #8c52ff;
+}
+
+/*Contact Details*/
+#contact h2{
+  color: #fff;
+  position: relative;
+  left: -258px;
+  top: 95px;
+  font-family: 'Arial';
+  font-size: 27px;
+  font-weight: bold;
+}
+#contact::after{
+  content: '';
+  display: block;
+  width: 21.5%; /* This will ensure the underline is as wide as the content */
+  height: 3px; /* Adjust the height of the underline */
+  background-color: blue; /* Set the color of the underline */
+  position: relative;
+  left: -255px;
+  top: -18px;
+}
+.contact-info{
+  line-height: 32px;
+  font-size: 18px;
+  font-weight: normal;
+}
+#contact i{
+  position: relative;
+  top: 175px;
+  color: #fff;
+  left: -250px;
+
+}
+#contact i span{
+  padding: 10px;
+  font-family: 'Times New Roman', Times, serif;
+}
+/*+1 (561) 774-7978*/
+#contact i .span{
+  position: relative;
+  top: 20px;
+  font-style: 'Arial';
+  font-weight: 450;
+  font-size: 18px;
+}
+#contact_1 i{
+  padding-top: 10px; line-height: 10px;
+}
+
+
+/*======================MEDIA QUERIES BREAKPOINTS=========================*/
+@media (max-width: 1441px) {
+
+  body{
+    overflow-x: hidden;
+    height: auto;
+    width: 100%;
+    position: relative;
+    top: unset;
+    left: unset;
+  }
+  html{
+    overflow-x: hidden;
+  }
+
+/*=================================HEADER AND NAVBAR==========================*/
+/* Styles for larger screens */
+nav ul {
+  display: flex;
+}
+
+.menuToggle {
+  display: none;
+}
+
+.main-nav li ul {
+  display: none;
+}
+
+.main-nav li:hover ul {
+  display: block;
+}
+
+
+
+                      /*====================BOOTSTRAP CAROUSELS=======================*/
+
+/*Carousel Text*/
+.carousel-inner {
+  position: relative;
+  height: 630px; /* Adjust this height as needed */
+  position: absolute;
+  top: 130px;
+  width: 100vw;
+}
+/*Carousel Heading Text*/
+.carousel-caption h5 {
+  top: -190px;
+  font-size: 18px;
+  text-align: center;
+}
+/* Carousel Paragraph Text*/
+.carousel-caption p{
+  position: relative;
+  top: -160px;
+}
+
+/*Carousel previous and Next button*/
+.carousel-control-prev{
+  margin-top: 100px;
+}
+.carousel-control-next{
+  position: relative;
+  left: 1300px !important; 
+  margin-top: 100px !important;
+}
+
+
+/*Carousel Heading text underline*/
+.carousel-caption h5::after{
+  left: 387px;
+  letter-spacing: 2px;
+}
+
+/* Carousel indicators*/
+.carousel-indicators{
+  position: relative;
+  top: 680px !important;
+}
+
+
+/*Main Heading*/
+.main-1 h3{
+  position: relative;
+  top: -170px;
+  left: 630px;
+  display: block;
+}
+                      /*==================SWIPER JS==========================*/
+/*Swiper Images */
+.swiper-slide img {
+  position: relative;
+  top: 50px;
+  height: 130px;
+  width: 150px;
+}
+
+/*Swiper JS Dots */
+.swiper-pagination{
+  position: absolute;
+  top: 80px !important; 
+}
+.swiper-button-prev{
+  margin-top: -950px !important;
+}
+.swiper-button-next{
+  margin-top: -1150px !important;
+}
+/*Swiper JS previous and next button*/
+.swiper-button-prev::after{
+  position: relative;
+  top: -225px !important;
+}
+.swiper-button-next::after{
+  position: relative;
+  top: -25px !important;
+}
+
+.main-1 img{
+  margin-top: 180px;
+}
+
+
+/*=======================footer========================*/
+#footer {
+  background-color: #000;
+  color: #fff;
+  width: 100%;
+  height: 85vh;
+  padding: 20px 0;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 80px; /* Eliminate any top margin */
+  justify-content: space-between;
+  align-items: flex-start;
+}
+#p{
+  margin-left: -390px;
+  margin-top: -30px;
+}
+.social-media{
+  margin-top: -60px;
+  margin-left: 35px;
+}
+.rights1{
+  position: relative;
+  top: 430px;
+  left: -505px;
+}
+.quick_links::after{
+  margin-top: -15px;
+}
+#contact::after{
+  margin-top: -15px;
+}
+}
+
+@media (max-width: 1025px){
+  /*=================================HEADER AND NAVBAR==========================*/
+  .main-nav li a .caret {
+    margin-left: auto !important;
+  }
+/*=========Carousels=========*/
+  /*Carousel Heading Text*/
+  .carousel-caption h5 {
+    top: -190px;
+    font-size: 18px;
+    text-align: center;
+  }
+  /* Carousel Paragraph Text*/
+  .carousel-caption p{
+    position: relative;
+    top: -160px;
+    font-size: 23px;
+  }
+  /*Carousel Heading text underline*/
+  .carousel-caption h5::after{
+    left: 245px;
+    letter-spacing: 2px;
+    width: 32.5%;
+  }
+  /*Carousel previous and Next button*/
+  .carousel-control-next{
+    position: relative;
+    left: 900px !important; 
+    margin-top: 100px !important;
+  }
+  .carousel-control-prev{
+    position: relative;
+    left: -10px !important;
+  }
+
+  /*Main Heading*/
+  .main-1 h3{
+    position: relative;
+    top: -210px;
+    left: 410px;
+    display: block;
+  }
+
+                      /*==================SWIPER JS==========================*/
+  /*Swiper Images */
+  .swiper-slide img {
+    position: relative;
+    top: 70px;
+    height: 110px;
+    width: 150px;
+    z-index: 100 !important;
+  }
+  .swiper-wrapper{
+    width: 50%;
+    height: 50%;
+  }
+  /*Swiper JS Dots */
+  .swiper-pagination{
+    margin-top: 30px;
+  }
+  .swiper-button-prev{
+    margin-top: -890px !important;
+  }
+  .swiper-button-next{
+    margin-top: -1080px !important;
+  }
+  /*===============================AFTER SWIPER JS===============================*/
+    .main-1 img{
+      height: 200px;
+      width: 400px;
+      position: relative;
+      left: 600px;
+      top: -170px;
+    }
+    .main-1 h1{
+      font-size: 30px;
+    }
+    .main-1 h3{
+      margin-top: -250px;
+    }
+    .main-1 p{
+      position: relative;
+      left: -30px !important; 
+    }
+    .main-1 img{
+      position: relative;
+      left: 700px;
+      top: -150px;
+      width: 30%;
+    }
+
+/*=========================EFFECTION SERVICES SECTION========================*/
+  
+        /*===========================Effective Services======================*/
+
+.service-card{
+  width: 40% !important;
+}
+
+      /*===========================Industries section=====================*/
+  .industries {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: relative;
+    text-align: center;
+    left: 430px;
+    z-index: 10;
+    top: 90px;
+  }
+ .hospital i, .public-sector i{
+    position: relative;
+    left: -500px;
+  }
+  .logistics i, .hospitality i{
+    margin-left: 800px;
+  }
+  .logistics p, .hospitality p{
+    position: relative;
+    left: 780px;
+  } 
+  /*Insurances*/
+  .industry{
+    position: relative;
+    top: -50px !important;
+  }
+  .insurances i {
+    font-size: 50px;
+    position: relative;
+    left: 85px;
+    margin-top: -150px;
+    color: #092235;
+}
+.health1 {
+  margin-top: 20px;
+  margin-left: 170px;
+  font-size: 23px;
+  font-weight: normal;
+  font-family: Arial, Helvetica, sans-serif;
+}
+/*Hospitality*/
+.hospitality i{
+  position: relative;
+  left: -380px !important;
+}
+.hospitality p{
+  position: relative;
+  left: 20px;
+}
+/*Finance*/
+.Finance i{
+  margin-left: -565px;
+}
+  .Finance p {
+    position: relative;
+    left: -280px;
+  }
+/* Hospital*/
+  .health {
+    margin-left: -750px;
+    margin-top: 20px;
+    font-size: 23px;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*Public sector*/
+.public-sector i{
+  margin-left: 550px;
+}
+  .public-sector p{
+    position: relative;
+    left: -225px;
+  }
+  
+  /*Logistics*/
+  .logistics i{
+    margin-left: 420px;
+  }
+  .logistics p{
+    position: relative;
+    left: 210px;
+    top: -220px;
+  }
+  /*===========4 step process========*/
+  .four_steps h5{
+    margin-left: -250px !important;
+  }
+  .four_steps img{
+    width: 480px !important;
+    position: relative;
+    top: 50px !important;
+    margin-left: -200px !important;
+  }
+.four_steps_text1{
+  position: relative;
+  top: -0px;
+}
+.four_steps_text{
+  margin-top: 330px;
+}
+.four_steps_text3{
+  margin-top: 10px;
+  margin-left: -500px;
+}
+.four_steps_text2{
+  margin-left: -450px;
+}
+  /*=======================footer========================*/
+#footer{
+  margin-top: -200px !important;
+}
+#img{
+  margin-top: -70px;
+}
+#p{
+  margin-left: -460px;
+  margin-top: -85px;
+}
+.social-media{
+  margin-top: -110px;
+  margin-left: -105px;
+}
+.rights1{
+  position: relative;
+  left: -600px !important;
+}
+/*Quick links*/
+#footer .quick_links h1{
+  margin-top: -50px;
+  margin-left: -180px;
+  font-size: 20px;
+}
+/*blue line*/
+.quick_links::after{
+  margin-left: -180px;
+  margin-top: -20px;
+  width: 60px !important;
+}
+.quick_links ul li a{
+  margin-left: -180px;
+  position: relative;
+  top: 120px !important;
+}
+#contact{
+  margin-top: -365px;
+  margin-left: 990px;
+  font-size: 18px !important;
+}
+#contact h2{
+  font-size: 20px;
+}
+#contact::after{
+  width: 60px !important;
+  margin-top: 25px;
+}
+.contact-info{
+  margin-top: -50px;
+  font-size: 15px;
+  width: 120%;
+}
+}
+
+@media (max-width: 769px){
+  /*======================Header and Navbar====================*/
+  nav {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    height: 700px;
+    text-align: center;
+    position: absolute;
+    top: 185px; /* Adjust based on your header height */
+    left: -20px;
+    padding: 20px;
+    background-color: #fff;
+    border-top: 1px solid #ddd;
+    z-index: 1000;
+  }
+
+  nav.active {
+    display: flex;
+  }
+
+  .main-nav {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .main-nav li ul {
+    position: static;
+    max-height: 0;
+    top: 80px;
+    overflow: hidden;
+  }
+
+  .main-nav li.active ul {
+    display: block;
+    max-height: 600px; /* Adjust based on content */
+  }
+
+  .caret {
+    margin-left: 0;
+    display: inline;
+    transition: transform 0.3s;
+  }
+
+  .menuToggle {
+    display: block;
+    font-size: 30px;
+    color: #333;
+    transition: color 0.3s;
+  }
+  /*=====Main======*/
+  body{
+    z-index: 10;
+  }
+  .main-1 h3{
+    position: relative;
+    left: 300px;
+    display: block;
+    margin-top: -280px;
+    z-index: 20;
+  }.main-1 h1{
+    margin-left: -80px;
+  }
+.main-1 .p {
+  width: 50%; /* Set the paragraph width to 50% */
+  margin-left: auto; /* Center the paragraph */
+  margin-right: auto; /* Center the paragraph */
+  margin-top: 0; /* Adjust the margin-top if necessary */
+  font-size: 18px;
+  font-weight: 400;
+  color: grey;
+  text-align: justify; /* Ensure that all lines are equal in length */
+}
+.main-1 img{
+  margin-left: -280px;
+  margin-top: 210px;
+  width: 40%;
+}
+  /*======Swiper Js==========*/
+  .swiper-button-prev{
+    margin-top: -980px !important;
+  }
+  .swiper-button-next{
+    margin-top: -1180px !important;
+  }
+  .swiper-wrapper{
+    width: 30% !important;
+    padding: 10px;
+  }
+  /*=========Industries========*/
+  .industry{
+    margin-left: -100px !important;
+    text-align: center;
+    
+  }
+  /*Insurances*/
+  .insurances i{
+    margin-left: -1050px;
+  }
+  .insurances p{
+    margin-left: 60px;
+  }
+  /*Hospital*/
+  .fa-heart-pulse{
+    margin-left: -200px;
+  }
+  .hospital p{
+    position: relative;
+    left: -100px;
+  }
+
+  /*Hospitality*/
+  .hospitality {
+    margin-left: -200px;
+  }
+   /*Finance*/
+   .Finance{
+    margin-left: -120px;
+   }
+
+   /*public sector*/
+   .public-sector{
+    margin-left: -120px;
+   }
+   
+   /*logistics*/
+   .logistics{
+    margin-left: -200px;
+   }
+  /*=========Circle and Auxdown Scale=============*/
+  .circle {
+    width: 120%; /* Adjust width to fit the container */
+    height: 500px; /* Maintain the height */
+    border-radius: 50%;
+    position: relative;
+    left: -10%; /* Center the circle */
+    overflow: hidden;
+
+    /* Adjust the inner shadow */
+    box-shadow: inset 0 0 50px rgba(0, 0, 0, 0.1);
+  }
+
+  .circle::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 50%;
+    border-radius: 70%;
+    background: linear-gradient(to bottom, #f4f4f4, #fff);
+  }
+
+  .circle::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 50%;
+    border-radius: 50%;
+    background-color: #fff;
+  }
+  /*========4 step process===========*/
+  .four_steps h5{
+    margin-left: -350px !important;
+  }
+  .four_steps img{
+    margin-left: -260px !important;
+  }
+  .four_steps_text2{
+    position: relative;
+    left: -180px;
+  }
+  .four_steps_text3{
+    position: relative;
+    left: -150px;
+  }
+  /*===Footer======*/
+  #p{
+    color: darkgrey;
+    position: relative;
+    top: 220px;
+    margin-left: -360px;
+    font-size: 14px;
+    font-weight: 450;
+  }
+  .social-media{
+    margin-left: 85px;
+    margin-top: -150px;
+  }
+  .rights1{
+    position: relative;
+    left: -500px !important;
+  }
+  .quick_links{
+    position: relative;
+    top: -150px !important;
+    left: 880px !important;
+  }
+  #contact{
+    position: relative;
+    left: -320px !important; 
+    top: 160px;
+  }
+}
+
+@media (max-width:426px){
+
+  /*Carousels*/
+  .carousel-control-next{
+    position: relative;
+    left: -1800px;
+  }
+  .carousel-caption{
+    margin-left: -500px !important;
+  }
+  /*======Swiper Js==========*/
+  .swiper-slide {
+    margin-top: -100px;
+    padding: 20px; /* Further reduce padding for very small screens */
+  }
+  
+  .swiper-slide img {
+    max-width: 95% !important; /* Allow more of the image to be visible */
+  }
+  .swiper-button-prev{
+    margin-top: -1590px !important;
+  }
+  .swiper-button-next{
+    margin-top: -1790px !important;
+  }
+  .swiper-pagination{
+    margin-top: -20px;
+  }
+  /*after swiper js======*/
+  #mission1{
+    margin-left: -100px !important;
+    margin-top: -80px !important;
+  }
+  .main-1 p{
+    width: 80% !important;
+    position: relative;
+    top: 400px !important;
+  }
+  .main-1 img{
+    margin-left: -680px;
+    margin-top: 580px;
+    width: 85%;
+  }
+  .main-1 h3{
+    font-size: 30px !important;
+    position: relative;
+    left: 130px !important;
+    top: -120px;
+  }
+  .main-1 h1{
+    position: relative;
+    top: 180px;
+  }
+  /*===========Effective Services==========*/
+  .card1{
+    width: 100% !important;
+  }
+  .card2{
+    width: 100% !important;
+  }
+  .card3{
+    width: 100% !important;
+  }
+  .card4{
+    width: 100% !important;
+  }
+  /*========Industries==========*/
+  .industries h1{
+  margin-left: -260px !important;
+  }
+  .hospital{
+    margin-left: -50px !important;
+  }
+  .hospitality{
+    margin-left: -800px;
+    margin-top: 140px;
+  }
+  .Finance{
+    margin-left: 130px !important;
+    margin-top: -130px;
+  }
+  .public-sector{
+    margin-left: -430px;
+    margin-top: 140px;
+  }
+  .logistics{
+    margin-left: -560px;
+  }
+  /*======Circle Auxdown Scale and four step process========*/
+  .circle{
+    margin-top: -60px;
+    width: 130%;
+  }
+  .four_steps h5{
+    position: relative;
+    left: -130px !important; 
+    font-size: 30px !important;
+  }
+  .four_steps img{
+    margin-left: -480px !important;
+  }
+  .four_steps_text i{
+    margin-left: -230px;
+  }
+  .four_steps_text h1{
+    margin-left: 30px;
+  }
+  .four_steps_text p{
+    margin-left: 70px;
+  }
+  .four_steps_text1 i{
+    margin-left: -260px;
+    margin-top: -20px;
+  }
+  .four_steps_text1 h1{
+    margin-left: -30px;
+  }
+  .four_steps_text1 p{
+    margin-left: 80px;
+  }
+
+  .four_steps_text2 i{
+    margin-left: -420px;
+    margin-top: -150px;
+  }
+  .four_steps_text2 h1{
+    margin-left: -420px;
+    margin-top: 300px;
+  }
+  .four_steps_text2 p{
+    margin-left: -420px;
+    margin-top: 5px;
+  }
+
+  .four_steps_text3 i{
+    margin-left: -380px;
+    position: relative;
+    top: -630px;
+  }
+  .four_steps_text3 h1{
+    margin-left: -400px;
+    margin-top: -50px;
+  }
+  .four_steps_text3 p{
+    margin-left: -400px;
+    margin-top: -10px;
+  }  
+  /*=========Footer========*/
+  #footer{
+    height: 120vh;
+  }
+  #p{
+    margin-left: -5px;
+    margin-top: -215px;
+  }
+  .social-media{
+    position: relative;
+    left: 100px;
+    top: -130px;
+  }
+  .rights1 p{
+    width: 1000px !important;
+    margin-left: 540px!important;
+    margin-top: -360px !important;
+  }
+  .quick_links{
+    position: relative;
+    margin-left: -380px;
+    margin-top: 130px;
+  }
+  #contact{
+    position: relative;
+    left: -690px !important;
+  }
+}
+
+@media (max-width:376px){
+  /* Header Image */
+  header img{
+    height: 100px;
+    z-index: 50;
+    width: 210px;
+    position: relative;
+    top: -8px;
+  }
+  /*=========Swiper Js===========*/
+  .swiper-button-prev{
+    margin-top: -1630px !important;
+  }
+  .swiper-button-next{
+    margin-top: -1830px !important;
+  }
+  /*=======Main=======*/
+  .main-1 h1{
+    position: relative;
+    left: 120px !important;
+  }
+  /*=========Industries=========*/
+  .hospital{
+    margin-left: -100px !important;
+  }
+  .Finance{
+    margin-left: 90px !important;
+  }
+  .logistics{
+    position: relative;
+    left: -30px !important;
+  }
+  /*======Circle AuxScaleDown==========*/
+  .four_steps h5{
+    margin-left: -390px !important;
+  }
+  /*==========Footer=========*/
+  #footer{
+    height: 150vh;
+  }
+  #img{
+    height: 110px;
+    width: 300px;
+    position: relative;
+    top: 80px;
+    left: 40px;
+  }
+  #p{
+    margin-top: -220px;
+  }
+  .social-media{
+    position: relative;
+    left: 420px;
+    top: -220px;
+  }
+  .quick_links{
+    margin-top: 130px;
+  }
+}
+
+@media (max-width:321px){
+  /*========Swiper Js=======*/
+  .swiper-button-prev{
+    margin-top: -1830px !important;
+  }
+  .swiper-button-next{
+    margin-top: -2030px !important;
+  }
+  /*========Main=========*/
+  .main-1 h3{
+    margin-left: -30px;
+  }
+  .main-1 h1{
+    font-size: 25px !important;
+  }
+  /*=========Industries======*/
+  /*public sector*/
+  .public-sector{
+    position: relative;
+    left: -300px !important;
+  }
+  
+  
+  /*hospital
+  .hospital{
+    margin-left: -150px !important;
+  }*/
+  .hospital i, .insurances i, .hospitality i, .Finance i, .public-sector i, .logistics i{
+    font-size: 40px !important;
+  }
+  .hospital p, .insurances p, .logistics p, .hospitality p, .Finance p, .public-sector p{
+    font-size: 20px !important;
+  }
+  /*=========Footer=======*/
+  #img{
+    height: 110px;
+    width: 280px;
+    position: relative;
+    top: 80px;
+    left: 20px;
+  }
+  #p{
+    margin-left: -20px;
+  }
+  .social-media{
+    position: relative;
+    left: 400px;
+    top: -220px;
+  }
+  .rights1{
+    margin-top: -50px;
+    margin-left: -10px;
+  }
+  .quick_links{
+    margin-top: 60px;
+  }
+}
+
+**JS**
+
+function toggleMenu() {
+  document.querySelector('nav').classList.toggle('active');
+}
+
+function toggleDropdown(event, dropdownId) {
+  event.preventDefault();
+  const dropdown = document.getElementById(dropdownId);
+  dropdown.classList.toggle('active');
+  const parentLi = dropdown.parentElement;
+  parentLi.classList.toggle('active');
+
+  // Update the caret icon
+  const caret = event.currentTarget.querySelector('.caret');
+  if (dropdown.classList.contains('active')) {
+    caret.style.transform = 'rotate(180deg)';
+  } else {
+    caret.style.transform = 'rotate(0deg)';
+  }
+}
+
+
+
+var swiper = new Swiper('.swiper-container', {
+  slidesPerView: 4,  // Default number of slides per view
+  spaceBetween: 30,
+  slidesPerGroup: 1,
+  loop: true,
+  loopFillGroupWithBlank: true,
+  pagination: {
+      el: '.swiper-pagination',
+      clickable: true,
+  },
+  navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+  },
+  autoplay: {
+      delay: 3000,
+      disableOnInteraction: false,
+  },
+  breakpoints: {
+    1024: {
+      slidesPerView: 4,  // 4 slides per view for screens wider than 1024px
+      spaceBetween: 30,
+    },
+    768: {
+      slidesPerView: 3,  // 2 slides per view for screens between 768px and 1024px
+      spaceBetween: 20,
+    },
+    480: {
+      slidesPerView: 1,  // 1 slide per view for screens narrower than 768px
+      spaceBetween: 10,
+    },
+  },
+});
