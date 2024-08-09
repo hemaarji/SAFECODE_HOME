@@ -1,0 +1,1537 @@
+******HTML******
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us - SafeCodeSoft</title>
+  <!-- Linking css file-->
+  <link rel="stylesheet" href="safecode_clients.css">
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+  integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+  crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- Link Swiper's CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/d38609c0ef.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  
+  <!--Header and Navbar-->
+  <header>
+    <a href="#">
+      <img src="https://safecodesoft.com/wp-content/uploads/2022/11/logo.jpeg" alt="">
+    </a>
+    <div class="menuToggle" onclick="toggleMenu()">☰</div>
+    <nav>
+      <ul class="main-nav">
+        <li><a href="#">Home</a></li>
+        <li>
+          <a href="#" onclick="toggleDropdown(event, 'company-dropdown')">
+            Company
+            <i class="fa fa-caret-down caret"></i>
+          </a>
+          <ul class="dropdown-container" id="company-dropdown">
+            <li><a href="http://127.0.0.1:5500/safecode_about.html">About us</a></li>
+          <li><a href="http://127.0.0.1:5500/safecode_clients.html">Our Clients</a></li>
+          <li><a href="http://127.0.0.1:5500/safecode_career.html">Career</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#" onclick="toggleDropdown(event, 'services-dropdown')">
+            Services
+            <i class="fa fa-caret-down caret"></i>
+          </a>
+          <ul class="dropdown-container" id="services-dropdown">
+            <li><a href="http://127.0.0.1:5500/safecode_erp.html">ERP Services</a></li>
+          <li><a href="http://127.0.0.1:5500/safecode_application-management.html">Application Managed Services</a></li>
+          <li><a href="http://127.0.0.1:5500/safecode_it-staff.html">IT Staffing & Recruitment Services</a></li>
+          <li><a href="http://127.0.0.1:5500/safecode_lean-on.html">Lean on IT Services</a></li>
+          <li><a href="http://127.0.0.1:5500/safecode_cloud-migration.html">Cloud Migration</a></li>
+          <li><a href="http://127.0.0.1:5500/safecode_data-migration.html">Data Migrations</a></li>
+          <li><a href="http://127.0.0.1:5500/safecode_nearshore.html">Nearshore Development & Support Services</a></li>
+          <li><a href="http://127.0.0.1:5500/safecode_database-management.html">Database Administration</a></li>
+          <li><a href="http://127.0.0.1:5500/safecode_bi-analytics.html">Bi Advanced Analytics</a></li>
+          <li><a href="http://127.0.0.1:5500/safecode_web-development.html">Web Development</a></li>
+          <li><a href="http://127.0.0.1:5500/safecode_custom-development.html">Custom Development</a></li>
+          <li><a href="http://127.0.0.1:5500/safecode_cyber-security.html">Cyber Security</a></li>
+          <li><a href="http://127.0.0.1:5500/safecode_mobile-application.html">Mobile Application Development Services</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#" onclick="toggleDropdown(event, 'practice-dropdown')">
+            Practices
+            <i class="fa fa-caret-down caret"></i>
+          </a>
+          <ul class="dropdown-container" id="practice-dropdown">
+            <li><a href="http://127.0.0.1:5500/safecode_people-soft.html">People Soft</a></li>
+            <li><a href="http://127.0.0.1:5500/safecode_oracle-cloud.html">Oracle Cloud Applications</a></li>
+            <li><a href="http://127.0.0.1:5500/safecode_oracle-ebusiness.html">Cloud E-Business Suite</a></li>
+            <li><a href="http://127.0.0.1:5500/safecode_sap.html">SAP</a></li>
+            <li><a href="http://127.0.0.1:5500/safecode_workday.html">Workday</a></li>
+            <li><a href="http://127.0.0.1:5500/safecode_salesforce.html">Salesforce</a></li>
+            <li><a href="http://127.0.0.1:5500/safecode_robotics.html"></a></li>
+            <li><a href="#">Robotic Process Automation</a></li>
+            <li><a href="http://127.0.0.1:5500/safecode_AR&VR.html">AR & VR</a></li>
+          </ul>
+        </li>
+        <li><a href="http://127.0.0.1:5500/safecode_contact.html">Contact us</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h1 class="text">Our Clients</h1>
+  </main>
+
+<!-- Swiper -->
+<div class="swiper-container">
+  <div class="swiper-wrapper">
+      <div class="swiper-slide">
+          <img src="https://safecodesoft.com/wp-content/uploads/2023/03/SC5-150x150.png" alt="Image 1">
+        </div>
+        <div class="swiper-slide">
+          <img src="https://safecodesoft.com/wp-content/uploads/2023/03/SC4-150x150.png" alt="Image 2">
+        </div>
+        <div class="swiper-slide">
+          <img src="https://safecodesoft.com/wp-content/uploads/2023/03/SC3-150x150.png" alt="Image 3">
+        </div>
+        <div class="swiper-slide">
+          <img src="https://safecodesoft.com/wp-content/uploads/2023/03/SC2-150x150.png" alt="Image 4">
+        </div>
+        <div class="swiper-slide">
+          <img src="https://safecodesoft.com/wp-content/uploads/2023/03/SC1-150x150.png" alt="Image 5">
+        </div>
+        <div class="swiper-slide">
+          <img src="https://safecodesoft.com/wp-content/uploads/2023/10/axio-150x150.png" alt="Image 6">
+        </div>
+        <div class="swiper-slide">
+          <img src="https://safecodesoft.com/wp-content/uploads/2023/10/AGCSlogo-150x150.png" alt="Image 7">
+        </div>
+        <div class="swiper-slide">
+          <img src="https://safecodesoft.com/wp-content/uploads/2023/10/Callaway-150x100.png" alt="Image 8">
+        </div>
+        <div class="swiper-slide">
+          <img src="https://safecodesoft.com/wp-content/uploads/2023/10/ATT-150x150.png" alt="Image 9">
+        </div>
+        <div class="swiper-slide">
+          <img src="https://safecodesoft.com/wp-content/uploads/2023/10/JPMC-150x150.png" alt="Image 10">
+        </div>
+        <div class="swiper-slide">
+          <img src="https://safecodesoft.com/wp-content/uploads/2023/10/Scepter-1-150x150.png" alt="Image 11">
+        </div>
+  </div>
+  <!-- Add Pagination -->
+  <div class="swiper-pagination"></div>
+  <!-- Add Navigation -->
+  <div class="swiper-button-next button"></div>
+  <div class="swiper-button-prev"></div>
+</div>
+
+<!--Footer-->
+<footer class="footer-section" id="footer">
+  <img src="https://safecodesoft.com/wp-content/uploads/2022/11/logo.jpeg" alt="" id="img">
+  <div class="content">
+    <p id="p">
+      IT solutions and services leveraging our<br>
+      proven methodology and tools,<br>
+      experienced resources and thought<br>
+      leadership.
+    </p>
+  </div>
+  <div class="social-media">
+    <div class="footer_social-media">
+      <i class="fa-brands fa-facebook"></i>
+    </div>
+    <div class="footer_social-media">
+      <i class="fa-brands fa-square-instagram"></i>
+    </div>
+    <div class="footer_social-media">
+      <i class="fa-brands fa-square-x-twitter"></i>
+    </div>
+    <div class="footer_social-media">
+      <i class="fa-brands fa-youtube"></i>
+    </div>
+  </div>
+  <div class="rights1">
+     <p>
+      © Safecodesoft. All rights reserved.
+    </p>
+  </div>   
+ 
+  <!--Quick links-->
+  <div class="quick_links">
+    <h1>
+      QUICK LINKS
+    </h1>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Company</a></li>
+      <li><a href="#">Services</a></li>
+      <li><a href="#">Practices</a></li>
+      <li><a href="#">Contact Us</a></li>
+    </ul>
+  </div>
+
+  <div id="contact">
+    <h2>
+      CONTACT US
+    </h2>
+    <div class="contact-info">
+      <i class="fa-solid fa-phone">
+        <span>
+          +1 (512) 846-3799
+        </span>
+      </i>
+      <div class="contact_1">
+        <i class="fa-solid fa-phone">
+          <span>
+            +1 (561) 774-7978
+          </span>
+        </i>
+      </div>
+      <i class="fa-regular fa-envelope letter">
+        <span>
+          info@safecodesoft.com
+        </span>
+      </i>
+      <div class="location">
+        <i class="fa-solid fa-location-dot">
+          <span>
+            507 Denali Pass, Ste: 105, Cedar Park, TX 78613
+          </span>
+        </i>
+      </div>
+    </div>
+  </div>
+</footer>
+  <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="safecode_clients.js"></script>
+
+ 
+</body>
+</html>
+
+
+******CSS******
+
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /* Apply box-sizing to all elements */
+}
+body{
+  overflow-x: hidden;
+}
+        /*=================Header================*/
+/* Header Image */
+header img {
+  height: 100px;
+  width: auto;
+  position: relative;
+  margin: 10px 20px;
+}
+
+/* Header Styling */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+  background-color: #f5f5f5; /* Light background color */
+  color: #333; /* Dark text color for contrast */
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Subtle shadow */
+}
+
+/* Header Links */
+header a {
+  color: #333;
+  text-decoration: none;
+}
+
+/* Menu Toggle */
+.menuToggle {
+  display: none;
+  font-size: 30px;
+  cursor: pointer;
+  color: #333;
+  transition: color 0.3s;
+}
+
+.menuToggle:hover {
+  color: #ff5722; /* Bright color on hover */
+}
+
+/* Navigation Styling */
+nav {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  font-weight: 600;
+  
+  margin-left: 20px; /* Adjust space between image and nav */
+}
+
+.main-nav {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.main-nav li {
+  position: relative;
+}
+
+.main-nav li a {
+  padding: 10px 20px;
+  display: block;
+  color: #333;
+  font-weight: 600;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-transform: uppercase;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.main-nav li a:hover {
+  color: #ff5722; /* Bright background on hover */
+}
+
+/* Dropdown Menu Styling */
+.main-nav li ul {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #fff; /* White background */
+  border-radius: 8px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  min-width: 200px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  z-index: 1000;
+}
+
+.main-nav li ul li a {
+  padding: 10px 15px;
+  color: #333;
+}
+
+.main-nav li:hover ul {
+  display: block;
+}
+
+/* Dropdown Container Styling */
+.dropdown-container {
+  max-height: 800px; /* Increase this value as needed */
+  overflow: hidden;
+  background-color: #f5f5f5; /* Light background color */
+  border-radius: 8px;
+  transition: max-height 0.5s ease-in-out;
+}
+
+.dropdown-container.active {
+  max-height: 600px; /* Adjust based on content */
+}
+
+.dropdown-container li:hover a {
+  background-color: #ff5722; /* Bright background on hover */
+  color: #fff; /* Light text color on hover */
+}
+
+/* Caret Icon Styling */
+.caret {
+  margin-left: 5px;
+  transition: transform 0.3s;
+}
+
+/* Rotate caret on active state */
+.dropdown-container.active + a .caret {
+  transform: rotate(180deg);
+}
+#services-dropdown {
+  min-width: 300px; /* Minimum width */
+  width: auto; /* Allow width to adjust based on content */
+  white-space: nowrap; /* Prevent line breaks */
+}
+/*=====================Main Section====================*/
+main{
+  height: 300px; /* Adjust the height as needed */
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlFPY862vhhGP-Jq-B1GITG3HU1vp-T-ZK_aS07f40bkcIYzZE'); /* Path to your image */
+  background-size: cover; /* Ensure the image covers the header */
+  background-position: center; /* Center the image */
+  background-attachment: fixed; /* Fix the background image */
+  position: relative;
+  top: 20px;
+ 
+}
+main::after{
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  background-color: rgba(0, 0, 0, 0.55);
+}
+.text{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  z-index: 20; /* Ensure text is above the overlay */
+  font-size: 2.375em; /* Adjust font size as needed */
+  text-align: center;
+}
+
+/*==================================SWIPER JS=========================================*/
+body {
+  background: #eee;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+.swiper-wrapper {
+  margin-top: 180px;
+  margin-left: 120px;
+}
+
+.swiper-container .swiper-pagination {
+  position: relative;
+  top: 500px;
+  display: block;
+}
+.swiper-button-prev, .swiper-button-next {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  color: #000;
+  text-align: center;
+  line-height: 40px;
+  font-size: 5px;
+  font-weight: 800;
+  cursor: pointer;
+  position: absolute;
+  top: 20%;
+  transform: translateY(-50%);
+  z-index: 10;
+  transition: background-color 0.3s, color 0.3s;
+  margin-top: 350px !important;
+  font-family: eicons;
+  -webkit-font-smoothing: antialiased;
+  color: hsla(0, 0%, 93.3%, .9);
+}
+
+.swiper-button-prev::after, .swiper-button-next::after {
+  font-size: 20px !important;
+}
+
+.swiper-button-prev {
+  left: -20px;
+}
+
+.swiper-button-next {
+  right: -20px;
+}
+
+.swiper-button-prev:hover, .swiper-button-next:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+/*=====================================Footer*======================================*/
+#footer {
+  background-color: #000;
+  color: #fff;
+  width: 100%;
+  height: 85vh;
+  padding: 20px 0;
+  margin-top: 300px;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+/*
+#footer{
+  background-color: #000;
+  width: 100vw;
+  height: auto !important;
+  margin-top: 20px;
+  padding-bottom: 20px;
+  position: relative; 
+}*/
+#img{
+  height: 110px;
+  width: 350px;
+  position: relative;
+  top: 80px;
+  left: 40px;
+}
+.content{
+  margin-left: 45px;
+}
+#p{
+  color: darkgrey;
+  position: relative;
+  top: 230px;
+  
+  margin-left: -408px;
+  font-size: 18px;
+  font-weight: 450;
+}
+/*social media links*/
+.footer_social-media .fa-facebook{
+  color: #fff;
+  font-size: 25px;
+  position: relative;
+  top: 380px;
+  right: 458px;
+}
+
+.footer_social-media .fa-square-instagram{
+  color: #fff;
+  font-size: 25px;
+  position: relative;
+  top: 355px;
+  left: -395px;
+}
+.footer_social-media .fa-square-x-twitter{
+  color: #fff;
+  font-size: 25px;
+  position: relative;
+  top: 328px;
+  left: -330px;
+}
+.footer_social-media .fa-youtube{
+  color: #fff;
+  font-size: 25px;
+  position: relative;
+  top: 300px;
+  left: -265px;
+}
+.rights1{
+  color: darkgray;
+  position: relative;
+  top: 500px;
+  left: -540px;
+
+}
+/*Quick links*/
+#footer .quick_links h1{
+  color: #fff;
+  position: relative;
+  left: -278px;
+  top: 95px;
+  font-size: 27px;
+  font-family: 'Arial';
+  font-weight: bold;
+  
+}
+/*blue line*/
+.quick_links::after{
+  content: '';
+  display: block;
+  width: 45%; /* This will ensure the underline is as wide as the content */
+  height: 3px; /* Adjust the height of the underline */
+  background-color: blue; /* Set the color of the underline */
+  position: relative;
+  left: -273px;
+  top: -80px;
+}
+.quick_links ul{
+  font-size: 17.5px; 
+  list-style: none;
+}
+.quick_links ul li a{
+  text-decoration: none;
+  color: darkgrey;
+  position: relative;
+  left: -312px;
+  top: 150px;
+  line-height: 35px;
+}
+.quick_links li a:hover {
+  color: #8c52ff;
+}
+
+/*Contact Details*/
+#contact h2{
+  color: #fff;
+  position: relative;
+  left: -258px;
+  top: 95px;
+  font-family: 'Arial';
+  font-size: 27px;
+  font-weight: bold;
+}
+#contact::after{
+  content: '';
+  display: block;
+  width: 21.5%; /* This will ensure the underline is as wide as the content */
+  height: 3px; /* Adjust the height of the underline */
+  background-color: blue; /* Set the color of the underline */
+  position: relative;
+  left: -255px;
+  top: -18px;
+}
+.contact-info{
+  line-height: 32px;
+  font-size: 18px;
+  font-weight: normal;
+}
+#contact i{
+  position: relative;
+  top: 175px;
+  color: #fff;
+  left: -250px;
+
+}
+#contact i span{
+  padding: 10px;
+  font-family: 'Times New Roman', Times, serif;
+}
+/*+1 (561) 774-7978*/
+#contact i .span{
+  position: relative;
+  top: 20px;
+  font-style: 'Arial';
+  font-weight: 450;
+  font-size: 18px;
+}
+#contact_1 i{
+  padding-top: 10px; line-height: 10px;
+}
+
+@media (max-width: 1441px){
+  body{
+    overflow-x: hidden;
+    height: auto;
+    width: 100%;
+    position: relative;
+    top: unset;
+    left: unset;
+  }
+  html{
+    overflow-x: hidden;
+  }
+  /*==========Swiper Js========*/
+  .swiper{
+    z-index: 10;
+  }
+  .swiper-wrapper{
+    margin-top: 200px;
+    z-index: 20;
+  }
+  .swiper-button-prev, .swiper-button-next{
+    margin-top: -100px !important; 
+  }
+  /*================Footer===============*/
+  #footer {
+    background-color: #000;
+    color: #fff;
+    width: 100%;
+    height: 85vh;
+    padding: 20px 0;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 250px; /* Eliminate any top margin */
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  
+  #img{
+    height: 110px;
+    width: 350px;
+    position: relative;
+    top: 30px;
+    left: 40px;
+  }
+  .content{
+    margin-left: 62px;
+    margin-top: -70px;
+  }
+  
+  /*social media links*/
+  .footer_social-media .fa-facebook{
+    color: #fff;
+    font-size: 25px;
+    position: relative;
+    top: 300px;
+    left: -440px;
+  }
+  .footer_social-media .fa-square-instagram{
+    color: #fff;
+    font-size: 25px;
+    position: relative;
+    top: 275px;
+    left: -370px;
+  }
+  .footer_social-media .fa-square-x-twitter{
+    color: #fff;
+    font-size: 25px;
+    position: relative;
+    top: 249px;
+    left: -300px;
+  }
+  .footer_social-media .fa-youtube{
+    color: #fff;
+    font-size: 25px;
+    position: relative;
+    top: 222px;
+    left: -230px;
+  }
+  .rights1{
+    position: relative;
+    top: 430px;
+    left: -505px;
+  }
+  
+  /*Quick links*/
+  #footer .quick_links h1{
+    color: #fff;
+    position: relative;
+    left: -278px;
+    top: 95px;
+    font-size: 27px;
+    font-family: 'Arial';
+    font-weight: bold;
+  }
+  
+  /*blue line*/
+  .quick_links::after{
+    content: '';
+    display: block;
+    width: 45%; /* This will ensure the underline is as wide as the content */
+    height: 3px; /* Adjust the height of the underline */
+    background-color: blue; /* Set the color of the underline */
+    position: relative;
+    left: -273px;
+    top: -80px;
+  }
+}
+@media (max-width: 426px){
+  /* Header Image */
+  header img{
+    height: 120px;
+    z-index: 50;
+    width: 280px;
+    position: relative;
+    top: 5px;
+    left: -10px;
+  }
+  nav {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    height: 350px !important;
+    text-align: center;
+    position: absolute;
+    top: 185px; /* Adjust based on your header height */
+    left: -20px;
+    padding: 20px;
+    background-color: #fff;
+    border-top: 1px solid #ddd;
+    z-index: 1000;
+  }
+
+  nav.active {
+    display: flex;
+  }
+
+  .main-nav {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .main-nav li ul {
+    position: static;
+    max-height: 0;
+    overflow: hidden;
+  }
+
+  .main-nav li.active ul {
+    display: block;
+    max-height: 600px; /* Adjust based on content */
+  }
+
+  .caret {
+    margin-left: 0;
+    display: inline;
+    transition: transform 0.3s;
+  }
+
+  .menuToggle {
+    display: block;
+    font-size: 30px;
+    color: #333;
+    transition: color 0.3s;
+  }
+  /*==========Main Section===========*/
+  main{
+    height: 300px; /* Adjust the height as needed */
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlFPY862vhhGP-Jq-B1GITG3HU1vp-T-ZK_aS07f40bkcIYzZE'); /* Path to your image */
+    background-size: cover; /* Ensure the image covers the header */
+    background-position: center; /* Center the image */
+    background-attachment: fixed; /* Fix the background image */
+    position: relative;
+    top: -30px;
+  }
+  /*===========SWIPER JS===========*/
+  
+  /*==============Footer===========*/
+  #footer{
+    margin-top: 80px !important;
+    height: 200vh !important;
+    z-index: 10 !important;
+  }
+  #p{
+    position: relative;
+    left: 45px;
+    top: 210px !important;
+  }
+  /*p {
+    position: static;
+    margin-left: -75px !important;
+    margin-top: -200px;
+    font-size: 18px;
+    width: 180%;
+    text-align: left;
+  }*/
+  /*.social-media{
+    position: relative;
+    left: 500px;
+    top: -200px;
+  }*/
+  .fa-facebook{
+    position: absolute;
+    left: -400px !important;
+    top: -15px !important;
+    z-index: 20 !important;
+  }
+  .social-media{
+    margin-left: 450px !important;
+    margin-top: -40px !important;
+    display: flex;
+    z-index: 20 !important;
+  }
+  .fa-square-instagram{
+    position: relative;
+    top: -15px !important;
+  }
+  .fa-square-x-twitter{
+    position: relative;
+    top: -15px !important;
+    margin-left: -30px !important;
+  }
+  .fa-youtube{
+    position: relative;
+    top: -15px !important;
+    margin-left: -30px !important;
+  }
+  .rights1{
+    position: relative;
+    left: 100px !important;
+    top: -100px !important;
+  }
+  /*.rights1{
+    margin-top: -200px !important;
+    position: relative;
+    left: 85px;
+  }
+  /*Quick links
+  #footer .quick_links h1{
+    color: #fff;
+    position: relative;
+    left: 40px;
+    top: 435px;
+    font-size: 23px;
+    font-family: 'Arial';
+    font-weight: bold;
+    }*/
+    #footer .quick_links{
+      position: relative;
+      left: -630px !important;
+      top: 30px !important;
+    }
+    /*blue line*/
+    .quick_links::after{
+    content: '';
+    display: block;
+    width: 15%; /* This will ensure the underline is as wide as the content */
+    height: 3px; /* Adjust the height of the underline */
+    background-color: blue; /* Set the color of the underline */
+    position: relative;
+    left: 40px;
+    top: 268px;
+    }
+    .quick_links ul{
+    font-size: 17.5px;
+    list-style: none;
+    }
+    .quick_links ul li a{
+    text-decoration: none;
+    color: darkgrey;
+    position: relative;
+    left: 5px;
+    top: 450px;
+    line-height: 30px;
+    }
+    .quick_links li a:hover {
+    color: #8c52ff;
+    }
+    /*Contact Us*/
+    #contact{
+      margin-left: 80px;
+      position: relative;
+      top: -320px !important;
+    }
+  .contact-info{
+    line-height: 30px;
+    font-size: 14.5px;
+    font-weight: normal;
+    position: relative;
+    left: 285px;
+    top: 320px;
+    }
+    /*Contact Details*/
+    
+    #contact::after{
+    content: '';
+    display: block;
+    width: 21.5%; /* This will ensure the underline is as wide as the content */
+    height: 3px; /* Adjust the height of the underline */
+    background-color: blue; /* Set the color of the underline */
+    position: relative;
+    left: 36px;
+    top: 330px;
+    }
+}
+
+@media (max-width: 376px){
+  /* Header Image */
+  header img{
+    height: 100px;
+    z-index: 50;
+    width: 210px;
+    position: relative;
+    top: -8px;
+  }
+  nav {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    height: 310px;
+    text-align: center;
+    position: absolute;
+    top: 145px; /* Adjust based on your header height */
+    left: -20px;
+    padding: 20px;
+    background-color: #fff;
+    border-top: 1px solid #ddd;
+    z-index: 1000;
+  }
+
+  nav.active {
+    display: flex;
+  }
+
+  .main-nav {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .main-nav li ul {
+    position: static;
+    max-height: 0;
+    overflow: hidden;
+  }
+
+  .main-nav li.active ul {
+    display: block;
+    max-height: 600px; /* Adjust based on content */
+  }
+
+  .caret {
+    margin-left: 0;
+    display: inline;
+    transition: transform 0.3s;
+  }
+
+  .menuToggle {
+    display: block;
+    font-size: 30px;
+    color: #333;
+    transition: color 0.3s;
+  }
+  /*===========SWIPER JS===========*/
+  .swiper-slide .image_1, 
+  .swiper-slide .image_2, 
+  .swiper-slide .image_3, 
+  .swiper-slide .image_4, 
+  .swiper-slide .image_5,
+  .swiper-slide .image_6,
+  .swiper-slide .image_7,
+  .swiper-slide .image_8,
+  .swiper-slide .image_9,
+  .swiper-slide .image_10,
+  .swiper-slide .image_11,
+  .swiper-slide .image_12{
+    height: 80px;
+    width: 80px;
+  }
+  .swiper-slide .image_2{
+    position: relative;
+    left: 10px;
+  }
+  .swiper-slide .image_3{
+    position: relative;
+    left: -10px;
+  }
+  .swiper-slide .image_4{
+    position: relative;
+    left: -10px;
+  }
+  /* Adjusting footer */
+  #p{
+    position: relative;
+    left: 355px;
+    top: -40px !important;
+  }
+  .social-media{
+    margin-left: 440px !important;
+    margin-top: -155px !important;
+    display: flex;
+    z-index: 20 !important;
+  }
+  .rights1{
+    position: relative;
+    left: 90px !important;
+    top: -180px !important;
+  }
+  #footer .quick_links{
+    position: relative;
+    left: -580px !important;
+    top: -60px !important;
+  }
+  /*Contact Us*/
+  #contact{
+    margin-left: 80px;
+    position: relative;
+    top: -400px !important;
+  }
+}
+
+@media (max-width:321px){
+
+  /*Header Image*/
+  header img {
+    width: 75vw !important; /* Adjust image width for smaller screens */
+    /* other styles */
+    position: relative;
+    left: 10px !important;
+    }
+  nav {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    height: 310px;
+    text-align: center;
+    position: absolute;
+    top: 145px; /* Adjust based on your header height */
+    left: -20px;
+    padding: 20px;
+    background-color: #fff;
+    border-top: 1px solid #ddd;
+    z-index: 1000;
+  }
+
+  nav.active {
+    display: flex;
+  }
+
+  .main-nav {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .main-nav li ul {
+    position: static;
+    max-height: 0;
+    overflow: hidden;
+  }
+
+  .main-nav li.active ul {
+    display: block;
+    max-height: 600px; /* Adjust based on content */
+  }
+
+  .caret {
+    margin-left: 0;
+    display: inline;
+    transition: transform 0.3s;
+  }
+
+  .menuToggle {
+    display: block;
+    font-size: 30px;
+    color: #333;
+    transition: color 0.3s;
+  }
+  /* Adjusting footer */
+  #img{
+    margin-left: -15px;
+    width: 75vw !important;
+  }
+  #p{
+    position: relative;
+    left: 340px;
+    top: -10px !important;
+  }
+  .social-media{
+    margin-left: 420px !important;
+    margin-top: -105px !important;
+    display: flex;
+    z-index: 20 !important;
+  }
+  .rights1{
+    position: relative;
+    left: 70px !important;
+    top: -100px !important;
+  }
+  /*Quick links*/
+  #footer .quick_links{
+    position: relative;
+    left: -380px !important;
+    top: -80px !important;
+  }
+    /*blue line*/
+    .quick_links::after{
+    content: '';
+    display: block;
+    width: 15%; /* This will ensure the underline is as wide as the content */
+    height: 3px; /* Adjust the height of the underline */
+    background-color: blue; /* Set the color of the underline */
+    position: relative;
+    left: 15px;
+    top: -60px;
+    }
+    .quick_links ul{
+    font-size: 17.5px;
+    list-style: none;
+    }
+    .quick_links ul li a{
+    text-decoration: none;
+    color: darkgrey;
+    position: relative;
+    left: -15px;
+    top: 120px;
+    line-height: 30px;
+    }
+    .quick_links li a:hover {
+    color: #8c52ff;
+    }
+  .contact-info{
+    line-height: 30px;
+    font-size: 14.5px;
+    font-weight: normal;
+    position: relative;
+    left: 262px;
+    top: -35px;
+    }
+    /*Contact Details*/
+  /*Contact Us*/
+  #contact{
+    margin-left: 50px;
+    position: relative;
+    top: -400px !important;
+  }
+    #contact::after{
+    content: '';
+    display: block;
+    width: 21.5%; /* This will ensure the underline is as wide as the content */
+    height: 3px; /* Adjust the height of the underline */
+    background-color: blue; /* Set the color of the underline */
+    position: relative;
+    left: 15px;
+    top: 5px;
+    }
+}
+
+@media (max-width:1025px){
+  .main-nav li a .caret {
+    margin-left: auto;
+  }
+  /*===Swiper js========*/
+  .swiper-wrapper{
+    margin-left: -2px;
+  }
+  .swiper-button-prev, .swiper-button-next{
+    margin-top: 280px !important;
+  }
+  /*=========footer==========*/
+#footer {
+  background-color: #000;
+  color: #fff;
+  width: 100%;
+  height: 73vh;
+  padding:  0;
+  position: absolute;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 210px; /* Eliminate any top margin */
+  justify-content: space-between;
+  align-items: flex-start;
+  
+}
+#img{
+  height: 110px;
+  width: 310px;
+  position: relative;
+  top: 40px;
+  left: 40px;
+}
+
+.content{
+  margin-left: 108px;
+  position: relative;
+  top: 10px;
+}
+#p{
+  color: darkgrey;
+  position: relative;
+  top: 230px;
+  margin-left: -458px;
+  font-size: 14px;
+  font-weight: 450;
+}
+.social-media{
+  margin-left: -98px;
+}
+.rights1{
+  margin-top: -50px;
+  margin-left: -50px;
+}
+/*Quick links*/
+#footer .quick_links h1{
+  color: #fff;
+  position: relative;
+  left: -420px;
+  top: 55px;
+  font-size: 23px;
+  font-family: 'Arial';
+  font-weight: bold;
+  
+}
+/*blue line*/
+.quick_links::after{
+  content: '';
+  display: block;
+  width: 45%; /* This will ensure the underline is as wide as the content */
+  height: 3px; /* Adjust the height of the underline */
+  background-color: blue; /* Set the color of the underline */
+  position: relative;
+  left: -415px;
+  top: -138px;
+}
+.quick_links ul{
+  font-size: 17.5px; 
+  list-style: none;
+}
+.quick_links ul li a{
+  text-decoration: none;
+  color: darkgrey;
+  position: relative;
+  left: -450px;
+  top: 110px;
+  line-height: 35px;
+}
+.quick_links li a:hover {
+  color: #8c52ff;
+}
+/*Contact Details*/
+#contact h2{
+  color: #fff;
+  position: relative;
+  left: 680px;
+  top: -195px;
+  font-family: 'Arial';
+  font-size: 23px;
+  font-weight: bold;
+}
+#contact::after{
+  content: '';
+  display: block;
+  width: 21.5%; /* This will ensure the underline is as wide as the content */
+  height: 3px; /* Adjust the height of the underline */
+  background-color: blue; /* Set the color of the underline */
+  position: relative;
+  left: 685px;
+  top: -325px;
+}
+.contact-info{
+  line-height: 32px;
+  font-size: 14.5px;
+  font-weight: normal;
+  position: relative;
+  left: 935px;
+  top: -315px;
+}
+#contact i{
+  position: relative;
+  top: 175px;
+  color: #fff;
+  left: -250px;
+
+}
+#contact i span{
+  padding: 10px;
+  font-family: 'Times New Roman', Times, serif;
+}
+/*+1 (561) 774-7978*/
+#contact i .span{
+  position: relative;
+  top: 20px;
+  font-style: 'Arial';
+  font-weight: 450;
+  font-size: 18px;
+}
+#contact_1 i{
+  padding-top: 10px; line-height: 10px;
+}
+}
+
+@media (max-width: 769px){
+  nav {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    height: 310px;
+    text-align: center;
+    position: absolute;
+    top: 185px; /* Adjust based on your header height */
+    left: -20px;
+    padding: 20px;
+    background-color: #fff;
+    border-top: 1px solid #ddd;
+    z-index: 1000;
+  }
+
+  nav.active {
+    display: flex;
+  }
+
+  .main-nav {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .main-nav li ul {
+    position: static;
+    max-height: 0;
+    overflow: hidden;
+  }
+
+  .main-nav li.active ul {
+    display: block;
+    max-height: 600px; /* Adjust based on content */
+  }
+
+  .caret {
+    margin-left: 0;
+    display: inline;
+    transition: transform 0.3s;
+  }
+
+  .menuToggle {
+    display: block;
+    font-size: 30px;
+    color: #333;
+    transition: color 0.3s;
+  }
+  main{
+    height: 300px; /* Adjust the height as needed */
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRlFPY862vhhGP-Jq-B1GITG3HU1vp-T-ZK_aS07f40bkcIYzZE'); /* Path to your image */
+    background-size: cover; /* Ensure the image covers the header */
+    background-position: center; /* Center the image */
+    background-attachment: fixed; /* Fix the background image */
+    position: relative;
+    top: 40px;
+  }
+  /*=========footer==========*/
+  #footer {
+    background-color: #000;
+    color: #fff;
+    width: 100%;
+    height: 85vh;
+    padding: 0;
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 230px; /* Eliminate any top margin */
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  #p{
+    color: darkgrey;
+    position: relative;
+    top: 230px;
+    margin-left: -425px;
+    font-size: 14px;
+    font-weight: 450;
+  }
+  .social-media{
+    margin-left: -23px;
+  }
+  .rights1{
+    margin-top: -50px;
+    position: relative;
+    left: -480px;
+  }
+  
+  /*Quick links*/
+  #footer .quick_links h1{
+    color: #fff;
+    position: relative;
+    left: 400px;
+    top: -135px;
+    font-size: 23px;
+    font-family: 'Arial';
+    font-weight: bold;
+  }
+  /*blue line*/
+  .quick_links::after{
+    content: '';
+    display: block;
+    width: 45%; /* This will ensure the underline is as wide as the content */
+    height: 3px; /* Adjust the height of the underline */
+    background-color: blue; /* Set the color of the underline */
+    position: relative;
+    left: 400px;
+    top: -300px;
+  }
+  .quick_links ul{
+    font-size: 17.5px;
+    list-style: none;
+  }
+  .quick_links ul li a{
+    text-decoration: none;
+    color: darkgrey;
+    position: relative;
+    left: 370px;
+    top: -110px;
+    line-height: 30px;
+  }
+  .quick_links li a:hover {
+    color: #8c52ff;
+  }
+  /*Contact Details*/
+  #contact h2{
+    color: #fff;
+    position: relative;
+    left:-32px;
+    top: 95px;
+    font-family: 'Arial';
+    font-size: 23px;
+    font-weight: bold;
+  }
+  #contact::after{
+    content: '';
+    display: block;
+    width: 21.5%; /* This will ensure the underline is as wide as the content */
+    height: 3px; /* Adjust the height of the underline */
+    background-color: blue; /* Set the color of the underline */
+    position: relative;
+    left: -30px;
+    top: -30px;
+  }
+  .contact-info{
+    line-height: 30px;
+    font-size: 14.5px;
+    font-weight: normal;
+    position: relative;
+    left: 218px;
+    top: -65px;
+  }
+  #contact i{
+    position: relative;
+    top: 175px;
+    color: #fff;
+    left: -250px;
+  }
+  #contact i span{
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  /*+1 (561) 774-7978*/
+  #contact i .span{
+    position: relative;
+    top: 20px;
+    font-style: 'Arial';
+    font-weight: 450;
+    font-size: 18px;
+  }
+  #contact_1 i{
+    padding-top: 10px; 
+    line-height: 10px;
+  }
+}
+
+******JS******
+function toggleMenu() {
+  document.querySelector('nav').classList.toggle('active');
+}
+
+function toggleDropdown(event, dropdownId) {
+  event.preventDefault();
+  const dropdown = document.getElementById(dropdownId);
+  dropdown.classList.toggle('active');
+  const parentLi = dropdown.parentElement;
+  parentLi.classList.toggle('active');
+
+  // Update the caret icon
+  const caret = event.currentTarget.querySelector('.caret');
+  if (dropdown.classList.contains('active')) {
+    caret.style.transform = 'rotate(180deg)';
+  } else {
+    caret.style.transform = 'rotate(0deg)';
+  }
+}
+
+/*==============================SWIPER JS===================================*/
+var swiper = new Swiper('.swiper-container', {
+  slidesPerView: 4,
+  spaceBetween: 30,
+  slidesPerGroup: 1,
+  loop: true,
+  loopFillGroupWithBlank: true,
+  pagination: {
+      el: '.swiper-pagination',
+      clickable: true,
+  },
+  navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+  },
+  autoplay: {
+      delay: 3000,
+      disableOnInteraction: false,
+  },
+});
