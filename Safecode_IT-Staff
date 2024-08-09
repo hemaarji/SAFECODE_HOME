@@ -1,0 +1,2495 @@
+******HTML******
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us - SafeCodeSoft</title>
+  <!-- Linking css file-->
+  <link rel="stylesheet" href="safecode_it-staff.css" type="text/css" media="screen">
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+  integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+  crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- Link Swiper's CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/d38609c0ef.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  
+      <!--Header and Navbar-->
+      <header>
+        <a href="#">
+          <img src="https://safecodesoft.com/wp-content/uploads/2022/11/logo.jpeg" alt="">
+        </a>
+        <div class="menuToggle" onclick="toggleMenu()">☰</div>
+        <nav>
+          <ul class="main-nav">
+            <li><a href="#">Home</a></li>
+            <li>
+              <a href="#" onclick="toggleDropdown(event, 'company-dropdown')">
+                Company
+                <i class="fa fa-caret-down caret"></i>
+              </a>
+              <ul class="dropdown-container" id="company-dropdown">
+                <li><a href="http://127.0.0.1:5500/safecode_about.html">About us</a></li>
+                <li><a href="http://127.0.0.1:5500/safecode_clients.html">Our Clients</a></li>
+                <li><a href="http://127.0.0.1:5500/safecode_career.html">Career</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="#" onclick="toggleDropdown(event, 'services-dropdown')">
+                Services
+                <i class="fa fa-caret-down caret"></i>
+              </a>
+              <ul class="dropdown-container" id="services-dropdown">
+                <li><a href="http://127.0.0.1:5500/safecode_erp.html">ERP Services</a></li>
+                <li><a href="http://127.0.0.1:5500/safecode_application-management.html">Application Managed Services</a></li>
+                <li><a href="http://127.0.0.1:5500/safecode_it-staff.html">IT Staffing & Recruitment Services</a></li>
+                <li><a href="http://127.0.0.1:5500/safecode_lean-on.html">Lean on IT Services</a></li>
+                <li><a href="http://127.0.0.1:5500/safecode_cloud-migration.html">Cloud Migration</a></li>
+                <li><a href="http://127.0.0.1:5500/safecode_data-migration.html">Data Migrations</a></li>
+                <li><a href="http://127.0.0.1:5500/safecode_nearshore.html">Nearshore Development & Support Services</a></li>
+                <li><a href="http://127.0.0.1:5500/safecode_database-management.html">Database Administration</a></li>
+                <li><a href="http://127.0.0.1:5500/safecode_bi-analytics.html">Bi Advanced Analytics</a></li>
+                <li><a href="http://127.0.0.1:5500/safecode_web-development.html">Web Development</a></li>
+                <li><a href="http://127.0.0.1:5500/safecode_custom-development.html">Custom Development</a></li>
+                <li><a href="http://127.0.0.1:5500/safecode_cyber-security.html">Cyber Security</a></li>
+                <li><a href="http://127.0.0.1:5500/safecode_mobile-application.html">Mobile Application Development Services</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="#" onclick="toggleDropdown(event, 'practice-dropdown')">
+                Practices
+                <i class="fa fa-caret-down caret"></i>
+              </a>
+              <ul class="dropdown-container" id="practice-dropdown">
+                <li><a href="http://127.0.0.1:5500/safecode_people-soft.html">People Soft</a></li>
+                <li><a href="http://127.0.0.1:5500/safecode_oracle-cloud.html">Oracle Cloud Applications</a></li>
+                <li><a href="http://127.0.0.1:5500/safecode_oracle-ebusiness.html">Cloud E-Business Suite</a></li>
+                <li><a href="http://127.0.0.1:5500/safecode_sap.html">SAP</a></li>
+                <li><a href="http://127.0.0.1:5500/safecode_workday.html">Workday</a></li>
+                <li><a href="http://127.0.0.1:5500/safecode_salesforce.html">Salesforce</a></li>
+                <li><a href="http://127.0.0.1:5500/safecode_robotics.html"></a></li>
+                <li><a href="#">Robotic Process Automation</a></li>
+                <li><a href="http://127.0.0.1:5500/safecode_AR&VR.html">AR & VR</a></li>
+              </ul>
+            </li>
+            <li><a href="http://127.0.0.1:5500/safecode_contact.html">Contact us</a></li>
+          </ul>
+        </nav>
+      </header>
+  <!--Main-->
+  <main>
+    <h1>IT Staffing and Recruitment Services</h1>
+  </main>
+    
+  <div class="content-section">
+        <h1>We are your strategic IT staffing partner providing you with qualified resources onsite, onshore, nearshore and offshore based on your needs</h1>
+        <div class="content-container">
+            <div class="content-text">
+                <p>
+                  Safe Code Soft has over a decade long experience in providing IT staff augmentation services wherein we offer experienced and qualified resources to address any “skill-gaps” and contingent labor needs across technologies and skill sets. We meet the IT staffing needs of small to large-scale organizations from commercial as well as public sector.
+                </p>
+                <p>
+                  Safe Code Soft’s account management and service delivery teams are a pool of educated and experienced managers and recruiters who use the latest technology and recruiting methods to source, screen, onboard and manage qualified resources, consultants and reliable partner network (vendors).
+                </p>
+            <div class="content-image">
+                <img src="https://safecodesoft.com/wp-content/uploads/2023/04/stffing-300x300.jpeg" alt="">
+            </div>
+        </div>
+    </div>
+  </div>
+    <!--Swiper JS Clients-->
+    <div class="company_clients">
+      <h1>
+        Our Staffing Services encompass a wide spectrum of staffing offerings.
+      </h1>
+    </div>
+<!--Numbers with text-->
+<div class="staffing-services">
+  <div class="staffing-options">
+    <div class="staffing-option option1">
+      <h3>1</h3>
+        <p>Temporary Staffing</p>
+    </div>
+    <div class="staffing-option option2">
+      <h3>2</h3>
+      <p>Long Term Staffing</p>
+    </div>
+    <div class="staffing-option option3 ">
+      <h3>3</h3>
+      <p>Staff Augmentation</p>
+    </div>
+    <div class="staffing-option option4">
+      <h3>4</h3>
+      <p>Contract to-Hire</p>
+    </div>
+    <div class="staffing-option option5">
+      <h3>5</h3>
+      <p>Permanent or Direct Hire</p>
+    </div>
+    <div class="staffing-option option6">
+      <h3>6</h3>
+      <p>Recruitment Process Outsourcing</p>
+    </div>
+  </div>
+</div>
+
+<!--Flip cards-->
+<div class="glass_container">
+  <h1 class="title">Key Highlights of Safecodesoft's Staffing Services</h1>
+  <div class="card-container">
+    <!-- Card 1 -->
+    <div class="flip-card card1">
+      <div class="flip-card-inner">
+        <div class="flip-card-front">
+          <h2>Client Centered Terms</h2>
+        </div>
+        <div class="flip-card-back">
+          <p>We have implemented client-friendly terms allowing you to convert contingent or temporary resources to permanent employees to fulfill your desire/business need to retain them.</p>
+        </div>
+      </div>
+    </div>
+    <!-- Card 2 -->
+    <div class="flip-card card2">
+      <div class="flip-card-inner">
+        <div class="flip-card-front">
+          <h2>SLA Driven Process</h2>
+        </div>
+      <div class="flip-card-back">
+        <p>We follow a well-defined process wherein we manage the Metrics/SLAs that are important to you, i.e., Submission - Interview - Hiring Ratios.</p>
+      </div>
+    </div>
+  </div>
+  <!-- Card 3 -->
+  <div class="flip-card card3">
+    <div class="flip-card-inner">
+      <div class="flip-card-front">
+        <h2>Ever Expanding Skill Base</h2>
+      </div>  
+      <div class="flip-card-back">
+        <p>We closely monitor the industry trends and maintain/update our employee base and database of pre-vetted consultants to cover fast emerging technologies and niche skills</p>
+      </div>
+    </div>
+  </div>
+  <!-- Card 4 -->
+  <div class="flip-card card4">
+    <div class="flip-card-inner">
+      <div class="flip-card-front">
+        <h2>Flexible Engagement Models</h2>
+      </div>
+      <div class="flip-card-back">
+        <p> We offer cost-effective engagement models focusing on service quality and seamless collaboration by assigning resources - onsite, remote-onshore, nearshore and/or offshore based on your needs and preferences. </p>
+      </div>
+    </div>
+  </div>
+  <!-- Card 5 -->
+  <div class="flip-card card5">
+    <div class="flip-card-inner">
+      <div class="flip-card-front">
+        <h2>Market Analysis</h2>
+      </div>
+      <div class="flip-card-back">
+        <p> We continuously leverage and enhance our knowledge and experience in performing comprehensive market analysis to guarantee maximized workforce solutions.</p>
+      </div>
+    </div>
+  </div>
+  <!-- Card 6 -->
+  <div class="flip-card card6">
+    <div class="flip-card-inner">
+      <div class="flip-card-front">
+        <h2>Planned Approach</h2>
+      </div>
+      <div class="flip-card-back">
+        <p>
+          There is no one-size-fits-all. So, our approach considers careful planning and research, and makes available a pipeline of requisite talent ready to step in and fill vacancies as they occur.  
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+  <!--Dropdown-->
+<div class="container">
+  <div class="section-title">Safe Codes Soft Differentiators</div>
+    <div class="section">
+        <div class="section-header">
+            <span>Experience & Expertise</span>
+            <span class="toggle-symbol">+</span>
+        </div>
+        <div class="section-content">
+            <ul>
+                <li>Highly skilled ERP resource pool</li>
+                <li>Almost 1500 years of collective experience & expertise in leading enterprise applications</li>
+                <li>Service delivery based on RRR – Right people in right place at right time</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="section">
+      <div class="section-header">
+        <span>Customer Centric</span>
+        <span class="toggle-symbol">+</span>
+      </div>
+      <div class="section-content">
+        <li>We think beyond what we committed in SOWs; dedicated account management team</li>
+        <li>Proactive advisory services and solutions; proprietary tools built to address customer pain points</li>
+        <li>Maximum accessibility to key workforce</li>
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="section-header">
+        <span>Flexibility</span>
+        <span class="toggle-symbol">+</span>
+      </div>
+      <div class="section-content">
+        <li>Flexi Pricing models</li>
+        <li>Able to provide competitive pricing due to minimal overheads</li>
+        <li>Resource as a Service Model (RaaS)</li>
+      </div>
+    </div>
+    <div class="section">
+      <div class="section-header">
+        <span>Quick Transition</span>
+        <span class="toggle-symbol">+</span>
+      </div>
+      <div class="section-content">
+        <li>Quick & proven transition methodology</li>
+        <li>Cross functional competency building</li>
+        <li>A dedicated transition manager to ensure smooth and successful transition</li>
+      </div>
+    </div>
+    <div class="section">
+      <div class="section-header">
+        <span>Coverage & Productivity</span>
+        <span class="toggle-symbol">+</span>
+      </div>
+      <div class="section-content">
+        <li>Strong integration between help desk, L2 and L3 teams</li>
+        <li>One team – Single location delivery – onsite is the backup location, if needed</li>
+        <li>High resource utilization and better productivity with round the clock support; metrics driven</li>
+      </div>
+    </div>
+</div>
+
+
+ <!--Footer-->
+ <footer class="footer-section" id="footer">
+  <img src="https://safecodesoft.com/wp-content/uploads/2022/11/logo.jpeg" alt="" id="img">
+  <div class="content">
+    <p id="p">
+      IT solutions and services leveraging our<br>
+      proven methodology and tools,<br>
+      experienced resources and thought<br>
+      leadership.
+    </p>
+  </div>
+  <div class="social-media">
+    <div class="footer_social-media">
+      <i class="fa-brands fa-facebook"></i>
+    </div>
+    <div class="footer_social-media">
+      <i class="fa-brands fa-square-instagram"></i>
+    </div>
+    <div class="footer_social-media">
+      <i class="fa-brands fa-square-x-twitter"></i>
+    </div>
+    <div class="footer_social-media">
+      <i class="fa-brands fa-youtube"></i>
+    </div>
+  </div>
+  <div class="rights1">
+     <p>
+      © Safecodesoft. All rights reserved.
+    </p>
+  </div>   
+ 
+  <!--Quick links-->
+  <div class="quick_links">
+    <h1>
+      QUICK LINKS
+    </h1>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Company</a></li>
+      <li><a href="#">Services</a></li>
+      <li><a href="#">Practices</a></li>
+      <li><a href="#">Contact Us</a></li>
+    </ul>
+  </div>
+
+  <div id="contact">
+    <h2>
+      CONTACT US
+    </h2>
+    <div class="contact-info">
+      <i class="fa-solid fa-phone">
+        <span>
+          +1 (512) 846-3799
+        </span>
+      </i>
+      <div class="contact_1">
+        <i class="fa-solid fa-phone">
+          <span>
+            +1 (561) 774-7978
+          </span>
+        </i>
+      </div>
+      <i class="fa-regular fa-envelope letter">
+        <span>
+          info@safecodesoft.com
+        </span>
+      </i>
+      <div class="location">
+        <i class="fa-solid fa-location-dot">
+          <span>
+            507 Denali Pass, Ste: 105, Cedar Park, TX 78613
+          </span>
+        </i>
+      </div>
+    </div>
+  </div>
+</footer>
+  <!-- Swiper JS -->
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script src="safecode_it-staff.js"></script>
+ 
+</body>
+</html>
+
+
+******CSS******
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /* Apply box-sizing to all elements */
+}
+body{
+  overflow-x: hidden;
+}
+        /*=================Header================*/
+/* Header Image */
+header img {
+  height: 100px;
+  width: auto;
+  position: relative;
+  margin: 10px 20px;
+}
+
+/* Header Styling */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+  background-color: #f5f5f5; /* Light background color */
+  color: #333; /* Dark text color for contrast */
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Subtle shadow */
+}
+
+/* Header Links */
+header a {
+  color: #333;
+  text-decoration: none;
+}
+
+/* Menu Toggle */
+.menuToggle {
+  display: none;
+  font-size: 30px;
+  cursor: pointer;
+  color: #333;
+  transition: color 0.3s;
+}
+
+.menuToggle:hover {
+  color: #ff5722; /* Bright color on hover */
+}
+
+/* Navigation Styling */
+nav {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  font-weight: 600;
+  
+  margin-left: 20px; /* Adjust space between image and nav */
+}
+
+.main-nav {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.main-nav li {
+  position: relative;
+}
+
+.main-nav li a {
+  padding: 10px 20px;
+  display: block;
+  color: #333;
+  font-weight: 600;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-transform: uppercase;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.main-nav li a:hover {
+  color: #ff5722; /* Bright background on hover */
+}
+
+/* Dropdown Menu Styling */
+.main-nav li ul {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #fff; /* White background */
+  border-radius: 8px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  min-width: 200px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  z-index: 1000;
+}
+
+.main-nav li ul li a {
+  padding: 10px 15px;
+  color: #333;
+}
+
+.main-nav li:hover ul {
+  display: block;
+}
+
+/* Dropdown Container Styling */
+.dropdown-container {
+  max-height: 800px; /* Increase this value as needed */
+  overflow: hidden;
+  background-color: #f5f5f5; /* Light background color */
+  border-radius: 8px;
+  transition: max-height 0.5s ease-in-out;
+}
+
+.dropdown-container.active {
+  max-height: 600px; /* Adjust based on content */
+}
+
+.dropdown-container li:hover a {
+  background-color: #ff5722; /* Bright background on hover */
+  color: #fff; /* Light text color on hover */
+}
+
+/* Caret Icon Styling */
+.caret {
+  margin-left: 5px;
+  transition: transform 0.3s;
+}
+
+/* Rotate caret on active state */
+.dropdown-container.active + a .caret {
+  transform: rotate(180deg);
+}
+#services-dropdown {
+  min-width: 300px; /* Minimum width */
+  width: auto; /* Allow width to adjust based on content */
+  white-space: nowrap; /* Prevent line breaks */
+}
+/*=====================Main Section====================*/
+main{
+  height: 300px; /* Adjust the height as needed */
+  background-image: url('https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTaiXTW1z9jwDYHBHy7YQjo5mHyBv7WdADxNeaBKPNDizwCdfvM'); /* Path to your image */
+  background-size: cover; /* Ensure the image covers the header */
+  background-position: center; /* Center the image */
+  background-attachment: fixed; /* Fix the background image */
+  position: relative;
+  top: 30px;
+ 
+}
+main::after{
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  background-color: rgba(11, 9, 9, 0.55);
+}
+main h1{
+  position: relative;
+  z-index: 20;
+  color: white;
+  text-align: center;
+  padding: 100px 20px; /* Adjust padding as needed to center the text vertically */
+  margin: 0;
+}
+/*========Content Section========*/
+.content-section {
+  width: 100%;
+  max-width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+  background: #fff; /* Ensure background is white */
+}
+
+.content-section h1 {
+  font-family: "Roboto", Sans-serif;
+  text-align: center;
+  margin-top: 40px;
+  width: 100%;
+  font-size: 26px;
+}
+
+.content-container {
+  display: flex;
+  align-items: flex-start;
+}
+
+.content-text {
+  width: 50%;
+  padding: 0 30px;
+}
+
+.content-text p,
+.content-text ul {
+  text-align: justify;
+  margin: 0 0 20px;
+}
+.content-text p{
+  margin-top: 30px;
+}
+.content-text ul {
+  padding-left: 20px;
+}
+
+.content-text ul li {
+  list-style-type: square;
+}
+
+.content-image {
+  width: 100%;
+  padding: 0 30px;
+  display: flex;
+  justify-content: center;
+  margin-left: 700px;
+  margin-top: -250px;
+}
+
+.content-image img {
+  width: 90%; /* Increase width */
+  height: auto; /* Adjust height */
+  max-height: 300px; /* Set a max height if needed */
+}
+
+/*Company Clients*/
+.company_clients{
+  background-color: #e5e5e5;
+  height: 300px;
+  position: relative;
+  top: 90px;
+  z-index: 1;
+}
+.company_clients h1{
+  text-align: center;
+  font-size: 30px;
+  position: relative;
+  top: 10px;
+}
+
+/*===========Numbers with text=====================*/
+.staffing-services {
+  background-color: white;
+  padding: 50px 20px;
+}
+.staffing-services h2 {
+  font-size: 2em;
+  margin-bottom: 30px;
+}
+.staffing-options {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  position: relative;
+  top: -180px;
+  z-index: 20;
+}
+.staffing-option {
+  margin: 20px;
+  padding: 20px;
+  background-color: #eaeaea;
+  border-radius: 10px;
+  width: 150px;
+  text-align: center;
+}
+.staffing-option h3 {
+  font-size: 69px;
+  margin: 0;
+}
+.staffing-option p {
+  font-size: 10px;
+  margin: 10px 0 0 0;
+}
+
+
+/*=============================Flip cards=======================*/
+.glass_container {
+  width: 90%;
+  text-align: center;
+  margin-top: 50px;
+  }
+  
+  .title {
+  font-size: 26px;
+  font-weight: bold;
+  color: #333;
+  margin-left: 180px;
+  margin-top: -200px;
+  font-family: "Roboto", Sans-serif;
+  }
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  top: -800px;
+  justify-content: center;
+  gap: 20px;
+}
+  
+  .flip-card {
+  background-color: transparent;
+  width: 30%;
+  position: relative;
+  top: 850px;
+  left: 100px;
+  /*max-width: 350px;*/
+  height: 300px;
+  perspective: 1000px;
+  margin-bottom: 20px;
+  }
+  .flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  }
+  
+  .flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+  }
+  .flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  border-radius: 10px;
+  }
+  
+  .flip-card-front {
+  background-color: grey;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  }
+  .flip-card-front h2{
+  margin-left: -20px !important;
+  font-size: 25px;
+  }
+  .flip-card-front i{
+  font-size: 40px;
+  }
+  .flip-card-back {
+  background-color: #2980b9;
+  color: white;
+  transform: rotateY(180deg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  }
+  .flip-card-back p{
+  font-size: 18px;
+  }
+  .flip-card-front h2, .flip-card-back p {
+  margin: 0;
+  }
+  
+  /* Additional specific styles for each card if needed */
+  .card1 .flip-card-front {
+  background-color: grey;
+  }
+  .card2 .flip-card-front {
+  background-color: grey;
+  }
+  
+  .card3 .flip-card-front {
+  background-color: grey;
+  }
+  .card4 .flip-card-front {
+  background-color: grey;
+  }
+  
+  .card5 .flip-card-front {
+  background-color: grey;
+  }
+  
+  .card6 .flip-card-front {
+  background-color: grey;
+  }
+  
+  
+
+
+/*===================Dropdown========================*/
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+.section-title {
+  font-size: 26px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  margin-top: 80px;
+  text-align: center;
+}
+.section {
+  margin-bottom: 20px;
+}
+.section-header {
+  cursor: pointer;
+  padding: 10px;
+  background-color: #f0f0f0;
+  border: 1px solid #ddd;
+}
+.section-content {
+  display: none;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-top: none;
+}
+.toggle-symbol {
+  font-size: 22px;
+  font-weight: bold;
+  float: right;
+}
+
+
+ /*=====================================Footer*======================================*/
+ #footer {
+  background-color: #000;
+  color: #fff;
+  width: 100%;
+  height: 85vh;
+  padding: 20px 0;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+/*
+#footer{
+  background-color: #000;
+  width: 100vw;
+  height: auto !important;
+  margin-top: 20px;
+  padding-bottom: 20px;
+  position: relative; 
+}*/
+#img{
+  height: 110px;
+  width: 350px;
+  position: relative;
+  top: 80px;
+  left: 40px;
+}
+.content{
+  margin-left: 45px;
+}
+#p{
+  color: darkgrey;
+  position: relative;
+  top: 230px;
+  
+  margin-left: -408px;
+  font-size: 18px;
+  font-weight: 450;
+}
+/*social media links*/
+.footer_social-media .fa-facebook{
+  color: #fff;
+  font-size: 25px;
+  position: relative;
+  top: 380px;
+  right: 458px;
+}
+
+.footer_social-media .fa-square-instagram{
+  color: #fff;
+  font-size: 25px;
+  position: relative;
+  top: 355px;
+  left: -395px;
+}
+.footer_social-media .fa-square-x-twitter{
+  color: #fff;
+  font-size: 25px;
+  position: relative;
+  top: 328px;
+  left: -330px;
+}
+.footer_social-media .fa-youtube{
+  color: #fff;
+  font-size: 25px;
+  position: relative;
+  top: 300px;
+  left: -265px;
+}
+.rights1{
+  color: darkgray;
+  position: relative;
+  top: 500px;
+  left: -540px;
+
+}
+/*Quick links*/
+#footer .quick_links h1{
+  color: #fff;
+  position: relative;
+  left: -278px;
+  top: 95px;
+  font-size: 27px;
+  font-family: 'Arial';
+  font-weight: bold;
+  
+}
+/*blue line*/
+.quick_links::after{
+  content: '';
+  display: block;
+  width: 45%; /* This will ensure the underline is as wide as the content */
+  height: 3px; /* Adjust the height of the underline */
+  background-color: blue; /* Set the color of the underline */
+  position: relative;
+  left: -273px;
+  top: -80px;
+}
+.quick_links ul{
+  font-size: 17.5px; 
+  list-style: none;
+}
+.quick_links ul li a{
+  text-decoration: none;
+  color: darkgrey;
+  position: relative;
+  left: -312px;
+  top: 150px;
+  line-height: 35px;
+}
+.quick_links li a:hover {
+  color: #8c52ff;
+}
+
+/*Contact Details*/
+#contact h2{
+  color: #fff;
+  position: relative;
+  left: -258px;
+  top: 95px;
+  font-family: 'Arial';
+  font-size: 27px;
+  font-weight: bold;
+}
+#contact::after{
+  content: '';
+  display: block;
+  width: 21.5%; /* This will ensure the underline is as wide as the content */
+  height: 3px; /* Adjust the height of the underline */
+  background-color: blue; /* Set the color of the underline */
+  position: relative;
+  left: -255px;
+  top: -18px;
+}
+.contact-info{
+  line-height: 32px;
+  font-size: 18px;
+  font-weight: normal;
+}
+#contact i{
+  position: relative;
+  top: 175px;
+  color: #fff;
+  left: -250px;
+
+}
+#contact i span{
+  padding: 10px;
+  font-family: 'Times New Roman', Times, serif;
+}
+/*+1 (561) 774-7978*/
+#contact i .span{
+  position: relative;
+  top: 20px;
+  font-style: 'Arial';
+  font-weight: 450;
+  font-size: 18px;
+}
+#contact_1 i{
+  padding-top: 10px; line-height: 10px;
+}
+@media (max-width:1441px){
+  body{
+  overflow-x: hidden;
+  height: auto;
+  width: 100%;
+  position: relative;
+  top: unset;
+  left: unset;
+  }
+  html{
+  overflow-x: hidden;
+  }
+  main h2{
+  color: #000;
+  font-family: "Roboto", Sans-serif;
+  font-size: 32px;
+  font-weight: 600;
+  position: relative;
+  top: 320px;
+  left: 20px;
+  }
+/*Company Clients*/
+.company_clients{
+  background-color: #e5e5e5;
+  height: 250px;
+  position: relative;
+  top: 100px !important;
+  z-index: 10;
+  padding-bottom: 30px;
+}
+.company_clients h1{
+  text-align: center;
+  font-size: 2.1em;
+  position: relative;
+  top: 15px;
+  font-family: "Roboto", Sans-serif;
+}
+
+/*Numbers with text*/
+.staffing-services {
+  background-color: white;
+  padding: 50px 20px;
+}
+.staffing-services h2 {
+  font-size: 2em;
+  margin-bottom: 30px;
+}
+.staffing-options {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  position: relative;
+  top: -160px;
+  z-index: 20;
+}
+.staffing-option {
+  margin: 20px;
+  padding: 20px;
+  background-color: #eaeaea;
+  border-radius: 10px;
+  width: 150px;
+  text-align: center;
+}
+.staffing-option h3 {
+  font-size: 69px;
+  margin: 0;
+}
+.staffing-option p {
+  font-size: 10px;
+  margin: 10px 0 0 0;
+}
+  /*=============================Flip cards=======================*/
+  .title {
+  font-size: 32px;
+  font-weight: bold;
+  color: #333;
+  margin-left: 180px;
+  margin-top: -200px;
+  }
+/*==============Footer==================*/
+#footer {
+  background-color: #000;
+  color: #fff;
+  width: 100%;
+  height: 85vh;
+  padding: 20px 0;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 0; /* Eliminate any top margin */
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+#img{
+  height: 110px;
+  width: 350px;
+  position: relative;
+  top: 30px;
+  left: 40px;
+}
+.content{
+  margin-left: 62px;
+  margin-top: -70px;
+}
+
+/*social media links*/
+.footer_social-media .fa-facebook{
+  color: #fff;
+  font-size: 25px;
+  position: relative;
+  top: 300px;
+  left: -440px;
+}
+.footer_social-media .fa-square-instagram{
+  color: #fff;
+  font-size: 25px;
+  position: relative;
+  top: 275px;
+  left: -370px;
+}
+.footer_social-media .fa-square-x-twitter{
+  color: #fff;
+  font-size: 25px;
+  position: relative;
+  top: 249px;
+  left: -300px;
+}
+.footer_social-media .fa-youtube{
+  color: #fff;
+  font-size: 25px;
+  position: relative;
+  top: 222px;
+  left: -230px;
+}
+.rights1{
+  position: relative;
+  top: 430px;
+  left: -505px;
+}
+
+/*Quick links*/
+#footer .quick_links h1{
+  color: #fff;
+  position: relative;
+  left: -278px;
+  top: 95px;
+  font-size: 27px;
+  font-family: 'Arial';
+  font-weight: bold;
+}
+
+/*blue line*/
+.quick_links::after{
+  content: '';
+  display: block;
+  width: 45%; /* This will ensure the underline is as wide as the content */
+  height: 3px; /* Adjust the height of the underline */
+  background-color: blue; /* Set the color of the underline */
+  position: relative;
+  left: -273px;
+  top: -80px;
+}
+}
+
+@media (max-width:1025px){
+    body{
+    overflow-x: hidden;
+    height: auto;
+    width: 100%;
+    position: relative;
+    top: unset;
+    left: unset;
+    }
+    html{
+    overflow-x: hidden;
+    }
+    
+    main h2{
+    color: #000;
+    font-family: "Roboto", Sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+    position: relative;
+    top: 350px;
+    left: 30px;
+    }
+    main p{
+    color: #fff;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    z-index: 20; /* Ensure text is above the overlay */
+    font-size: 16px; /* Adjust font size as needed */
+    text-align: center;
+    font-weight: 700;
+    font-family: "Roboto", Sans-serif;
+    }
+    main img{
+    position: relative;
+    top: 420px;
+    left: 530px;
+    width: 45%;
+    height: 300px;
+    }
+    .main-nav li a .caret {
+      margin-left: auto;
+    }
+    /*=========Content-section===============*/
+    .content-image {
+      margin-left: 500px;
+      margin-top: -300px;
+  }
+  .content-text {
+    width: 58%;
+    padding: 0 30px;
+  }
+  .content-image img {
+      max-width: 100% !important; /* Increase width */
+      max-height: 300px; /* Allow height to scale */
+  }
+      /*Company Clients*/
+      .company_clients{
+        background-color: #e5e5e5;
+        height: 300px;
+        margin-top: -80px;
+        }
+        
+    /*==============Numbers with text===========*/
+    .staffing-services {
+      background-color: white;
+      padding: 50px 20px;
+    }
+    .staffing-services h2 {
+      font-size: 2em;
+      margin-bottom: 30px;
+    }
+    .staffing-options {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      position: relative;
+      width: 30px;
+      top: -300px;
+      z-index: 20;
+    }
+    .staffing-option {
+      margin: 20px;
+      padding: 20px;
+      background-color: #eaeaea;
+      border-radius: 10px;
+      width: 150px;
+      text-align: center;
+    }
+    .staffing-option h3 {
+      font-size: 69px;
+      margin: 0;
+    }
+    .staffing-option p {
+      font-size: 10px;
+      margin: 10px 0 0 0;
+    }
+    .option1{
+      margin-left: 100px;
+      margin-top: 170px;
+    }
+    .option2{
+      margin-left: 480px;
+      margin-top: -180px;
+    }
+    .option3{
+      margin-left: 880px;
+      height: 150px;
+      margin-top: -195px;
+    }
+    .option4{
+      margin-left: 1250px;
+      height: 150px;
+      margin-top: -195px;
+    }
+    .option5{
+      margin-left: 1550px;
+      height: 150px;
+      margin-top: -195px;
+    }
+    .option6{
+      margin-left: 1850px;
+      height: 150px;
+      margin-top: -195px;
+    }
+    .card-container {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    top: -800px;
+    left: -50px;
+    justify-content: center;
+    gap: 20px;
+    }
+    /*=============================Flip cards=======================*/
+        .title {
+        font-size: 32px;
+        font-weight: bold;
+        color: #333;
+        margin-left: 180px;
+        margin-top: -380px;
+        }
+    /*======================CLEAR FIX======================*/
+    .clearfix h1{
+    color: #000000;
+    font-family: "Poppins", Sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    position: relative;
+    left: 200px;
+    top: 25px;
+    }
+    .clearfix p{
+    color: #000000;
+    font-family: "Poppins", Sans-serif;
+    font-size: 15px;
+    position: relative;
+    top: 35px;
+    left: 200px;
+    }
+    .clearfix button{
+    font-family: "Poppins", Sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    background-color: transparent;
+    background-image: radial-gradient(at center right, #066AAB 0%, #696969 100%);
+    border-radius: 30px 30px 30px 30px;
+    padding: 10px;
+    position: relative;
+    color: #fff;
+    top: -50px;
+    left: 700px;
+    }
+    /*=====================================Footer*======================================*/
+    #footer {
+      background-color: #000;
+      color: #fff;
+      width: 100%;
+      height: 73vh;
+      padding:  0;
+      position: absolute;
+      display: flex;
+      flex-wrap: wrap;
+      margin-top: 30px; /* Eliminate any top margin */
+      justify-content: space-between;
+      align-items: flex-start;
+      
+    }
+    #img{
+      height: 110px;
+      width: 310px;
+      position: relative;
+      top: 40px;
+      left: 40px;
+    }
+    
+    .content{
+      margin-left: 108px;
+      position: relative;
+      top: 10px;
+    }
+    #p{
+      color: darkgrey;
+      position: relative;
+      top: 230px;
+      margin-left: -458px;
+      font-size: 14px;
+      font-weight: 450;
+    }
+    .social-media{
+      margin-left: -98px;
+    }
+    .rights1{
+      margin-top: -50px;
+      margin-left: -50px;
+    }
+    /*Quick links*/
+    #footer .quick_links h1{
+      color: #fff;
+      position: relative;
+      left: -420px;
+      top: 55px;
+      font-size: 23px;
+      font-family: 'Arial';
+      font-weight: bold;
+      
+    }
+    /*blue line*/
+    .quick_links::after{
+      content: '';
+      display: block;
+      width: 45%; /* This will ensure the underline is as wide as the content */
+      height: 3px; /* Adjust the height of the underline */
+      background-color: blue; /* Set the color of the underline */
+      position: relative;
+      left: -415px;
+      top: -138px;
+    }
+    .quick_links ul{
+      font-size: 17.5px; 
+      list-style: none;
+    }
+    .quick_links ul li a{
+      text-decoration: none;
+      color: darkgrey;
+      position: relative;
+      left: -450px;
+      top: 110px;
+      line-height: 35px;
+    }
+    .quick_links li a:hover {
+      color: #8c52ff;
+    }
+    /*Contact Details*/
+    #contact h2{
+      color: #fff;
+      position: relative;
+      left: 680px;
+      top: -195px;
+      font-family: 'Arial';
+      font-size: 23px;
+      font-weight: bold;
+    }
+    #contact::after{
+      content: '';
+      display: block;
+      width: 21.5%; /* This will ensure the underline is as wide as the content */
+      height: 3px; /* Adjust the height of the underline */
+      background-color: blue; /* Set the color of the underline */
+      position: relative;
+      left: 685px;
+      top: -325px;
+    }
+    .contact-info{
+      line-height: 32px;
+      font-size: 14.5px;
+      font-weight: normal;
+      position: relative;
+      left: 935px;
+      top: -315px;
+    }
+    #contact i{
+      position: relative;
+      top: 175px;
+      color: #fff;
+      left: -250px;
+    
+    }
+    #contact i span{
+      padding: 10px;
+      font-family: 'Times New Roman', Times, serif;
+    }
+    /*+1 (561) 774-7978*/
+    #contact i .span{
+      position: relative;
+      top: 20px;
+      font-style: 'Arial';
+      font-weight: 450;
+      font-size: 18px;
+    }
+    #contact_1 i{
+      padding-top: 10px; 
+      line-height: 10px;
+    }
+    
+}
+   
+@media (max-width:769px){
+/*================Navbar===============*/
+nav {
+  display: none;
+  flex-direction: column;
+  width: 100%;
+  height: 310px;
+  text-align: center;
+  position: absolute;
+  top: 185px; /* Adjust based on your header height */
+  left: -20px;
+  padding: 20px;
+  background-color: #fff;
+  border-top: 1px solid #ddd;
+  z-index: 1000;
+}
+
+nav.active {
+  display: flex;
+}
+
+.main-nav {
+  flex-direction: column;
+  width: 100%;
+}
+
+.main-nav li ul {
+  position: static;
+  max-height: 0;
+  overflow: hidden;
+}
+
+.main-nav li.active ul {
+  display: block;
+  max-height: 600px; /* Adjust based on content */
+}
+
+.caret {
+  margin-left: 0;
+  display: inline;
+  transition: transform 0.3s;
+}
+
+.menuToggle {
+  display: block;
+  font-size: 30px;
+  color: #333;
+  transition: color 0.3s;
+}
+
+/*===============Main Section===============*/
+    main{
+    height: 300px; /* Adjust the height as needed */
+    background-image: url('https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcTaiXTW1z9jwDYHBHy7YQjo5mHyBv7WdADxNeaBKPNDizwCdfvM'); /* Path to your image */
+    background-size: cover; /* Ensure the image covers the header */
+    background-position: center; /* Center the image */
+    background-attachment: fixed; /* Fix the background image */
+    position: relative;
+    top: 40px;
+    z-index: 5;
+    }
+    main::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 10; /* Ensure text is above the overlay */
+    background-color: rgba(11, 9, 9, 0.55);
+    }
+    
+   /*=========Content-section===============*/
+   .content-image {
+    margin-left: 380px;
+    margin-top: -380px;
+}
+.content-text {
+  width: 58%;
+  padding: 0 30px;
+}
+.content-image img {
+    max-width: 100% !important; /* Increase width */
+    max-height: 300px; /* Allow height to scale */
+}
+  /*Company Clients*/
+    .company_clients{
+    background-color: #e5e5e5;
+    height: 430px;
+    margin-top: 30px;
+    z-index: 10;
+    }
+    /*Numbers with text*/
+    .staffing-services {
+      background-color: white;
+      padding: 50px 20px;
+    }
+    .staffing-services h2 {
+      font-size: 2em;
+      margin-bottom: 30px;
+    }
+    .staffing-options {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      position: relative;
+      top: -580px;
+      z-index: 20;
+    }
+    .staffing-option {
+      margin: 20px;
+      padding: 20px;
+      background-color: #eaeaea;
+      border-radius: 10px;
+      width: 150px;
+      text-align: center;
+    }
+    .staffing-option h3 {
+      font-size: 69px;
+      margin: 0;
+    }
+    .staffing-option p {
+      font-size: 10px;
+      margin: 10px 0 0 0;
+    }
+.option1{
+  margin-left: 180px;
+  margin-top: 300px;
+  min-width: 20vw !important;
+}
+.option2{
+  margin-left: 630px;
+  margin-top: -165px;
+  min-width: 20vw !important;
+}
+.option3{
+  margin-left: 1120px;
+  margin-top: -170px;
+  min-width: 20vw !important;
+}
+.option4{
+  margin-left: 180px;
+  margin-top: 2px;
+  min-width: 20vw !important;
+}
+.option5{
+  margin-left: 630px;
+  margin-top: -170px;
+  min-width: 20vw !important;
+}
+.option6{
+  margin-left: 1120px;
+  margin-top: -170px;
+  min-width: 20vw !important;
+}
+    /*=============================Flip cards=======================*/
+    .title {
+      font-size: 32px;
+      font-weight: bold;
+      color: #333;
+      margin-left: 120px;
+      margin-top: -650px;
+      }
+    .card-container {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    top: -800px;
+    left: -50px;
+    justify-content: center;
+    gap: 20px;
+    }
+    .card3{
+    margin-top: 2px;
+    }
+    .card1,.card2, .card3, .card4, .card5, .card6, .card7, .card8{
+    width: 300px !important;
+    }
+    .card1 h2{
+    margin-left: 20px !important;
+    }
+    .card7{
+    margin-top: 2px;
+    }
+    
+    /*==================Dropdown=====================*/
+    /*.accordion-header {
+    font-size: 18px;
+    padding: 10px;
+    }
+    
+    .accordion-content {
+    padding: 10px;
+    }
+    .accordion{
+    margin-left: -30px;
+    }
+    .symbol {
+    font-size: 20px;
+    }*/
+    .container {
+    width: 100%;
+    }
+    .accordion-header {
+    font-size: 16px;
+    padding: 10px;
+    }
+    /*====================CLEARFIX====================*/
+    .clearfix{
+    background-color: transparent;
+    height: 120px;
+    position: relative;
+    top: 300px;
+    background-image: linear-gradient(180deg, #F4F4F4 0%, #F4F4F4 100%);
+    }
+    .clearfix h1{
+    color: #000000;
+    font-family: "Poppins", Sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    position: relative;
+    left: 100px;
+    top: 25px;
+    }
+    .clearfix p{
+    color: #000000;
+    font-family: "Poppins", Sans-serif;
+    font-size: 15px;
+    position: relative;
+    top: 35px;
+    left: 100px;
+    }
+    .clearfix button{
+    font-family: "Poppins", Sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    background-color: transparent;
+    background-image: radial-gradient(at center right, #066AAB 0%, #696969 100%);
+    border-radius: 30px 30px 30px 30px;
+    padding: 10px;
+    position: relative;
+    color: #fff;
+    top: -50px;
+    left: 500px;
+    }
+    /*Contact Details*/
+    .contact h2{
+    position: relative;
+    left: 400px !important;
+    margin-top: 200px !important;
+    }
+    .contact::after{
+    content: '';
+    display: block;
+    width: 5%; /* This will ensure the underline is as wide as the content */
+    height: 2px; /* Adjust the height of the underline */
+    background-color: blue; /* Set the color of the underline */
+    position: relative;
+    left: 400px !important;
+    top: -510px;
+    }
+    .contact i{
+    position: relative;
+    top: -380px;
+    color: #fff;
+    left: 400px !important;
+    }
+    /*=============Footer=================*/
+    #footer {
+      background-color: #000;
+      color: #fff;
+      width: 100%;
+      height: 73vh;
+      padding: 0;
+      position: absolute;
+      display: flex;
+      flex-wrap: wrap;
+      margin-top: 8px; /* Eliminate any top margin */
+      justify-content: space-between;
+      align-items: flex-start;
+    }
+    #p{
+      color: darkgrey;
+      position: relative;
+      top: 230px;
+      margin-left: -425px;
+      font-size: 14px;
+      font-weight: 450;
+    }
+    .social-media{
+      margin-left: -23px;
+    }
+    .rights1{
+      margin-top: -50px;
+      position: relative;
+      left: -480px;
+    }
+    
+    /*Quick links*/
+    #footer .quick_links h1{
+      color: #fff;
+      position: relative;
+      left: 400px;
+      top: -135px;
+      font-size: 23px;
+      font-family: 'Arial';
+      font-weight: bold;
+    }
+    /*blue line*/
+    .quick_links::after{
+      content: '';
+      display: block;
+      width: 45%; /* This will ensure the underline is as wide as the content */
+      height: 3px; /* Adjust the height of the underline */
+      background-color: blue; /* Set the color of the underline */
+      position: relative;
+      left: 400px;
+      top: -300px;
+    }
+    .quick_links ul{
+      font-size: 17.5px;
+      list-style: none;
+    }
+    .quick_links ul li a{
+      text-decoration: none;
+      color: darkgrey;
+      position: relative;
+      left: 370px;
+      top: -110px;
+      line-height: 30px;
+    }
+    .quick_links li a:hover {
+      color: #8c52ff;
+    }
+    /*Contact Details*/
+    #contact h2{
+      color: #fff;
+      position: relative;
+      left:-32px;
+      top: 95px;
+      font-family: 'Arial';
+      font-size: 23px;
+      font-weight: bold;
+    }
+    #contact::after{
+      content: '';
+      display: block;
+      width: 21.5%; /* This will ensure the underline is as wide as the content */
+      height: 3px; /* Adjust the height of the underline */
+      background-color: blue; /* Set the color of the underline */
+      position: relative;
+      left: -30px;
+      top: -30px;
+    }
+    .contact-info{
+      line-height: 30px;
+      font-size: 14.5px;
+      font-weight: normal;
+      position: relative;
+      left: 218px;
+      top: -65px;
+    }
+    #contact i{
+      position: relative;
+      top: 175px;
+      color: #fff;
+      left: -250px;
+    }
+    #contact i span{
+      padding: 10px;
+      font-family: 'Times New Roman', Times, serif;
+    }
+    /*+1 (561) 774-7978*/
+    #contact i .span{
+      position: relative;
+      top: 20px;
+      font-style: 'Arial';
+      font-weight: 450;
+      font-size: 18px;
+    }
+    #contact_1 i{
+      padding-top: 10px; 
+      line-height: 10px;
+    }
+    }
+    
+@media (max-width:426px){
+  main h2{
+    color: #000;
+    font-family: "Roboto", Sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+    position: relative;
+    top: 310px;
+    left: 5px;
+  }
+  main h2 span{
+    position: relative;
+    left: 2px;
+    top: -2px;
+  }
+  main p{
+    position: relative;
+    top: -60px;
+  }
+  main img{
+    position: relative;
+    top: 750px;
+    left: 20px;
+    width: 90vw !important;
+    height: 200px;
+  }
+  /*===============Content section==============*/
+  .content-text {
+    width: 100%;
+    padding: 0;
+}
+.content-section h1{
+margin-top: 20px;
+}
+.content-text p,
+.content-text ul {
+    margin: 0 0 30px;
+    width: 90%;
+}
+.content-text p{
+  margin-top: 30px;
+}
+.content-image {
+  min-width: 100%;
+    width: 100% !important;
+    padding: 0;
+    margin-top: 40px;
+    margin-left: -12px;
+    display: block;
+    text-align: center;
+}
+.content-container{
+  display: block;
+  width: 100vw !important;
+} 
+.content-image img {
+  width: 100%;
+  max-height: none;
+}
+/*Company Clients*/
+.company_clients{
+background-color: #e5e5e5;
+height: 300px;
+position: relative;
+top: -250px !important;
+}
+
+  /*Company Clients*/
+  .company_clients{
+    background-color: #e5e5e5;
+    height: 720px;
+    margin-top: 250px;
+    z-index: 10;
+  }
+  /*Numbers with text*/
+  .staffing-services {
+    background-color: white;
+    padding: 50px 20px;
+  }
+  .staffing-services h2 {
+    font-size: 2em;
+    margin-bottom: 30px;
+  }
+  .staffing-options {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    position: relative;
+    top: -1350px;
+    z-index: 20;
+  }
+  .staffing-option {
+    margin: 20px;
+    padding: 20px;
+    background-color: #eaeaea;
+    border-radius: 10px;
+    width: 150px;
+    text-align: center;
+  }
+  .staffing-option h3 {
+    font-size: 69px;
+    margin: 0;
+  }
+  .staffing-option p {
+    font-size: 10px;
+    margin: 10px 0 0 0;
+  }
+  .staffing-option{
+    min-width: 150px !important; /* Adjust the width as needed */
+  }
+  .option1{
+    position: relative;
+    left: 60px;
+    top: 500px;
+  }
+  .option2{
+    position: relative;
+    top: 315px;
+    left: 280px;
+  }
+  .option3{
+    position: relative;
+    left: 60px;
+    top: 300px;
+  }
+  .option4{
+    position: relative;
+    top: 110px;
+    left: 280px;
+  }
+  .option5{
+    position: relative;
+    left: 60px;
+    top: 100px;
+  }
+  .option6{
+    position: relative;
+    left: 280px;
+    top: -85px;
+  }
+  /*=============================Flip cards=======================*/
+.title {
+font-size: 32px;
+font-weight: bold;
+color: #333;
+margin-left: 60px;
+margin-top: -1500px;
+}
+  .card-container {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    top: -800px;
+    left: -45px;
+    justify-content: center;
+    gap: 20px;
+  }
+  .card3{
+    margin-top: 2px;
+  }
+    .card1,.card2, .card3, .card4, .card5, .card6, .card7, .card8{
+    width: 300px !important;
+    margin-left: -50px;
+    }
+    .card1 h2{
+    margin-left: 20px !important;
+    }
+    .card7{
+    margin-top: 2px;
+    }
+    
+    /*=======================Dropdown=====================*/
+    .accordion-header {
+    font-size: 18px;
+    padding: 10px;
+    }
+    
+    .accordion-content {
+    padding: 10px;
+    }
+    .accordion{
+    margin-left: -10px;
+    width: 380px;
+    }
+    .symbol {
+    font-size: 20px;
+    }
+    
+    /*====================CLEARFIX====================*/
+    .clearfix{
+    background-color: transparent;
+    height: 180px;
+    position: relative;
+    top: 950px;
+    background-image: linear-gradient(180deg, #F4F4F4 0%, #F4F4F4 100%);
+    }
+    .clearfix h1{
+    color: #000000;
+    font-family: "Poppins", Sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    position: relative;
+    left: 30px;
+    top: 25px;
+    }
+    .clearfix p{
+    color: #000000;
+    font-family: "Poppins", Sans-serif;
+    font-size: 15px;
+    position: relative;
+    top: 35px;
+    left: 30px;
+    }
+    .clearfix button{
+    font-family: "Poppins", Sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    background-color: transparent;
+    background-image: radial-gradient(at center right, #066AAB 0%, #696969 100%);
+    border-radius: 30px 30px 30px 30px;
+    padding: 10px;
+    position: relative;
+    color: #fff;
+    top: 40px;
+    left: 120px;
+    }
+    /*========================Footer=================*/
+    #footer {
+      height: 800px;
+      margin-top: 40px;
+      padding: 20px 10px; /* Adjust padding for smaller screens */
+      display: block; /* Ensure footer items stack vertically */
+    }
+    #img{
+      height: 110px;
+      width: 350px;
+      position: relative;
+      top: -5px;
+      left: 40px;
+    }
+    #p{
+      color: rgba(255, 255, 255, 0.7);
+      position: relative;
+      top: 80px;
+      margin-left: -65px;
+      font-size: 15px;
+      font-weight: 400;
+      font-family: "Open Sans", Sans-serif;
+    }
+    .social-media{
+      position: relative;
+      left: 500px;
+      top: -200px;
+    }
+    .rights1{
+      margin-top: -400px;
+      position: relative;
+      left: 85px;
+    }
+    /*Quick links*/
+    #footer .quick_links h1{
+      color: #fff;
+      position: relative;
+      left: 40px;
+      top: 435px;
+      font-size: 23px;
+      font-family: 'Arial';
+      font-weight: bold;
+      
+      }
+      /*blue line*/
+      .quick_links::after{
+      content: '';
+      display: block;
+      width: 15%; /* This will ensure the underline is as wide as the content */
+      height: 3px; /* Adjust the height of the underline */
+      background-color: blue; /* Set the color of the underline */
+      position: relative;
+      left: 40px;
+      top: 268px;
+      }
+      .quick_links ul{
+      font-size: 17.5px;
+      list-style: none;
+      }
+      .quick_links ul li a{
+      text-decoration: none;
+      color: darkgrey;
+      position: relative;
+      left: 5px;
+      top: 450px;
+      line-height: 30px;
+      }
+      .quick_links li a:hover {
+      color: #8c52ff;
+      }
+    .contact-info{
+      line-height: 30px;
+      font-size: 14.5px;
+      font-weight: normal;
+      position: relative;
+      left: 285px;
+      top: 320px;
+      }
+      /*Contact Details*/
+    #contact h2{
+      color: #fff;
+      position: relative;
+      left: 35px;
+      top: 450px;
+      font-family: 'Arial';
+      font-size: 23px;
+      font-weight: bold;
+      }
+      #contact::after{
+      content: '';
+      display: block;
+      width: 21.5%; /* This will ensure the underline is as wide as the content */
+      height: 3px; /* Adjust the height of the underline */
+      background-color: blue; /* Set the color of the underline */
+      position: relative;
+      left: 36px;
+      top: 330px;
+      }
+    
+    }
+    
+    @media (max-width:376px){
+      header img{
+        margin-left: -10px;
+      }
+    main h2{
+    color: #000;
+    font-family: "Roboto", Sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+    position: relative;
+    top: 310px;
+    left: 2px;
+    }
+    
+    main p{
+      margin-top: -20px;
+    }
+    main img{
+    position: relative;
+    top: 830px;
+    left: 20px;
+    width: 90vw !important;
+    height: 200px;
+    }
+    /*Company Clients*/
+    .company_clients{
+      height: 600px;
+    }
+  .company_clients h1{
+    font-size: 22px;
+  }
+  .option2, .option4, .option6{
+    margin-left: -40px;
+  }
+  /*Numbers with text*/
+  .staffing-options {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    position: relative;
+    top: -1335px;
+    z-index: 20;
+  }
+  /*=============================Flip cards=======================*/
+  .title {
+    font-size: 25px;
+    font-weight: bold;
+    color: #333;
+    margin-left: 60px;
+    margin-top: -1500px !important;
+    }
+    .card-container {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    top: -800px;
+    left: -55px;
+    justify-content: center;
+    gap: 20px;
+    }
+    /*=======================Dropdown=====================*/
+    .accordion-header {
+    font-size: 18px;
+    padding: 10px;
+    }
+    
+    .accordion-content {
+    padding: 10px;
+    }
+    .accordion{
+    margin-left: -20px;
+    width: 350px;
+    }
+    .symbol {
+    font-size: 20px;
+    }
+    /*===================CLEARFIX=============*/
+    .clearfix h1{
+    color: #000000;
+    font-family: "Poppins", Sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    position: relative;
+    left: 10px;
+    top: 25px;
+    }
+    .clearfix p{
+    color: #000000;
+    font-family: "Poppins", Sans-serif;
+    font-size: 15px;
+    position: relative;
+    top: 35px;
+    left: 10px;
+    }
+    /*================Footer Section==================*/
+    #img{
+      height: 110px;
+      width: 300px;
+      position: relative;
+      top: -5px;
+      left: 40px;
+    }
+    }
+    
+    @media (max-width:321px){
+    /*Header Image*/
+    header img {
+    width: 75vw; /* Adjust image width for smaller screens */
+    /* other styles */
+    position: relative;
+    left: 15px;
+    }
+    main img{
+    position: relative;
+    top: 750px;
+    left: 20px;
+    width: 90vw !important;
+    height: 200px;
+    }
+    /*Company Clients*/
+.company_clients{
+  background-color: #e5e5e5;
+  height: 650px;
+  position: relative;
+  top: 40px;
+  z-index: 1;
+  padding-bottom: 30px;
+}
+/*===============Numbers with text=====================*/
+.staffing-option{
+  min-width: 100px !important; /* Adjust the width as needed */
+  min-height: 70px !important; 
+}
+.staffing-options {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  position: relative;
+  top: -1410px;
+  z-index: 20;
+}
+.option1{
+  margin-top: 60px;
+}
+.option2, .option4, .option6{
+  position: relative;
+  left: 250px;
+}
+    /*=============================Flip cards=======================*/
+    .title {
+    font-size: 25px;
+    font-weight: bold;
+    color: #333;
+    margin-left: 60px;
+    margin-top: 400px;
+    }
+    .card-container {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    top: -800px;
+    left: -60px;
+    justify-content: center;
+    gap: 20px;
+    }
+    /*=======================Dropdown=====================*/
+    .accordion-header {
+    font-size: 18px;
+    padding: 10px;
+    }
+    
+    .accordion-content {
+    padding: 10px;
+    }
+    .accordion{
+    margin-left: -20px;
+    width: 300px;
+    }
+    .symbol {
+    font-size: 20px;
+    }
+    /*===================CLEARFIX=============*/
+    .clearfix h1{
+    color: #000000;
+    font-family: "Poppins", Sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    position: relative;
+    left: 8px;
+    top: 25px;
+    }
+    .clearfix p{
+    color: #000000;
+    font-family: "Poppins", Sans-serif;
+    font-size: 15px;
+    position: relative;
+    top: 35px;
+    left: 8px;
+    }
+    .clearfix button{
+    font-family: "Poppins", Sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    background-color: transparent;
+    background-image: radial-gradient(at center right, #066AAB 0%, #696969 100%);
+    border-radius: 30px 30px 30px 30px;
+    padding: 10px;
+    position: relative;
+    color: #fff;
+    top: 5px;
+    left: 70px;
+    }
+    /*=============Footer Section===================*/
+    #footer{
+      margin-top: 40px;
+    }
+    #img{
+      height: 110px;
+      width: 280px;
+      position: relative;
+      top: -5px;
+      left: 10px;
+    }
+    #p{
+      color: rgba(255, 255, 255, 0.7);
+      position: relative;
+      top: 120px;
+      margin-left: -95px;
+      font-size: 15px;
+      font-weight: 400;
+      font-family: "Open Sans", Sans-serif;
+    }
+    .social-media{
+      position: relative;
+      left: 480px;
+      top: -150px;
+    }
+      .rights1{
+      margin-top: -50px;
+      position: relative;
+      left: -480px;
+    }
+    /*Quick links*/
+    #footer .quick_links h1{
+      color: #fff;
+      position: relative;
+      left: 15px;
+      top: 105px;
+      font-size: 23px;
+      font-family: 'Arial';
+      font-weight: bold;
+    }
+      /*blue line*/
+      .quick_links::after{
+      content: '';
+      display: block;
+      width: 15%; /* This will ensure the underline is as wide as the content */
+      height: 3px; /* Adjust the height of the underline */
+      background-color: blue; /* Set the color of the underline */
+      position: relative;
+      left: 15px;
+      top: -60px;
+      }
+      .quick_links ul{
+      font-size: 17.5px;
+      list-style: none;
+      }
+      .quick_links ul li a{
+      text-decoration: none;
+      color: darkgrey;
+      position: relative;
+      left: -15px;
+      top: 120px;
+      line-height: 30px;
+      }
+      .quick_links li a:hover {
+      color: #8c52ff;
+      }
+    .contact-info{
+      line-height: 30px;
+      font-size: 14.5px;
+      font-weight: normal;
+      position: relative;
+      left: 262px;
+      top: -35px;
+      }
+  /*Contact Details*/
+    #contact h2{
+      color: #fff;
+      position: relative;
+      left: 15px;
+      top: 125px;
+      font-family: 'Arial';
+      font-size: 23px;
+      font-weight: bold;
+      }
+      #contact::after{
+      content: '';
+      display: block;
+      width: 21.5%; /* This will ensure the underline is as wide as the content */
+      height: 3px; /* Adjust the height of the underline */
+      background-color: blue; /* Set the color of the underline */
+      position: relative;
+      left: 15px;
+      top: 5px;
+      }
+    }
+
+
+******JS******
+/*============Header and Navbar Toggle===========*/
+function toggleMenu() {
+  document.querySelector('nav').classList.toggle('active');
+}
+
+function toggleDropdown(event, dropdownId) {
+  event.preventDefault();
+  const dropdown = document.getElementById(dropdownId);
+  dropdown.classList.toggle('active');
+  const parentLi = dropdown.parentElement;
+  parentLi.classList.toggle('active');
+
+  // Update the caret icon
+  const caret = event.currentTarget.querySelector('.caret');
+  if (dropdown.classList.contains('active')) {
+    caret.textContent = '-';
+  } else {
+    caret.textContent = '+';
+  }
+}
+
+/*================Dropdown==============*/
+document.querySelectorAll('.section-header').forEach(header => {
+  header.addEventListener('click', () => {
+      const content = header.nextElementSibling;
+      const symbol = header.querySelector('.toggle-symbol');
+      content.style.display = content.style.display === 'none' ? 'block' : 'none';
+      symbol.textContent = symbol.textContent === '+' ? '−' : '+';
+  });
+});
+
+// Initialize all sections as collapsed
+document.querySelectorAll('.section-content').forEach(content => {
+  content.style.display = 'none';
+});
+
