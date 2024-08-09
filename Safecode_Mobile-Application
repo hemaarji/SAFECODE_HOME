@@ -1,0 +1,2392 @@
+******HTML******
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mobile Application Development Services - SafeCodeSoft</title>
+  <!-- Linking css file-->
+  <link rel="stylesheet" href="safecode_mobile-application.css" type="text/css" media="screen">
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+  integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+  crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- Link Swiper's CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/d38609c0ef.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  
+<!--Header and Navbar-->
+<header>
+  <a href="#">
+    <img class="image" src="https://safecodesoft.com/wp-content/uploads/2022/11/logo.jpeg" alt="">
+  </a>
+  <div class="menuToggle" onclick="toggleMenu()">☰</div>
+  <nav>
+    <ul class="main-nav">
+      <li><a href="#">Home</a></li>
+      <li>
+        <a href="#" onclick="toggleDropdown(event, 'company-dropdown')">
+          Company
+          <i class="fa fa-caret-down caret"></i>
+        </a>
+        <ul class="dropdown-container" id="company-dropdown">
+          <li><a href="http://127.0.0.1:5500/safecode_about.html">About us</a></li>
+          <li><a href="http://127.0.0.1:5500/safecode_clients.html">Our Clients</a></li>
+          <li><a href="http://127.0.0.1:5500/safecode_career.html">Career</a></li>
+        </ul>
+      </li>
+      <li>
+        <a href="#" onclick="toggleDropdown(event, 'services-dropdown')">
+          Services
+          <i class="fa fa-caret-down caret"></i>
+        </a>
+        <ul class="dropdown-container" id="services-dropdown">
+          <li><a href="http://127.0.0.1:5500/safecode_erp.html">ERP Services</a></li>
+          <li><a href="http://127.0.0.1:5500/safecode_application-management.html">Application Managed Services</a></li>
+          <li><a href="http://127.0.0.1:5500/safecode_it-staff.html">IT Staffing & Recruitment Services</a></li>
+          <li><a href="http://127.0.0.1:5500/safecode_lean-on.html">Lean on IT Services</a></li>
+          <li><a href="http://127.0.0.1:5500/safecode_cloud-migration.html">Cloud Migration</a></li>
+          <li><a href="http://127.0.0.1:5500/safecode_data-migration.html">Data Migrations</a></li>
+          <li><a href="http://127.0.0.1:5500/safecode_nearshore.html">Nearshore Development & Support Services</a></li>
+          <li><a href="http://127.0.0.1:5500/safecode_database-management.html">Database Administration</a></li>
+          <li><a href="http://127.0.0.1:5500/safecode_bi-analytics.html">Bi Advanced Analytics</a></li>
+          <li><a href="http://127.0.0.1:5500/safecode_web-development.html">Web Development</a></li>
+          <li><a href="http://127.0.0.1:5500/safecode_custom-development.html">Custom Development</a></li>
+          <li><a href="http://127.0.0.1:5500/safecode_cyber-security.html">Cyber Security</a></li>
+          <li><a href="http://127.0.0.1:5500/safecode_mobile-application.html">Mobile Application Development Services</a></li>
+        </ul>
+      </li>
+      <li>
+        <a href="#" onclick="toggleDropdown(event, 'practice-dropdown')">
+          Practices
+          <i class="fa fa-caret-down caret"></i>
+        </a>
+        <ul class="dropdown-container" id="practice-dropdown">
+          <li><a href="http://127.0.0.1:5500/safecode_people-soft.html">People Soft</a></li>
+          <li><a href="http://127.0.0.1:5500/safecode_oracle-cloud.html">Oracle Cloud Applications</a></li>
+          <li><a href="http://127.0.0.1:5500/safecode_oracle-ebusiness.html">Cloud E-Business Suite</a></li>
+          <li><a href="http://127.0.0.1:5500/safecode_sap.html">SAP</a></li>
+          <li><a href="http://127.0.0.1:5500/safecode_workday.html">Workday</a></li>
+          <li><a href="http://127.0.0.1:5500/safecode_salesforce.html">Salesforce</a></li>
+          <li><a href="http://127.0.0.1:5500/safecode_robotics.html"></a></li>
+          <li><a href="#">Robotic Process Automation</a></li>
+          <li><a href="http://127.0.0.1:5500/safecode_AR&VR.html">AR & VR</a></li>
+        </ul>
+      </li>
+      <li><a href="http://127.0.0.1:5500/safecode_contact.html">Contact us</a></li>
+    </ul>
+  </nav>
+</header>
+ 
+  <!--Main-->
+  <main>
+    <h1>Mobile Application Development Services</h1>
+  </main>   
+  <div class="content-section">
+    <h1>We help you build mobile app solutions to meet the business, industry, and end users' specific needs</h1>
+    <div class="content-container">
+        <div class="content-text">
+            <p>
+              SafeCodeSoft offers Mobile App development services to help you reach out to wider user base, or as part of your business process automation and/or simply to improve user experience. We create user-friendly and engaging mobile app solutions that cater to your specific business needs. We have a dedicated team of mobile app developers who can help you develop apps for your employees, customers, and partner network. We know how to explore the unlimited possibilities that mobile technologies offer these days. We have expertise in both native and cross platform apps.
+            </p>
+        <div class="content-image">
+          <img src="https://safecodesoft.com/wp-content/uploads/2023/06/Service-Pageinfo.png" alt="">
+        </div>
+    </div>
+</div>
+</div>
+ 
+<!--Image with Text-->
+<div class="background">
+  <h1>We have expertise in building mobile apps for every user, platform, and industry.</h1>
+  <div class="icons">
+    <img src="https://safecodesoft.com/wp-content/uploads/2023/06/mobile-2048x287-1.png" alt="">
+  </div>
+</div>
+  
+
+
+<!--Flip cards-->
+<div class="glass_container">
+  <h1 class="title">Key Highlights of our Mobile App Services</h1>
+  <div class="card-container">
+    <!-- Card 1 -->
+    <div class="flip-card card1">
+      <div class="flip-card-inner">
+        <div class="flip-card-front">
+          <h2>Marketing</h2>
+        </div>
+        <div class="flip-card-back">
+          <p>
+            Our digital marketing executives know how to promote the apps across various social media platforms. We also provide backlinks to your app if required to increase the number of installations of the app.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- Card 2 -->
+    <div class="flip-card card2">
+      <div class="flip-card-inner">
+        <div class="flip-card-front">
+          <h2>Maintenance & Optimization</h2>
+        </div>
+      <div class="flip-card-back">
+        <p>Our digital marketing executives know how to promote the apps across various social media platforms. We also provide backlinks to your app if required to increase the number of installations of the app.</p>
+      </div>
+    </div>
+  </div>
+  <!-- Card 3 -->
+  <div class="flip-card card3">
+    <div class="flip-card-inner">
+      <div class="flip-card-front">
+        <h2>Launch</h2>
+      </div>  
+      <div class="flip-card-back">
+        <p>Our digital marketing executives know how to promote the apps across various social media platforms. We also provide backlinks to your app if required to increase the number of installations of the app.</p>
+      </div>
+    </div>
+  </div>
+  <!-- Card 4 -->
+  <div class="flip-card card4">
+    <div class="flip-card-inner">
+      <div class="flip-card-front">
+        <h2>Integration</h2>
+      </div>
+      <div class="flip-card-back">
+        <p>Our digital marketing executives know how to promote the apps across various social media platforms. We also provide backlinks to your app if required to increase the number of installations of the app.</p>
+      </div>
+    </div>
+  </div>
+  <!-- Card 5 -->
+  <div class="flip-card card5">
+    <div class="flip-card-inner">
+      <div class="flip-card-front">
+        <h2>Customized Mobility Solutions</h2>
+      </div>
+      <div class="flip-card-back">
+        <p>Our digital marketing executives know how to promote the apps across various social media platforms. We also provide backlinks to your app if required to increase the number of installations of the app.</p>
+      </div>
+    </div>
+  </div>
+  <!-- Card 6 -->
+  <div class="flip-card card6">
+    <div class="flip-card-inner">
+      <div class="flip-card-front">
+        <h2>Thorough Testing</h2>
+      </div>
+      <div class="flip-card-back">
+        <p>
+          Our digital marketing executives know how to promote the apps across various social media platforms. We also provide backlinks to your app if required to increase the number of installations of the app.
+        </p>
+      </div>
+    </div>
+  </div>
+  <!-- Card 7 -->
+  <div class="flip-card card7">
+    <div class="flip-card-inner">
+      <div class="flip-card-front">
+        <h2>UX AND UI Design</h2>
+      </div>
+      <div class="flip-card-back">
+        <p>
+          Our digital marketing executives know how to promote the apps across various social media platforms. We also provide backlinks to your app if required to increase the number of installations of the app.
+        </p>
+      </div>
+    </div>
+  </div>
+  <!-- Card 8 -->
+  <div class="flip-card card8">
+    <div class="flip-card-inner">
+      <div class="flip-card-front">
+        <h2>Planning & Strategy</h2>
+      </div>
+      <div class="flip-card-back">
+        <p>Our digital marketing executives know how to promote the apps across various social media platforms. We also provide backlinks to your app if required to increase the number of installations of the app.</p>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+
+<!--Text with buttons-->
+<div class="buttons_text">
+  <button>
+    <i aria-hidden="true" class="fas fa-th">
+      <span>Experience & Expertise</span>
+    </i>
+  </button>
+  <button class="button">
+    <i class="fa-solid fa-expand">
+      <span>Customer Centric</span>
+    </i> 
+  </button>
+  <button class="button1">
+    <i class="fa-solid fa-x"></i>
+      <span>Proven Methodologies</span>
+    </i>
+  </button>
+
+  <div class="ul">
+    <ul>
+      <li>We have subject-matter experts in the field of cybersecurity management and policy who are knowledgeable with the latest technologies and current cybersecurity trends and bring a much deeper understanding of critical infrastructure, computer security, and security policy to your organization</li>
+      <li>Service delivery based on RRR – Right people in right place at right time</li>
+    </ul>
+  </div>
+</div>
+
+<!--CLEARFIX-->
+<div class="clearfix">
+  <h1>Want to learn details about us?</h1>
+  <p>Download our brochure for details of our work</p>
+  <a href="brochure.pdf" class="download-button">Download Here</a>
+</div>
+
+ <!--Footer-->
+ <footer class="footer-section" id="footer">
+  <img src="https://safecodesoft.com/wp-content/uploads/2022/11/logo.jpeg" alt="" id="img">
+  <div class="content">
+    <p id="p">
+      IT solutions and services leveraging our<br>
+      proven methodology and tools,<br>
+      experienced resources and thought<br>
+      leadership.
+    </p>
+  </div>
+  <div class="social-media">
+    <div class="footer_social-media">
+      <i class="fa-brands fa-facebook"></i>
+    </div>
+    <div class="footer_social-media">
+      <i class="fa-brands fa-square-instagram"></i>
+    </div>
+    <div class="footer_social-media">
+      <i class="fa-brands fa-square-x-twitter"></i>
+    </div>
+    <div class="footer_social-media">
+      <i class="fa-brands fa-youtube"></i>
+    </div>
+  </div>
+  <div class="rights1">
+     <p>
+      © Safecodesoft. All rights reserved.
+    </p>
+  </div>   
+ 
+  <!--Quick links-->
+  <div class="quick_links">
+    <h1>
+      QUICK LINKS
+    </h1>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Company</a></li>
+      <li><a href="#">Services</a></li>
+      <li><a href="#">Practices</a></li>
+      <li><a href="#">Contact Us</a></li>
+    </ul>
+  </div>
+
+  <div id="contact">
+    <h2>
+      CONTACT US
+    </h2>
+    <div class="contact-info">
+      <i class="fa-solid fa-phone">
+        <span>
+          +1 (512) 846-3799
+        </span>
+      </i>
+      <div class="contact_1">
+        <i class="fa-solid fa-phone">
+          <span>
+            +1 (561) 774-7978
+          </span>
+        </i>
+      </div>
+      <i class="fa-regular fa-envelope letter">
+        <span>
+          info@safecodesoft.com
+        </span>
+      </i>
+      <div class="location">
+        <i class="fa-solid fa-location-dot">
+          <span>
+            507 Denali Pass, Ste: 105, Cedar Park, TX 78613
+          </span>
+        </i>
+      </div>
+    </div>
+  </div>
+</footer>
+
+  <!-- Swiper JS -->
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script src="safecode_mobile-application.js"></script>
+</body>
+</html
+
+
+
+
+******CSS******
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /* Apply box-sizing to all elements */
+}
+body{
+  overflow-x: hidden;
+}
+        /*=================Header================*/
+/* Header Image */
+header img {
+  height: 100px;
+  width: auto;
+  position: relative;
+  margin: 10px 20px;
+}
+
+/* Header Styling */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+  background-color: #f5f5f5; /* Light background color */
+  color: #333; /* Dark text color for contrast */
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Subtle shadow */
+}
+
+/* Header Links */
+header a {
+  color: #333;
+  text-decoration: none;
+}
+
+/* Menu Toggle */
+.menuToggle {
+  display: none;
+  font-size: 30px;
+  cursor: pointer;
+  color: #333;
+  transition: color 0.3s;
+}
+
+.menuToggle:hover {
+  color: #ff5722; /* Bright color on hover */
+}
+
+/* Navigation Styling */
+nav {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  font-weight: 600;
+  
+  margin-left: 20px; /* Adjust space between image and nav */
+}
+
+.main-nav {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.main-nav li {
+  position: relative;
+}
+
+.main-nav li a {
+  padding: 10px 20px;
+  display: block;
+  color: #333;
+  font-weight: 600;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-transform: uppercase;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.main-nav li a:hover {
+  color: #ff5722; /* Bright background on hover */
+}
+
+/* Dropdown Menu Styling */
+.main-nav li ul {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #fff; /* White background */
+  border-radius: 8px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  min-width: 200px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  z-index: 1000;
+}
+
+.main-nav li ul li a {
+  padding: 10px 15px;
+  color: #333;
+}
+
+.main-nav li:hover ul {
+  display: block;
+}
+
+/* Dropdown Container Styling */
+.dropdown-container {
+  max-height: 800px; /* Increase this value as needed */
+  overflow: hidden;
+  background-color: #f5f5f5; /* Light background color */
+  border-radius: 8px;
+  transition: max-height 0.5s ease-in-out;
+}
+
+.dropdown-container.active {
+  max-height: 600px; /* Adjust based on content */
+}
+
+.dropdown-container li:hover a {
+  background-color: #ff5722; /* Bright background on hover */
+  color: #fff; /* Light text color on hover */
+}
+
+/* Caret Icon Styling */
+.caret {
+  margin-left: 5px;
+  transition: transform 0.3s;
+}
+
+/* Rotate caret on active state */
+.dropdown-container.active + a .caret {
+  transform: rotate(180deg);
+}
+#services-dropdown {
+  min-width: 300px; /* Minimum width */
+  width: auto; /* Allow width to adjust based on content */
+  white-space: nowrap; /* Prevent line breaks */
+}
+
+
+/*=====================Main Section====================*/
+main{
+  height: 300px; /* Adjust the height as needed */
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQDmUh0n7fo7TWCCdVHk-icqTvP83oPGXsPVELOUFc7zY7ul1bdVHfSDrkq7BlA5y8W3Q&usqp=CAU'); /* Path to your image */
+  background-size: cover; /* Ensure the image covers the header */
+  background-position: center; /* Center the image */
+  background-attachment: fixed; /* Fix the background image */
+  position: relative;
+  top: 70px;
+ 
+}
+main::after{
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  background-color: rgba(11, 9, 9, 0.55);
+}
+.text{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  z-index: 20; /* Ensure text is above the overlay */
+  font-size: 40px; /* Adjust font size as needed */
+  text-align: center;
+  font-weight: 600;
+  font-family: "Poppins", Sans-serif;
+}
+main h1{
+  position: relative;
+  z-index: 20;
+  color: white;
+  text-align: center;
+  padding: 100px 20px; /* Adjust padding as needed to center the text vertically */
+  margin: 0;
+}
+main img{
+  position: relative;
+  top: 330px;
+  left: 780px;
+  width: 45%;
+  height: 300px;
+}
+/*========Content Section========*/
+.content-section {
+  width: 100%;
+  max-width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+  background: #fff; /* Ensure background is white */
+}
+
+.content-section h1 {
+  font-family: "Roboto", Sans-serif;
+  text-align: center;
+  margin-top: 80px;
+  color: #000;
+  font-weight: 600;
+  width: 100%;
+  font-size: 32px;
+}
+
+.content-container {
+  display: flex;
+  align-items: flex-start;
+}
+
+.content-text {
+  width: 50%;
+  padding: 0 30px;
+}
+
+.content-text p,
+.content-text ul {
+  text-align: justify;
+  margin: 0 0 20px;
+}
+.content-text p{
+  margin: 0 0 30px; /* Adjust the bottom margin to control space between paragraphs */
+}
+.content-text p:first-of-type {
+  margin-top: 80px; /* Adjust this value to move the first paragraph from the top */
+}
+
+.content-text ul {
+  padding-left: 20px;
+}
+
+.content-text ul li {
+  list-style-type: square;
+}
+.content-image {
+  width: 100%;
+  padding: 0 30px;
+  display: flex;
+  justify-content: center;
+  margin-left: 750px;
+  margin-top: -280px;
+}
+.content-image img {
+  width: 90%; /* Increase width */
+  height: auto; /* Adjust height */
+  max-height: 300px; /* Set a max height if needed */
+}
+/*=================Image with Text=====================*/
+.background{
+  background-color: transparent;
+  height: 280px;
+  position: relative;
+  top: 30px;
+  z-index: 10;
+  background-image: linear-gradient(180deg, #164285 0%, #164285 100%);
+  }
+  .background h1{
+  color: #fff;
+  font-family: "Roboto", Sans-serif;
+  font-size: 26px;
+  font-weight: 500;
+  position: relative;
+  /*left: 360px;*/
+  text-align: center;
+  top: 25px;
+  line-height: 1;
+  }
+  .icons img{
+  margin-left: 50px;
+  margin-top: 20px;
+  height: 200px;
+  }
+
+
+/*=============================Flip cards=======================*/
+.glass_container {
+  width: 90%;
+  text-align: center;
+  margin-top: 50px;
+  }
+  
+  .title {
+  font-size: 36px;
+  font-weight: 600;
+  color: #0E0E0E;
+  margin-left: 180px;
+  font-family: "Poppins", Sans-serif;
+  margin-top: 80px;
+}
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  top: -800px;
+  justify-content: center;
+  gap: 20px;
+}
+  
+  .flip-card {
+  background-color: transparent;
+  width: 30%;
+  position: relative;
+  top: 850px;
+  left: 100px;
+  /*max-width: 350px;*/
+  height: 300px;
+  perspective: 1000px;
+  margin-bottom: 20px;
+  }
+  .flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  }
+  
+  .flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+  }
+  .flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  border-radius: 10px;
+  }
+  
+  .flip-card-front {
+  background-color: grey;
+  color: white;
+  display: flex;
+  font-size: 25px;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  }
+  .flip-card-front h2{
+  margin-left: -20px !important;
+  font-size: 25px;
+  }
+  .flip-card-front i{
+  font-size: 40px;
+  }
+  .flip-card-back {
+  background-color: #2980b9;
+  color: white;
+  transform: rotateY(180deg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  }
+  .flip-card-back p{
+  font-size: 18px;
+  }
+  .flip-card-front h2, .flip-card-back p {
+  margin: 0;
+  }
+  
+  /* Additional specific styles for each card if needed */
+  .card1 .flip-card-front {
+  background-color: grey;
+  }
+  .card2 .flip-card-front {
+  background-color: grey;
+  }
+  
+  .card3 .flip-card-front {
+  background-color: grey;
+  }
+  .card4 .flip-card-front {
+  background-color: grey;
+  }
+  
+  .card5 .flip-card-front {
+  background-color: grey;
+  }
+  
+  .card6 .flip-card-front {
+  background-color: grey;
+  }
+  
+/*==================Text with buttons=========================*/
+.buttons_text{
+  background-color: transparent;
+  height: 230px;
+  position: relative;
+  top: 170px;
+  z-index: 10;
+  background-image: linear-gradient(180deg, #164285 0%, #02122a 100%);
+}
+button{
+  border: none !important;
+  border-radius: 10px !important;
+  padding: 10px;
+  font-size: 16px;
+  position: absolute;
+  top: 30px;
+  left: 30px;
+}
+button:hover{
+  background-color: #1637cb;
+  color: #fff;
+}
+button span, .button span, .button1 span{
+  flex-grow: 1;
+  order: 10;
+  font-size: 16px;
+  font-family: 'Poppins';
+  display: inline-block;
+}
+.button{
+  border: none !important;
+  border-radius: 10px !important;
+  padding: 10px;
+  font-size: 16px;
+  position: absolute;
+  top: 30px;
+  left: 580px;
+}
+.button1{
+  border: none !important;
+  border-radius: 10px !important;
+  padding: 10px;
+  font-size: 16px;
+  position: absolute;
+  top: 30px;
+  left: 1150px;
+}
+.ul{
+  color: #fff;
+  position: absolute;
+  top: 120px;
+  line-height: 30px;
+}
+
+button{
+  border: none !important;
+  border-radius: 10px !important;
+  padding: 10px;
+  font-size: 16px;
+  position: absolute;
+  top: 30px;
+  left: 30px;
+}
+/*====================CLEARFIX==================*/
+.clearfix{
+  background-color: transparent;
+  height: 120px;
+  position: relative;
+  top: 200px;
+  background-image: linear-gradient(180deg, #F4F4F4 0%, #F4F4F4 100%);
+}
+.clearfix h1{
+  color: #000000;
+  font-family: "Poppins", Sans-serif;
+  font-size: 22px;
+  font-weight: 600;
+  position: relative;
+  left: 360px;
+  top: 25px;
+}
+.clearfix p{
+  color: #000000;
+    font-family: "Poppins", Sans-serif;
+    font-size: 15px;
+    position: relative;
+    top: 35px;
+    left: 360px;
+}
+.download-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  position: relative;
+  top: -40px;
+  left: 920px;
+  transition: background-color 0.3s ease-in;
+}
+
+.download-button:hover {
+  background-color: #0056b3;
+}
+ /*=====================================Footer*======================================*/
+ #footer {
+  background-color: #000;
+  color: #fff;
+  width: 100%;
+  height: 85vh;
+  margin-top: 280px;
+  padding: 20px 0;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+/*
+#footer{
+  background-color: #000;
+  width: 100vw;
+  height: auto !important;
+  margin-top: 20px;
+  padding-bottom: 20px;
+  position: relative; 
+}*/
+#img{
+  height: 110px;
+  width: 350px;
+  position: relative;
+  top: 80px;
+  left: 40px;
+}
+.content{
+  margin-left: 45px;
+}
+#p{
+  color: darkgrey;
+  position: relative;
+  top: 230px;
+  
+  margin-left: -408px;
+  font-size: 18px;
+  font-weight: 450;
+}
+/*social media links*/
+.footer_social-media .fa-facebook{
+  color: #fff;
+  font-size: 25px;
+  position: relative;
+  top: 380px;
+  right: 458px;
+}
+
+.footer_social-media .fa-square-instagram{
+  color: #fff;
+  font-size: 25px;
+  position: relative;
+  top: 355px;
+  left: -395px;
+}
+.footer_social-media .fa-square-x-twitter{
+  color: #fff;
+  font-size: 25px;
+  position: relative;
+  top: 328px;
+  left: -330px;
+}
+.footer_social-media .fa-youtube{
+  color: #fff;
+  font-size: 25px;
+  position: relative;
+  top: 300px;
+  left: -265px;
+}
+.rights1{
+  color: darkgray;
+  position: relative;
+  top: 500px;
+  left: -540px;
+
+}
+/*Quick links*/
+#footer .quick_links h1{
+  color: #fff;
+  position: relative;
+  left: -278px;
+  top: 95px;
+  font-size: 27px;
+  font-family: 'Arial';
+  font-weight: bold;
+  
+}
+/*blue line*/
+.quick_links::after{
+  content: '';
+  display: block;
+  width: 45%; /* This will ensure the underline is as wide as the content */
+  height: 3px; /* Adjust the height of the underline */
+  background-color: blue; /* Set the color of the underline */
+  position: relative;
+  left: -273px;
+  top: -80px;
+}
+.quick_links ul{
+  font-size: 17.5px; 
+  list-style: none;
+}
+.quick_links ul li a{
+  text-decoration: none;
+  color: darkgrey;
+  position: relative;
+  left: -312px;
+  top: 150px;
+  line-height: 35px;
+}
+.quick_links li a:hover {
+  color: #8c52ff;
+}
+
+/*Contact Details*/
+#contact h2{
+  color: #fff;
+  position: relative;
+  left: -258px;
+  top: 95px;
+  font-family: 'Arial';
+  font-size: 27px;
+  font-weight: bold;
+}
+#contact::after{
+  content: '';
+  display: block;
+  width: 21.5%; /* This will ensure the underline is as wide as the content */
+  height: 3px; /* Adjust the height of the underline */
+  background-color: blue; /* Set the color of the underline */
+  position: relative;
+  left: -255px;
+  top: -18px;
+}
+.contact-info{
+  line-height: 32px;
+  font-size: 18px;
+  font-weight: normal;
+}
+#contact i{
+  position: relative;
+  top: 175px;
+  color: #fff;
+  left: -250px;
+
+}
+#contact i span{
+  padding: 10px;
+  font-family: 'Times New Roman', Times, serif;
+}
+/*+1 (561) 774-7978*/
+#contact i .span{
+  position: relative;
+  top: 20px;
+  font-style: 'Arial';
+  font-weight: 450;
+  font-size: 18px;
+}
+#contact_1 i{
+  padding-top: 10px; line-height: 10px;
+}
+
+
+@media (max-width:1441px){
+  body{
+  overflow-x: hidden;
+  height: auto;
+  width: 100%;
+  position: relative;
+  top: unset;
+  left: unset;
+  }
+  html{
+  overflow-x: hidden;
+  }
+
+  .text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    z-index: 20; /* Ensure text is above the overlay */
+    font-size: 2.1em; /* Adjust font size as needed */
+    text-align: center;
+    font-weight: 600;
+  }
+  .texts p{
+    font-family: "Roboto", Sans-serif;
+    color: #000;
+    position: relative;
+    top: 130px;
+    left: 60px;
+    width: 48%;
+    line-height: 34px;
+    font-size: 18px;
+    font-weight: 100;
+  }
+  main h2{
+    position: relative;
+    top: 20px;
+    text-align: center;
+    font-family: "Poppins";
+    font-weight: 500;
+    font-size: 2.1em;
+    line-height: 1.1em;
+    letter-spacing: 0px;
+    color: #000;
+  }
+  main img{
+    position: relative;
+    top: 450px;
+    left: 780px;
+    width: 45%;
+    height: 300px;
+  }
+
+  /*===========Image with Text===============*/
+  .icons img{
+    margin-left: 20px;
+    margin-top: 20px;
+    height: 200px;
+    }
+  /*=============================Flip cards=======================*/
+  .title {
+    font-size: 36px;
+    font-weight: 600;
+    color: #0E0E0E;
+    margin-left: 180px;
+    font-family: "Poppins", Sans-serif;
+    margin-top: 40px;
+    }
+    /*============Footer===========*/
+    #footer {
+      background-color: #000;
+      color: #fff;
+      width: 100%;
+      height: 85vh;
+      padding: 20px 0;
+      position: relative;
+      display: flex;
+      flex-wrap: wrap;
+      margin-top: 280px; /* Eliminate any top margin */
+      justify-content: space-between;
+      align-items: flex-start;
+    }
+    
+    #img{
+      height: 110px;
+      width: 350px;
+      position: relative;
+      top: 30px;
+      left: 40px;
+    }
+    .content{
+      margin-left: 62px;
+      margin-top: -70px;
+    }
+    
+    /*social media links*/
+    .footer_social-media .fa-facebook{
+      color: #fff;
+      font-size: 25px;
+      position: relative;
+      top: 300px;
+      left: -440px;
+    }
+    .footer_social-media .fa-square-instagram{
+      color: #fff;
+      font-size: 25px;
+      position: relative;
+      top: 275px;
+      left: -370px;
+    }
+    .footer_social-media .fa-square-x-twitter{
+      color: #fff;
+      font-size: 25px;
+      position: relative;
+      top: 249px;
+      left: -300px;
+    }
+    .footer_social-media .fa-youtube{
+      color: #fff;
+      font-size: 25px;
+      position: relative;
+      top: 222px;
+      left: -230px;
+    }
+    .rights1{
+      position: relative;
+      top: 430px;
+      left: -505px;
+    }
+    
+    /*Quick links*/
+    #footer .quick_links h1{
+      color: #fff;
+      position: relative;
+      left: -278px;
+      top: 95px;
+      font-size: 27px;
+      font-family: 'Arial';
+      font-weight: bold;
+    }
+    
+    /*blue line*/
+    .quick_links::after{
+      content: '';
+      display: block;
+      width: 45%; /* This will ensure the underline is as wide as the content */
+      height: 3px; /* Adjust the height of the underline */
+      background-color: blue; /* Set the color of the underline */
+      position: relative;
+      left: -273px;
+      top: -80px;
+    }
+  }
+
+@media (max-width:1025px){
+  .main-nav li a .caret {
+    margin-left: auto;
+    }
+    body{
+    overflow-x: hidden;
+    height: auto;
+    width: 100%;
+    position: relative;
+    top: unset;
+    left: unset;
+    }
+    html{
+    overflow-x: hidden;
+    }
+    
+    .text{
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: #fff;
+      z-index: 20; /* Ensure text is above the overlay */
+      font-size: 2.1em; /* Adjust font size as needed */
+      text-align: center;
+      font-weight: 600;
+    }
+    main h2{
+      position: relative;
+      top: 60px;
+      text-align: center;
+      font-family: "Poppins";
+      font-weight: 500;
+      font-size: 2.1em;
+      line-height: 1.1em;
+      letter-spacing: 0px;
+      color: #000;
+    }
+    main img{
+      position: relative;
+      top: 450px;
+      left: 530px;
+      width: 45%;
+      height: 250px;
+    }
+    .texts p{
+      font-family: "Roboto", Sans-serif;
+      color: #000;
+      position: relative;
+      top: 130px;
+      left: 60px;
+      width: 48%;
+      line-height: 34px;
+      font-size: 18px;
+      font-weight: 100;
+    }
+    /*=======Content Section============*/
+    .content-image img{
+      height: 380px;
+      width: 110% !important;
+      margin-left: -500px ;
+      margin-top: -50px;
+    }
+    /*===========Image with Text===============*/
+    .icons img{
+      margin-left: -40px;
+      margin-top: 20px;
+      height: 150px;
+      }
+    /*=============================Flip cards=======================*/
+    .title {
+      font-size: 36px;
+      font-weight: 600;
+      color: #0E0E0E;
+      margin-left: 90px;
+      font-family: "Poppins", Sans-serif;
+      margin-top: 40px;
+      width: 100%;
+      }
+    .card-container {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    top: -800px;
+    left: -50px;
+    justify-content: center;
+    gap: 20px;
+    }
+    /*=======================Text with buttons==============*/
+
+    .button1{
+      border: none !important;
+      border-radius: 10px !important;
+      padding: 10px;
+      font-size: 16px;
+      position: absolute;
+      top: 30px;
+      left: 780px;
+    }
+    .button{
+      border: none !important;
+      border-radius: 10px !important;
+      padding: 10px;
+      font-size: 16px;
+      position: absolute;
+      top: 30px;
+      left: 430px;
+    }
+    .buttons_text{
+      background-color: transparent;
+      height: 250px;
+      position: relative;
+      top: 170px;
+      z-index: 10;
+      background-image: linear-gradient(180deg, #164285 0%, #02122a 100%);
+    }
+
+    /*======================CLEAR FIX======================*/
+    .download-button {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #007bff;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 5px;
+      position: relative;
+      top: -40px;
+      left: 620px;
+      transition: background-color 0.3s ease-in;
+    }
+    .clearfix h1{
+      color: #000000;
+      font-family: "Poppins", Sans-serif;
+      font-size: 22px;
+      font-weight: 600;
+      position: relative;
+      left: 200px;
+      top: 25px;
+    }
+    .clearfix p{
+      color: #000000;
+        font-family: "Poppins", Sans-serif;
+        font-size: 15px;
+        position: relative;
+        top: 35px;
+        left: 200px;
+    }
+    /*=====================================Footer*======================================*/
+    #footer {
+      background-color: #000;
+      color: #fff;
+      width: 100%;
+      height: 73vh;
+      padding:  0;
+      position: absolute;
+      display: flex;
+      flex-wrap: wrap;
+      margin-top: 280px; /* Eliminate any top margin */
+      justify-content: space-between;
+      align-items: flex-start;
+      
+    }
+    #img{
+      height: 110px;
+      width: 310px;
+      position: relative;
+      top: 40px;
+      left: 40px;
+    }
+    
+    .content{
+      margin-left: 108px;
+      position: relative;
+      top: 10px;
+    }
+    #p{
+      color: darkgrey;
+      position: relative;
+      top: 230px;
+      margin-left: -458px;
+      font-size: 14px;
+      font-weight: 450;
+    }
+    .social-media{
+      margin-left: -98px;
+    }
+    .rights1{
+      margin-top: -50px;
+      margin-left: -50px;
+    }
+    /*Quick links*/
+    #footer .quick_links h1{
+      color: #fff;
+      position: relative;
+      left: -420px;
+      top: 55px;
+      font-size: 23px;
+      font-family: 'Arial';
+      font-weight: bold;
+      
+    }
+    /*blue line*/
+    .quick_links::after{
+      content: '';
+      display: block;
+      width: 45%; /* This will ensure the underline is as wide as the content */
+      height: 3px; /* Adjust the height of the underline */
+      background-color: blue; /* Set the color of the underline */
+      position: relative;
+      left: -415px;
+      top: -138px;
+    }
+    .quick_links ul{
+      font-size: 17.5px; 
+      list-style: none;
+    }
+    .quick_links ul li a{
+      text-decoration: none;
+      color: darkgrey;
+      position: relative;
+      left: -450px;
+      top: 110px;
+      line-height: 35px;
+    }
+    .quick_links li a:hover {
+      color: #8c52ff;
+    }
+    /*Contact Details*/
+    #contact h2{
+      color: #fff;
+      position: relative;
+      left: 680px;
+      top: -195px;
+      font-family: 'Arial';
+      font-size: 23px;
+      font-weight: bold;
+    }
+    #contact::after{
+      content: '';
+      display: block;
+      width: 21.5%; /* This will ensure the underline is as wide as the content */
+      height: 3px; /* Adjust the height of the underline */
+      background-color: blue; /* Set the color of the underline */
+      position: relative;
+      left: 685px;
+      top: -325px;
+    }
+    .contact-info{
+      line-height: 32px;
+      font-size: 14.5px;
+      font-weight: normal;
+      position: relative;
+      left: 935px;
+      top: -315px;
+    }
+    #contact i{
+      position: relative;
+      top: 175px;
+      color: #fff;
+      left: -250px;
+    
+    }
+    #contact i span{
+      padding: 10px;
+      font-family: 'Times New Roman', Times, serif;
+    }
+    /*+1 (561) 774-7978*/
+    #contact i .span{
+      position: relative;
+      top: 20px;
+      font-style: 'Arial';
+      font-weight: 450;
+      font-size: 18px;
+    }
+    #contact_1 i{
+      padding-top: 10px; line-height: 10px;
+    }
+    
+}
+     
+@media (max-width:769px){
+  /*======================Header and Navbar====================*/
+  nav {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    height: 310px;
+    text-align: center;
+    position: absolute;
+    top: 185px; /* Adjust based on your header height */
+    left: -20px;
+    padding: 20px;
+    background-color: #fff;
+    border-top: 1px solid #ddd;
+    z-index: 1000;
+  }
+
+  nav.active {
+    display: flex;
+  }
+
+  .main-nav {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .main-nav li ul {
+    position: static;
+    max-height: 0;
+    overflow: hidden;
+  }
+
+  .main-nav li.active ul {
+    display: block;
+    max-height: 600px; /* Adjust based on content */
+  }
+
+  .caret {
+    margin-left: 0;
+    display: inline;
+    transition: transform 0.3s;
+  }
+
+  .menuToggle {
+    display: block;
+    font-size: 30px;
+    color: #333;
+    transition: color 0.3s;
+  }
+  /*=============Main section============*/
+    main{
+    height: 300px; /* Adjust the height as needed */
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQDmUh0n7fo7TWCCdVHk-icqTvP83oPGXsPVELOUFc7zY7ul1bdVHfSDrkq7BlA5y8W3Q&usqp=CAU'); /* Path to your image */
+    background-size: cover; /* Ensure the image covers the header */
+    background-position: center; /* Center the image */
+    background-attachment: fixed; /* Fix the background image */
+    position: relative;
+    top: 40px;
+    z-index: 5;
+    }
+    main::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 10; /* Ensure text is above the overlay */
+    background-color: rgba(11, 9, 9, 0.55);
+    }
+    
+    main img{
+      position: relative;
+      top: 480px;
+      left: 430px;
+      width: 40%;
+      height: 250px;
+    }
+    .texts p{
+      font-family: "Roboto", Sans-serif;
+      color: #000;
+      position: relative;
+      top: 70px;
+      left: 30px;
+      width: 55%;
+      line-height: 30px;
+      font-size: 18px;
+      font-weight: 100;
+    }
+    /*========Content Section===========*/
+    .content-image img{
+      width: 430px;
+      margin-top: -130px;
+      margin-left: -700px;
+    }
+/*=================Image with Text=====================*/
+.background{
+  background-color: transparent;
+  height: 220px;
+  position: relative;
+  top: 80px;
+  z-index: 10;
+  background-image: linear-gradient(180deg, #8ed1fc 0%, #8ed1fc 100%);
+}
+.icons img{
+  margin-left: 20px;
+  margin-top: 20px;
+  height: 150px;
+  width: 95%;
+  }
+
+
+
+    /*=============================Flip cards=======================*/
+    .title {
+      font-size: 36px;
+      font-weight: 600;
+      color: #0E0E0E;
+      margin-left: 80px;
+      font-family: "Poppins", Sans-serif;
+      margin-top: 130px;
+      width: 100%;
+      }
+    .card-container {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    top: -800px;
+    left: -50px;
+    justify-content: center;
+    gap: 20px;
+    }
+    .card3{
+    margin-top: 2px;
+    }
+    .card1,.card2, .card3, .card4, .card5, .card6, .card7, .card8{
+    width: 300px !important;
+    }
+    .card1 h2{
+    margin-left: 20px !important;
+    }
+    .card7{
+    margin-top: 2px;
+    }
+    
+    /*=======================Text with buttons==============*/
+
+    .button1{
+      border: none !important;
+      border-radius: 10px !important;
+      padding: 10px;
+      font-size: 16px;
+      position: absolute;
+      top: 30px;
+      left: 550px;
+    }
+    .button{
+      border: none !important;
+      border-radius: 10px !important;
+      padding: 10px;
+      font-size: 16px;
+      position: absolute;
+      top: 30px;
+      left: 320px;
+    }
+    .buttons_text{
+      background-color: transparent;
+      height: 280px;
+      position: relative;
+      top: 170px;
+      z-index: 10;
+      background-image: linear-gradient(180deg, #164285 0%, #02122a 100%);
+    }
+    /*====================CLEARFIX====================*/
+    .download-button {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #007bff;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 5px;
+      position: relative;
+      top: -40px;
+      left: 550px;
+      transition: background-color 0.3s ease-in;
+    }
+    .clearfix h1{
+      color: #000000;
+      font-family: "Poppins", Sans-serif;
+      font-size: 22px;
+      font-weight: 600;
+      position: relative;
+      left: 100px;
+      top: 25px;
+    }
+    .clearfix p{
+      color: #000000;
+        font-family: "Poppins", Sans-serif;
+        font-size: 15px;
+        position: relative;
+        top: 35px;
+        left: 100px;
+    }
+    /*==================Footer================*/
+    #footer {
+      background-color: #000;
+      color: #fff;
+      width: 100%;
+      height: 73vh;
+      padding: 0;
+      position: absolute;
+      display: flex;
+      flex-wrap: wrap;
+      margin-top: 280px; /* Eliminate any top margin */
+      justify-content: space-between;
+      align-items: flex-start;
+    }
+    #p{
+      color: darkgrey;
+      position: relative;
+      top: 230px;
+      margin-left: -425px;
+      font-size: 14px;
+      font-weight: 450;
+    }
+    .footer_social-media{
+      position: relative;
+      left: -20px;
+      top: 20px;
+    }
+    .social-media{
+      margin-left: -23px;
+    }
+    .rights1{
+      margin-top: -50px;
+      position: relative;
+      left: -480px;
+    }
+    
+    /*Quick links*/
+    #footer .quick_links h1{
+      color: #fff;
+      position: relative;
+      left: 400px;
+      top: -135px;
+      font-size: 23px;
+      font-family: 'Arial';
+      font-weight: bold;
+    }
+    /*blue line*/
+    .quick_links::after{
+      content: '';
+      display: block;
+      width: 45%; /* This will ensure the underline is as wide as the content */
+      height: 3px; /* Adjust the height of the underline */
+      background-color: blue; /* Set the color of the underline */
+      position: relative;
+      left: 400px;
+      top: -300px;
+    }
+    .quick_links ul{
+      font-size: 17.5px;
+      list-style: none;
+    }
+    .quick_links ul li a{
+      text-decoration: none;
+      color: darkgrey;
+      position: relative;
+      left: 370px;
+      top: -110px;
+      line-height: 30px;
+    }
+    .quick_links li a:hover {
+      color: #8c52ff;
+    }
+    /*Contact Details*/
+    #contact h2{
+      color: #fff;
+      position: relative;
+      left:-32px;
+      top: 95px;
+      font-family: 'Arial';
+      font-size: 23px;
+      font-weight: bold;
+    }
+    #contact::after{
+      content: '';
+      display: block;
+      width: 21.5%; /* This will ensure the underline is as wide as the content */
+      height: 3px; /* Adjust the height of the underline */
+      background-color: blue; /* Set the color of the underline */
+      position: relative;
+      left: -30px;
+      top: -30px;
+    }
+    .contact-info{
+      line-height: 30px;
+      font-size: 14.5px;
+      font-weight: normal;
+      position: relative;
+      left: 218px;
+      top: -65px;
+    }
+    #contact i{
+      position: relative;
+      top: 175px;
+      color: #fff;
+      left: -250px;
+    }
+    #contact i span{
+      padding: 10px;
+      font-family: 'Times New Roman', Times, serif;
+    }
+    /*+1 (561) 774-7978*/
+    #contact i .span{
+      position: relative;
+      top: 20px;
+      font-style: 'Arial';
+      font-weight: 450;
+      font-size: 18px;
+    }
+    #contact_1 i{
+      padding-top: 10px; 
+      line-height: 10px;
+    }
+    }
+    
+@media (max-width:426px){
+  main img{
+    position: relative;
+    top: 760px;
+    left: 25px;
+    width: 90%;
+    height: 250px;
+  }
+  .texts p{
+    font-family: "Roboto", Sans-serif;
+    color: #000;
+    position: relative;
+    top: 80px;
+    left: 10px;
+    width: 100%;
+    line-height: 25px;
+    font-size: 18px;
+  }
+  main h2{
+    position: relative;
+    top: 60px;
+    left: -5px;
+    font-family: "Roboto", Sans-serif;
+    font-weight: 600;
+    font-size: 28px;
+    width: 100%;
+    line-height: 1.1em;
+    letter-spacing: 0px;
+    color: #000000;
+  }
+  /*===============Content section==============*/
+.content-text {
+  width: 100%;
+  padding: 0;
+}
+.content-section h1{
+margin-top: 20px;
+}
+.content-text p,
+.content-text ul {
+  margin: 0 0 30px;
+  width: 90%;
+}
+.content-text p{
+margin-top: 30px !important;
+}
+.content-image {
+min-width: 80%;
+  width: 80% !important;
+  padding: 0;
+  margin-top: 160px;
+  margin-left: 360px;
+  display: block;
+  text-align: center;
+}
+.content-container{
+display: block;
+width: 100vw !important;
+} 
+.content-image img {
+width: 80%;
+max-height: none;
+}
+  /*=================Image with Text=====================*/
+  .background{
+    background-color: transparent;
+    height: 250px;
+    position: relative;
+    top: 100px;
+    z-index: 10;
+    background-image: linear-gradient(180deg, #8ed1fc 0%, #8ed1fc 100%);
+  }
+  
+  /*=============================Flip cards=======================*/
+  .title {
+    font-size: 36px;
+    font-weight: 600;
+    color: #0E0E0E;
+    margin-left: 20px;
+    width: 100%;
+    font-family: "Poppins", Sans-serif;
+    margin-top: 180px;
+    }
+  .card-container {
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  top: -800px;
+  left: -80px;
+  justify-content: center;
+  gap: 20px;
+  }
+  .card3{
+  margin-top: 2px;
+  }
+  .card1,.card2, .card3, .card4, .card5, .card6, .card7, .card8{
+  width: 300px !important;
+  }
+  .card1 h2{
+  margin-left: 20px !important;
+  }
+  .card7{
+  margin-top: 2px;
+  }
+/*==================Text with buttons=========================*/
+button{
+  border: none !important;
+  border-radius: 10px !important;
+  padding: 10px;
+  font-size: 16px;
+  position: absolute;
+  top: 30px;
+  left: 20px;
+}
+.button{
+  border: none !important;
+  border-radius: 10px !important;
+  padding: 10px;
+  font-size: 16px;
+  position: absolute;
+  top: 100px;
+  left: 20px;
+}
+.button1{
+  border: none !important;
+  border-radius: 10px !important;
+  padding: 10px;
+  font-size: 16px;
+  position: absolute;
+  top: 180px;
+  left: 20px;
+}
+.buttons_text{
+  background-color: transparent;
+  height: 500px;
+  position: relative;
+  top: 170px;
+  z-index: 10;
+  background-image: linear-gradient(180deg, #164285 0%, #02122a 100%);
+}
+.ul{
+  color: #fff;
+  position: absolute;
+  top: 250px;
+  line-height: 30px;
+}
+
+    /*====================CLEARFIX====================*/
+ .download-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    position: relative;
+    top: 50px;
+    left: 120px;
+    transition: background-color 0.3s ease-in;
+  }
+  .clearfix h1{
+    color: #000000;
+    font-family: "Poppins", Sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    position: relative;
+    left: 50px;
+    top: 25px;
+  }
+  .clearfix p{
+    color: #000000;
+      font-family: "Poppins", Sans-serif;
+      font-size: 15px;
+      position: relative;
+      top: 35px;
+      left: 50px;
+  }
+  .clearfix{
+    background-color: transparent;
+    height: 180px;
+    position: relative;
+    top: 200px;
+    background-image: linear-gradient(180deg, #F4F4F4 0%, #F4F4F4 100%);
+  }
+    /*========================Footer=================*/
+    #footer {
+      height: 850px;
+      margin-top: 280px;
+      padding: 20px 10px; /* Adjust padding for smaller screens */
+      display: block; /* Ensure footer items stack vertically */
+    }
+    #img{
+      height: 110px;
+      width: 350px;
+      position: relative;
+      top: -5px;
+      left: 40px;
+    }
+    #p{
+      color: rgba(255, 255, 255, 0.7);
+      position: relative;
+      top: 80px;
+      margin-left: -65px;
+      font-size: 15px;
+      font-weight: 400;
+      font-family: "Open Sans", Sans-serif;
+    }
+    .social-media{
+      position: relative;
+      left: 530px;
+      top: -230px;
+    }
+    .rights1{
+      margin-top: -400px;
+      position: relative;
+      left: 85px;
+    }
+    /*Quick links*/
+    #footer .quick_links h1{
+      color: #fff;
+      position: relative;
+      left: 40px;
+      top: 435px;
+      font-size: 23px;
+      font-family: 'Arial';
+      font-weight: bold;
+      
+      }
+      /*blue line*/
+      .quick_links::after{
+      content: '';
+      display: block;
+      width: 15%; /* This will ensure the underline is as wide as the content */
+      height: 3px; /* Adjust the height of the underline */
+      background-color: blue; /* Set the color of the underline */
+      position: relative;
+      left: 40px;
+      top: 268px;
+      }
+      .quick_links ul{
+      font-size: 17.5px;
+      list-style: none;
+      }
+      .quick_links ul li a{
+      text-decoration: none;
+      color: darkgrey;
+      position: relative;
+      left: 5px;
+      top: 450px;
+      line-height: 30px;
+      }
+      .quick_links li a:hover {
+      color: #8c52ff;
+      }
+    .contact-info{
+      line-height: 30px;
+      font-size: 14.5px;
+      font-weight: normal;
+      position: relative;
+      left: 285px;
+      top: 320px;
+      }
+      /*Contact Details*/
+    #contact h2{
+      color: #fff;
+      position: relative;
+      left: 35px;
+      top: 450px;
+      font-family: 'Arial';
+      font-size: 23px;
+      font-weight: bold;
+      }
+      #contact::after{
+      content: '';
+      display: block;
+      width: 21.5%; /* This will ensure the underline is as wide as the content */
+      height: 3px; /* Adjust the height of the underline */
+      background-color: blue; /* Set the color of the underline */
+      position: relative;
+      left: 36px;
+      top: 330px;
+      }
+    
+    }
+    
+    @media (max-width:376px){
+      header img{
+        margin-left: -10px;
+      }
+      main p{
+        margin-top: 45px;
+      }
+      main img{
+        position: relative;
+        top: 770px;
+        left: 20px;
+        width: 90%;
+        height: 250px;
+      }
+      .texts p{
+        font-family: "Roboto", Sans-serif;
+        color: #000;
+        position: relative;
+        top: 40px;
+        left: 10px;
+        width: 100%;
+        line-height: 25px;
+        font-size: 15px;
+      }
+  /*=================Image with Text=====================*/
+  .background{
+    background-color: transparent;
+    height: 280px;
+    position: relative;
+    top: 60px;
+    z-index: 10;
+    background-image: linear-gradient(180deg, #8ed1fc 0%, #8ed1fc 100%);
+  }
+  .fa-hands-helping{
+    font-size: 60px;
+    color: #fff;
+    margin-left: 150px;
+    position: relative;
+    top: -100px;
+  }
+  .two p{
+    position: relative;
+    left: 155px;
+    top: -90px;
+  }
+  
+  .fa-money-bill-alt{
+    font-size: 60px;
+    color: #fff;
+    margin-left: 280px;
+    position: relative;
+    top: -200px;
+  }
+  .three p{
+    position: relative;
+    left: 255px;
+    top: -190px;
+  }
+    /*=============================Flip cards=======================*/
+    .title {
+      font-size: 36px;
+      font-weight: 600;
+      color: #0E0E0E;
+      margin-left: 20px;
+      width: 100%;
+      font-family: "Poppins", Sans-serif;
+      margin-top: 130px;
+      }
+    .card-container {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    top: -800px;
+    left: -80px;
+    justify-content: center;
+    gap: 20px;
+    }
+  /*==================Text with buttons=========================*/
+.buttons_text{
+  background-color: transparent;
+  height: 550px;
+  position: relative;
+  top: 170px;
+  z-index: 10;
+  background-image: linear-gradient(180deg, #164285 0%, #02122a 100%);
+}
+    /*===================CLEARFIX=============*/
+    .clearfix h1{
+    color: #000000;
+    font-family: "Poppins", Sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    position: relative;
+    left: 10px;
+    top: 25px;
+    }
+    .clearfix p{
+    color: #000000;
+    font-family: "Poppins", Sans-serif;
+    font-size: 15px;
+    position: relative;
+    top: 35px;
+    left: 10px;
+    }
+    /*================Footer Section==================*/
+    #footer{
+      margin-top: 280px;
+    }
+    #img{
+      height: 110px;
+      width: 300px;
+      position: relative;
+      top: -5px;
+      left: 40px;
+    }
+    }
+    
+    @media (max-width:321px){
+    /*Header Image*/
+    header img {
+      width: 75vw; /* Adjust image width for smaller screens */
+      /* other styles */
+      position: relative;
+      left: 10px;
+    }
+    
+    main img{
+      position: relative;
+      top: 850px;
+      left: 20px;
+      width: 90%;
+      height: 250px;
+    }
+    .texts p{
+      font-family: "Roboto", Sans-serif;
+      color: #000;
+      position: relative;
+      top: 40px;
+      left: 10px;
+      width: 100%;
+      line-height: 25px;
+      font-size: 18px;
+    }
+    main h2{
+      width: 100%;
+    }
+  /*=================Image with Text=====================*/
+  .background{
+    background-color: transparent;
+    height: 280px;
+    position: relative;
+    top: 60px;
+    z-index: 10;
+    background-image: linear-gradient(180deg, #8ed1fc 0%, #8ed1fc 100%);
+  }
+  
+    /*=============================Flip cards=======================*/
+    .title {
+      font-size: 28px;
+      font-weight: 600;
+      color: #0E0E0E;
+      margin-left: 20px;
+      width: 100%;
+      font-family: "Poppins", Sans-serif;
+      margin-top: 100px;
+      }
+    .card-container {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    top: -800px;
+    left: -85px;
+    justify-content: center;
+    gap: 20px;
+    }
+/*==================Text with buttons=========================*/
+.buttons_text{
+  background-color: transparent;
+  height: 580px;
+  position: relative;
+  top: 170px;
+  z-index: 10;
+  background-image: linear-gradient(180deg, #164285 0%, #02122a 100%);
+}
+    /*===================CLEARFIX=============*/
+    .clearfix h1{
+    color: #000000;
+    font-family: "Poppins", Sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    position: relative;
+    left: 8px;
+    top: 25px;
+    }
+    .clearfix p{
+    color: #000000;
+    font-family: "Poppins", Sans-serif;
+    font-size: 15px;
+    position: relative;
+    top: 35px;
+    left: 8px;
+    }
+    .download-button {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #007bff;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 5px;
+      position: relative;
+      top: 20px;
+      left: 100px;
+      transition: background-color 0.3s ease-in;
+    }
+    .clearfix{
+      background-color: transparent;
+      height: 200px;
+      position: relative;
+      top: 200px;
+      background-image: linear-gradient(180deg, #F4F4F4 0%, #F4F4F4 100%);
+    }
+    /*=============Footer Section===================*/
+    #footer{
+      margin-top: 230px;
+    }
+    #img{
+      height: 110px;
+      width: 280px;
+      position: relative;
+      top: -5px;
+      left: 10px;
+    }
+    #p{
+      color: rgba(255, 255, 255, 0.7);
+      position: relative;
+      top: 70px;
+      margin-left: -95px;
+      font-size: 15px;
+      font-weight: 400;
+      font-family: "Open Sans", Sans-serif;
+    }
+    .footer_social-media{
+      position: relative;
+      top: 10px;
+    }
+    .social-media{
+      position: relative;
+      left: 500px;
+    }
+      .rights1{
+      margin-top: -410px;
+      position: relative;
+      left: 60px;
+    }
+    /*Quick links*/
+    #footer .quick_links h1{
+      color: #fff;
+      position: relative;
+      left: 15px;
+      top: 445px;
+      font-size: 23px;
+      font-family: 'Arial';
+      font-weight: bold;
+    }
+      /*blue line*/
+      .quick_links::after{
+      content: '';
+      display: block;
+      width: 15%; /* This will ensure the underline is as wide as the content */
+      height: 3px; /* Adjust the height of the underline */
+      background-color: blue; /* Set the color of the underline */
+      position: relative;
+      left: 15px;
+      top: 275px;
+      }
+      .quick_links ul{
+      font-size: 17.5px;
+      list-style: none;
+      }
+      .quick_links ul li a{
+      text-decoration: none;
+      color: darkgrey;
+      position: relative;
+      left: -15px;
+      top: 460px;
+      line-height: 30px;
+      }
+      .quick_links li a:hover {
+      color: #8c52ff;
+      }
+    .contact-info{
+      line-height: 30px;
+      font-size: 14.5px;
+      font-weight: normal;
+      position: relative;
+      left: 262px;
+      top: 320px;
+      }
+  /*Contact Details*/
+    #contact h2{
+      color: #fff;
+      position: relative;
+      left: 15px;
+      top: 475px;
+      font-family: 'Arial';
+      font-size: 23px;
+      font-weight: bold;
+      }
+      #contact::after{
+      content: '';
+      display: block;
+      width: 21.5%; /* This will ensure the underline is as wide as the content */
+      height: 3px; /* Adjust the height of the underline */
+      background-color: blue; /* Set the color of the underline */
+      position: relative;
+      left: 15px;
+      top: 350px;
+      }
+    }
+
+
+
+******JS******
+/*==========Header and Navbar Toggle===========*/
+function toggleMenu() {
+  document.querySelector('nav').classList.toggle('active');
+}
+
+function toggleDropdown(event, dropdownId) {
+  event.preventDefault();
+  const dropdown = document.getElementById(dropdownId);
+  dropdown.classList.toggle('active');
+  const parentLi = dropdown.parentElement;
+  parentLi.classList.toggle('active');
+
+  // Update the careticon
+  const caret = event.currentTarget.querySelector('.caret');
+  if (dropdown.classList.contains('active')) {
+    caret.style.transform = 'rotate(180deg)';
+  } else {
+    caret.style.transform = 'rotate(0deg)';
+  }
+}
