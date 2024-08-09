@@ -1,0 +1,2140 @@
+******HTML******
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Us - SafeCode</title>
+  <!-- Linking css file-->
+  <link rel="stylesheet" href="safecode_about.css">
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+  integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+  crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- Link Swiper's CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/d38609c0ef.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <!--Header and Navbar-->
+  <header>
+    <a href="#">
+      <img src="https://safecodesoft.com/wp-content/uploads/2022/11/logo.jpeg" alt="">
+    </a>
+    <div class="menuToggle" onclick="toggleMenu()">☰</div>
+    <nav>
+      <ul class="main-nav">
+        <li><a href="#">Home</a></li>
+        <li>
+          <a href="#" onclick="toggleDropdown(event, 'company-dropdown')">
+            Company
+            <i class="fa fa-caret-down caret"></i>
+          </a>
+          <ul class="dropdown-container" id="company-dropdown">
+            <li><a href="#">About us</a></li>
+            <li><a href="http://127.0.0.1:5500/safecode_clients.html">Our Clients</a></li>
+          <li><a href="http://127.0.0.1:5500/safecode_career.html">Career</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#" onclick="toggleDropdown(event, 'services-dropdown')">
+            Services
+            <i class="fa fa-caret-down caret"></i>
+          </a>
+          <ul class="dropdown-container" id="services-dropdown">
+            <li><a href="http://127.0.0.1:5500/safecode_erp.html">ERP Services</a></li>
+          <li><a href="http://127.0.0.1:5500/safecode_application-management.html">Application Managed Services</a></li>
+          <li><a href="http://127.0.0.1:5500/safecode_it-staff.html">IT Staffing & Recruitment Services</a></li>
+          <li><a href="http://127.0.0.1:5500/safecode_lean-on.html">Lean on IT Services</a></li>
+          <li><a href="http://127.0.0.1:5500/safecode_cloud-migration.html">Cloud Migration</a></li>
+          <li><a href="http://127.0.0.1:5500/safecode_data-migration.html">Data Migrations</a></li>
+          <li><a href="http://127.0.0.1:5500/safecode_nearshore.html">Nearshore Development & Support Services</a></li>
+          <li><a href="http://127.0.0.1:5500/safecode_database-management.html">Database Administration</a></li>
+          <li><a href="http://127.0.0.1:5500/safecode_bi-analytics.html">Bi Advanced Analytics</a></li>
+          <li><a href="http://127.0.0.1:5500/safecode_web-development.html">Web Development</a></li>
+          <li><a href="http://127.0.0.1:5500/safecode_custom-development.html">Custom Development</a></li>
+          <li><a href="http://127.0.0.1:5500/safecode_cyber-security.html">Cyber Security</a></li>
+          <li><a href="http://127.0.0.1:5500/safecode_mobile-application.html">Mobile Application Development Services</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#" onclick="toggleDropdown(event, 'practice-dropdown')">
+            Practices
+            <i class="fa fa-caret-down caret"></i>
+          </a>
+          <ul class="dropdown-container" id="practice-dropdown">
+            <li><a href="http://127.0.0.1:5500/safecode_people-soft.html">People Soft</a></li>
+          <li><a href="http://127.0.0.1:5500/safecode_oracle-cloud.html">Oracle Cloud Applications</a></li>
+          <li><a href="http://127.0.0.1:5500/safecode_oracle-ebusiness.html">Cloud E-Business Suite</a></li>
+          <li><a href="http://127.0.0.1:5500/safecode_sap.html">SAP</a></li>
+          <li><a href="http://127.0.0.1:5500/safecode_workday.html">Workday</a></li>
+          <li><a href="http://127.0.0.1:5500/safecode_salesforce.html">Salesforce</a></li>
+          <li><a href="http://127.0.0.1:5500/safecode_robotics.html"></a></li>
+          <li><a href="#">Robotic Process Automation</a></li>
+          <li><a href="http://127.0.0.1:5500/safecode_AR&VR.html">AR & VR</a></li>
+          </ul>
+        </li><li><a href="http://127.0.0.1:5500/safecode_contact.html">Contact us</a></li>
+      </ul>
+    </nav>
+  </header>
+  <h1 class="text">About Us</h1>
+
+  <main>
+    <h1 class="about" id="about">About Us</h1>
+    <img class="image" src="https://www.viennaadvantage.com/assets/images/digital-transform/Actionable-insights.svg" alt="">
+    <div class="texts">
+      <p>We, at Safecodesoft, believe in working in partnerships with our clients. Each of our clients is equally important to us and we collaborate, to understand their unique needs and working methods. We consistently interact and work together to create intelligent solutions that meet our client’s evolving business demands. And thus, provide quick turnarounds by following this collaborative style of working. We have been continuously bridging the gap between business and technology.</p>
+      <p class="p">
+        We believe that communication is the key and our team of experts always follows this principle. We carry out constant communication between team members and clients, ensuring transparency. This also enables us to get greater insights as well as trust from all our clients. All of our projects are delivered at the stated times and our services come within a rather affordable range.
+      </p>
+      <button id="btn">Get in Touch</button>
+    </div>
+  </main>
+
+  
+<!--Card Containers-->
+<section class="about-us">
+  <div class="background" id="bg">
+    <h1>Reason to choose us</h1>
+    <p>"But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born."</p>
+  </div>
+  <div class="card_container1">
+    <img src="https://safecodesoft.com/wp-content/uploads/2022/09/3fe6a1be-001-origami.png" alt="">
+    <h1>Free Consulting</h1>
+  </div>
+  <div class="card_container2">
+    <img src="https://safecodesoft.com/wp-content/uploads/2022/09/50f6d08a-003-video.png" alt="">
+    <h1>Work Effectively</h1>
+  </div>
+  <div class="card_container3">
+    <img src="https://safecodesoft.com/wp-content/uploads/2022/09/d0a3e202-002-support.png" alt="">
+    <h1>Friendly Staff</h1>
+  </div>
+  <div class="card_container4">
+    <img src="https://safecodesoft.com/wp-content/uploads/2022/09/a4c82014-004-headphones.png" alt="">
+    <h1>Lifetime Support</h1>
+  </div>
+</section>
+
+<!--Footer-->
+<footer class="footer-section" id="footer">
+  <img src="https://safecodesoft.com/wp-content/uploads/2022/11/logo.jpeg" alt="" id="img">
+  <div class="content">
+    <p id="p">
+      IT solutions and services leveraging our<br>
+      proven methodology and tools,<br>
+      experienced resources and thought<br>
+      leadership.
+    </p>
+  </div>
+  <div class="social-media">
+    <div class="footer_social-media">
+      <i class="fa-brands fa-facebook"></i>
+    </div>
+    <div class="footer_social-media">
+      <i class="fa-brands fa-square-instagram"></i>
+    </div>
+    <div class="footer_social-media">
+      <i class="fa-brands fa-square-x-twitter"></i>
+    </div>
+    <div class="footer_social-media">
+      <i class="fa-brands fa-youtube"></i>
+    </div>
+  </div>
+  <div class="rights1">
+     <p>
+      © Safecodesoft. All rights reserved.
+    </p>
+  </div>   
+ 
+  <!--Quick links-->
+  <div class="quick_links">
+    <h1>
+      QUICK LINKS
+    </h1>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Company</a></li>
+      <li><a href="#">Services</a></li>
+      <li><a href="#">Practices</a></li>
+      <li><a href="#">Contact Us</a></li>
+    </ul>
+  </div>
+
+  <div id="contact">
+    <h2>
+      CONTACT US
+    </h2>
+    <div class="contact-info">
+      <i class="fa-solid fa-phone">
+        <span>
+          +1 (512) 846-3799
+        </span>
+      </i>
+      <div class="contact_1">
+        <i class="fa-solid fa-phone">
+          <span>
+            +1 (561) 774-7978
+          </span>
+        </i>
+      </div>
+      <i class="fa-regular fa-envelope letter">
+        <span>
+          info@safecodesoft.com
+        </span>
+      </i>
+      <div class="location">
+        <i class="fa-solid fa-location-dot">
+          <span>
+            507 Denali Pass, Ste: 105, Cedar Park, TX 78613
+          </span>
+        </i>
+      </div>
+    </div>
+  </div>
+</footer>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.minjs"></script>
+  <script src="safecode_about.js"></script>
+  <!-- Bootstrap Bundle with Popper -->
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+
+  
+</body>
+</html>
+
+******CSS******
+
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');   
+
+*, body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /* Apply box-sizing to all elements */
+}
+body{
+  overflow-x: hidden;
+}
+        /*=================Header================*/
+/* Header Image */
+header img {
+  height: 100px;
+  width: auto;
+  position: relative;
+  margin: 10px 20px;
+}
+
+/* Header Styling */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+  background-color: #f5f5f5; /* Light background color */
+  color: #333; /* Dark text color for contrast */
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Subtle shadow */
+}
+
+/* Header Links */
+header a {
+  color: #333;
+  text-decoration: none;
+}
+
+/* Menu Toggle */
+.menuToggle {
+  display: none;
+  font-size: 30px;
+  cursor: pointer;
+  color: #333;
+  transition: color 0.3s;
+}
+
+.menuToggle:hover {
+  color: #ff5722; /* Bright color on hover */
+}
+
+/* Navigation Styling */
+nav {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  font-weight: 600;
+  
+  margin-left: 20px; /* Adjust space between image and nav */
+}
+
+.main-nav {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.main-nav li {
+  position: relative;
+}
+
+.main-nav li a {
+  padding: 10px 20px;
+  display: block;
+  color: #333;
+  font-weight: 600;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-transform: uppercase;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.main-nav li a:hover {
+  color: #ff5722; /* Bright background on hover */
+}
+
+/* Dropdown Menu Styling */
+.main-nav li ul {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #fff; /* White background */
+  border-radius: 8px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  min-width: 200px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  z-index: 1000;
+}
+
+.main-nav li ul li a {
+  padding: 10px 15px;
+  color: #333;
+}
+
+.main-nav li:hover ul {
+  display: block;
+}
+
+/* Dropdown Container Styling */
+.dropdown-container {
+  max-height: 800px; /* Increase this value as needed */
+  overflow: hidden;
+  background-color: #f5f5f5; /* Light background color */
+  border-radius: 8px;
+  transition: max-height 0.5s ease-in-out;
+}
+
+.dropdown-container.active {
+  max-height: 600px; /* Adjust based on content */
+}
+
+.dropdown-container li:hover a {
+  background-color: #ff5722; /* Bright background on hover */
+  color: #fff; /* Light text color on hover */
+}
+
+/* Caret Icon Styling */
+.caret {
+  margin-left: 5px;
+  transition: transform 0.3s;
+}
+
+/* Rotate caret on active state */
+.dropdown-container.active + a .caret {
+  transform: rotate(180deg);
+}
+#services-dropdown {
+  min-width: 300px; /* Minimum width */
+  width: auto; /* Allow width to adjust based on content */
+  white-space: nowrap; /* Prevent line breaks */
+}
+/*=====================Main Section====================*/
+main{
+  height: 300px; /* Adjust the height as needed */
+  background-image: url('https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQB4yQ14rMlPb9nSnAln1PwGUarnS46qfnL2vOMkNA4P7d0g22C'); /* Path to your image */
+  background-size: cover; /* Ensure the image covers the header */
+  background-position: center; /* Center the image */
+  background-attachment: fixed; /* Fix the background image */
+  position: relative;
+  top: 30px;
+  z-index: 30;
+}
+main::after{
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+.text{
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  z-index: 200; /* Ensure text is above the overlay */
+  font-size: 2.375em; /* Adjust font size as needed */
+  text-align: center;
+}
+main .image{
+  height: auto;
+  max-width: 100%;
+  margin-top: 330px;
+  margin-left: 30px;
+  width: 50%;
+  animation: fadeinleft 1s ease-out;
+}
+@keyframes fadeinleft {
+  0% {
+    opacity: 0;
+    transform: translateX(-100%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+.about{
+  position: relative;
+  top: 400px;
+  margin-left: 760px;
+  color: #2D0174;
+  font-family: "Lora", Sans-serif;
+  font-size: 46px;
+  font-weight: 700;
+  line-height: 1.4em;
+}
+@keyframes fadeinright {
+  0% {
+    opacity: 0;
+    transform: translateX(100%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+.texts, .about{
+  animation: fadeinright 1s ease-out;
+}
+
+.texts p{
+  color: rgba(41, 28, 87, 0.85);
+  font-family: "Roboto", Sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.8em;
+  width: 50%;
+  margin-left: 760px;
+  margin-top: -690px;
+}
+.texts .p{
+  margin-top: 50px;
+}
+#btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #001967;
+  color: #fff;
+  font-size: 16px;
+  width: 200px;
+  height: 60px;
+  font-weight: 700;
+  text-decoration: none;
+  border-radius: 5px;
+  border: navajowhite;
+  position: relative;
+  top: 20px;
+  font-family: "Lora", Sans-serif;
+  left: 830px;
+  transition: background-color 0.3s ease-in;
+}
+#btn:hover {
+  background-color: #e6793a;
+}
+/*=================Image with Text=====================*/
+.about-us {
+  text-align: center;
+}
+
+.background{
+  background-color: transparent;
+  height: 580px;
+  max-width: 100vw;
+  margin-top: 1050px;
+  z-index: 10;
+  background-image: linear-gradient(180deg, #F8F4FF 0%, #F8F4FF 100%);
+  
+}
+.background h1{
+  color: #2D0174;
+  font-family: "Georgia", Helvetica, sans-serif;
+  font-size: 45px;
+  font-weight: 700;
+  line-height: 1em;
+  position: relative;
+  top: 50px;
+  text-align: center;
+}
+.background p{
+  text-align: center;
+  color: #291C57;
+  font-family: "Roboto", Sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 60px;
+  line-height: 1.8em;
+}
+                  /*Card containers*/
+/*1st card container*/
+.card_container1{
+  width: 320px;
+  height: 298px;
+  background-color: #fff;
+  position: absolute;
+  bottom: -1300px;
+  margin-left: 30px;
+  box-shadow: 0 12px 24px rgba(177, 149, 234, 0.8); /* Enhanced purple box-shadow */
+  border-radius: 20px;
+  animation: slidein-left 1s ease-out forwards;
+}
+.card_container1 img{
+  color: #8c52ff;
+  background-color: #E9E3FF;
+  padding: 20px 20px 20px 20px;
+  width: 90px;
+  border-radius: 20px;
+  margin-top: 50px;
+}
+.card_container1 h1{
+  color: #2D0174;
+  font-family: "Georgia", Helvetica, sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 1.3em;
+  margin: 30px 0px 20px 0px;
+}
+.card_container1:hover{
+  cursor: pointer;
+  background-color: #8c52ff;
+}
+.card_container1 h1:hover{
+  color: #fff;
+}
+@keyframes slidein-left {
+  from {
+      transform: translateX(-100px);
+      opacity: 0;
+  }
+  to {
+      transform: translateX(0);
+      opacity: 1;
+  }
+}
+
+/*2nd card container*/
+.card_container2{
+  /*width: 350px;
+  height: 280px;*/
+  width: 320px;
+  height: 298px;
+  background-color: #fff;
+  position: absolute;
+  top: 1700px;
+  margin-left: 400px;
+  box-shadow: 0 12px 24px rgba(177, 149, 234, 0.8); /* Enhanced purple box-shadow */
+  border-radius: 20px;
+  animation: slidein-bottom 1s ease-out forwards;
+}
+@keyframes slidein-bottom {
+  from {
+      transform: translateY(100px);
+      opacity: 0;
+  }
+  to {
+      transform: translateY(0);
+      opacity: 1;
+  }
+}
+.card_container2 img{
+  color: #8c52ff;
+  background-color: #E9E3FF;
+  padding: 26px 20px 26px 20px;
+  width: 90px;
+  border-radius: 20px;
+  margin-top: 50px;
+}
+.card_container2 h1{
+  color: #2D0174;
+  font-family: "Georgia", Helvetica, sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 1.3em;
+  margin: 30px 0px 20px 0px;
+}
+.card_container2:hover{
+  cursor: pointer;
+  background-color: #8c52ff;
+}
+.card_container2 h1:hover{
+  color: #fff;
+}
+
+/*3rd card container*/
+.card_container3{
+  /*width: 350px;
+  height: 280px;*/
+  width: 320px;
+  height: 298px;
+  background-color: #fff;
+  position: absolute;
+  bottom: -1305px;
+  margin-left: 770px;
+  box-shadow: 0 12px 24px rgba(177, 149, 234, 0.8); /* Enhanced purple box-shadow */
+  border-radius: 20px;
+  animation: slidein-top 1s ease-out forwards;
+}
+.card_container3 img{
+  color: #8c52ff;
+  background-color: #E9E3FF;
+  padding: 24px 20px 23px 20px;
+  width: 90px;
+  border-radius: 20px;
+  margin-top: 100px;
+}
+.card_container3 h1{
+  color: #2D0174;
+  font-family: "Georgia", Helvetica, sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 1.3em;
+  margin: 30px 0px 20px 0px;
+}
+.card_container3:hover{
+  cursor: pointer;
+  background-color: #8c52ff;
+}
+.card_container3 h1:hover{
+  color: #fff;
+}
+@keyframes slidein-top {
+  from {
+      transform: translateY(-100px);
+      opacity: 0;
+  }
+  to {
+      transform: translateY(0);
+      opacity: 1;
+  }
+}
+
+
+/*4th card container*/
+.card_container4{
+  /*width: 350px;
+  height: 280px;*/
+  width: 320px;
+  height: 298px;
+  background-color: #fff;
+  position: absolute;
+  bottom: -1305px;
+  margin-left: 1150px;
+  box-shadow: 0 12px 24px rgba(177, 149, 234, 0.8); /* Enhanced purple box-shadow */
+  border-radius: 20px;
+  animation: slidein-right 1s ease-out forwards;
+}
+.card_container4 img{
+  color: #8c52ff;
+  background-color: #E9E3FF;
+  padding: 17px 20px 18px 20px;
+  width: 90px;
+  border-radius: 20px;
+  margin-top: 50px;
+}
+.card_container4 h1{
+  color: #2D0174;
+  font-family: "Georgia", Helvetica, sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 1.3em;
+  margin: 30px 0px 20px 0px;
+}
+.card_container4:hover{
+  cursor: pointer;
+  background-color: #8c52ff;
+}
+.card_container4 h1:hover{
+  color: #fff;
+}
+@keyframes slidein-right {
+  from {
+      transform: translateX(100px);
+      opacity: 0;
+  }
+  to {
+      transform: translateX(0);
+      opacity: 1;
+  }
+}
+
+/*=====================================Footer*======================================*/
+#footer {
+  background-color: #000;
+  color: #fff;
+  width: 100%;
+  height: 85vh;
+  padding: 20px 0;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+/*
+#footer{
+  background-color: #000;
+  width: 100vw;
+  height: auto !important;
+  margin-top: 20px;
+  padding-bottom: 20px;
+  position: relative; 
+}*/
+#img{
+  height: 110px;
+  width: 350px;
+  position: relative;
+  top: 80px;
+  left: 40px;
+}
+.content{
+  margin-left: 45px;
+}
+#p{
+  color: darkgrey;
+  position: relative;
+  top: 230px;
+  
+  margin-left: -408px;
+  font-size: 18px;
+  font-weight: 450;
+}
+/*social media links*/
+.footer_social-media .fa-facebook{
+  color: #fff;
+  font-size: 25px;
+  position: relative;
+  top: 380px;
+  right: 458px;
+}
+
+.footer_social-media .fa-square-instagram{
+  color: #fff;
+  font-size: 25px;
+  position: relative;
+  top: 355px;
+  left: -395px;
+}
+.footer_social-media .fa-square-x-twitter{
+  color: #fff;
+  font-size: 25px;
+  position: relative;
+  top: 328px;
+  left: -330px;
+}
+.footer_social-media .fa-youtube{
+  color: #fff;
+  font-size: 25px;
+  position: relative;
+  top: 300px;
+  left: -265px;
+}
+.rights1{
+  color: darkgray;
+  position: relative;
+  top: 500px;
+  left: -540px;
+
+}
+/*Quick links*/
+#footer .quick_links h1{
+  color: #fff;
+  position: relative;
+  left: -278px;
+  top: 95px;
+  font-size: 27px;
+  font-family: 'Arial';
+  font-weight: bold;
+  
+}
+/*blue line*/
+.quick_links::after{
+  content: '';
+  display: block;
+  width: 45%; /* This will ensure the underline is as wide as the content */
+  height: 3px; /* Adjust the height of the underline */
+  background-color: blue; /* Set the color of the underline */
+  position: relative;
+  left: -273px;
+  top: -80px;
+}
+.quick_links ul{
+  font-size: 17.5px; 
+  list-style: none;
+}
+.quick_links ul li a{
+  text-decoration: none;
+  color: darkgrey;
+  position: relative;
+  left: -312px;
+  top: 150px;
+  line-height: 35px;
+}
+.quick_links li a:hover {
+  color: #8c52ff;
+}
+
+/*Contact Details*/
+#contact h2{
+  color: #fff;
+  position: relative;
+  left: -258px;
+  top: 95px;
+  font-family: 'Arial';
+  font-size: 27px;
+  font-weight: bold;
+}
+#contact::after{
+  content: '';
+  display: block;
+  width: 21.5%; /* This will ensure the underline is as wide as the content */
+  height: 3px; /* Adjust the height of the underline */
+  background-color: blue; /* Set the color of the underline */
+  position: relative;
+  left: -255px;
+  top: -18px;
+}
+.contact-info{
+  line-height: 32px;
+  font-size: 18px;
+  font-weight: normal;
+}
+#contact i{
+  position: relative;
+  top: 175px;
+  color: #fff;
+  left: -250px;
+
+}
+#contact i span{
+  padding: 10px;
+  font-family: 'Times New Roman', Times, serif;
+}
+/*+1 (561) 774-7978*/
+#contact i .span{
+  position: relative;
+  top: 20px;
+  font-style: 'Arial';
+  font-weight: 450;
+  font-size: 18px;
+}
+#contact_1 i{
+  padding-top: 10px; line-height: 10px;
+}
+@media (max-width: 1441px) {
+  body{
+    overflow-x: hidden;
+    height: auto;
+    width: 100%;
+    position: relative;
+    top: unset;
+    left: unset;
+    }
+    html{
+    overflow-x: hidden;
+    }
+    .img{
+      width: 340px;
+      height: 110px;
+      position: relative;
+      top: -120px;
+      left: 20px;
+    }
+    header nav ul{
+      margin-top: -30px;
+    }
+    /*main page*/
+    main{
+      z-index: 10;
+    }
+.text{
+  position: absolute;
+  top: 335px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff !important;
+  z-index: 20; /* Ensure text is above the overlay */
+  font-size: 2.375em; /* Adjust font size as needed */
+  text-align: center;
+}
+.about{
+  position: relative;
+  top: 430px;
+  margin-left: 710px;
+  color: #2D0174;
+  font-family: "Lora", Sans-serif;
+  font-size: 46px;
+  font-weight: 700;
+  line-height: 1.4em;
+}
+.texts p{
+  color: rgba(41, 28, 87, 0.85);
+  font-family: "Roboto", Sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.8em;
+  width: 50%;
+  margin-left: 710px;
+  position: relative;
+  top: 100px;
+}
+.texts .p{
+  margin-top: 50px;
+}
+
+#btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #001967;
+  color: #fff;
+  font-size: 16px;
+  width: 200px;
+  height: 60px;
+  font-weight: 700;
+  text-decoration: none;
+  border-radius: 5px;
+  border: navajowhite;
+  position: relative;
+  top: 110px;
+  font-family: "Lora", Sans-serif;
+  left: 710px;
+  transition: background-color 0.3s ease-in;
+}
+.about-us {  
+  height: 550px; /* Adjust as needed */  
+} 
+              /*Card containers*/
+/*1st card container*/
+.card_container1{
+  width: 320px;
+  height: 280px;
+  background-color: #fff;
+  position: relative;
+  top: -380px;
+  margin-left: 30px;
+  box-shadow: 0 12px 24px rgba(177, 149, 234, 0.8); /* Enhanced purple box-shadow */
+  border-radius: 20px;
+  animation: slidein-left 1s ease-out forwards;
+}
+.card_container2{
+  width: 320px;
+  height: 280px;
+  background-color: #fff;
+  position: relative;
+  top: -660px;
+  margin-left: 380px;
+  box-shadow: 0 12px 24px rgba(177, 149, 234, 0.8); /* Enhanced purple box-shadow */
+  border-radius: 20px;
+  animation: slidein-bottom 1s ease-out forwards;
+}
+.card_container3{
+  width: 320px;
+  height: 280px;
+  background-color: #fff;
+  position: relative;
+  top: -940px;
+  left: -30px;
+  margin-left: 750px;
+  box-shadow: 0 12px 24px rgba(177, 149, 234, 0.8); /* Enhanced purple box-shadow */
+  border-radius: 20px;
+  animation: slidein-top 1s ease-out forwards;
+}
+.card_container4{
+  width: 320px;
+  height: 280px;
+  background-color: #fff;
+  position: relative;
+  top: -1220px;
+  margin-left: 1080px;
+  box-shadow: 0 12px 24px rgba(177, 149, 234, 0.8); /* Enhanced purple box-shadow */
+  border-radius: 20px;
+  animation: slidein-right 1s ease-out forwards;
+}
+/*footer*/
+#footer {
+  background-color: #000;
+  color: #fff;
+  width: 100%;
+  height: 85vh;
+  padding: 20px 0;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 0; /* Eliminate any top margin */
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+#img{
+  height: 110px;
+  width: 350px;
+  position: relative;
+  top: 30px;
+  left: 40px;
+}
+.content{
+  margin-left: 62px;
+  margin-top: -70px;
+}
+
+/*social media links*/
+.footer_social-media .fa-facebook{
+  color: #fff;
+  font-size: 25px;
+  position: relative;
+  top: 300px;
+  left: -440px;
+}
+.footer_social-media .fa-square-instagram{
+  color: #fff;
+  font-size: 25px;
+  position: relative;
+  top: 275px;
+  left: -370px;
+}
+.footer_social-media .fa-square-x-twitter{
+  color: #fff;
+  font-size: 25px;
+  position: relative;
+  top: 249px;
+  left: -300px;
+}
+.footer_social-media .fa-youtube{
+  color: #fff;
+  font-size: 25px;
+  position: relative;
+  top: 222px;
+  left: -230px;
+}
+.rights1{
+  position: relative;
+  top: 430px;
+  left: -505px;
+}
+
+/*Quick links*/
+#footer .quick_links h1{
+  color: #fff;
+  position: relative;
+  left: -278px;
+  top: 95px;
+  font-size: 27px;
+  font-family: 'Arial';
+  font-weight: bold;
+}
+
+/*blue line*/
+.quick_links::after{
+  content: '';
+  display: block;
+  width: 45%; /* This will ensure the underline is as wide as the content */
+  height: 3px; /* Adjust the height of the underline */
+  background-color: blue; /* Set the color of the underline */
+  position: relative;
+  left: -273px;
+  top: -80px;
+}
+}
+@media (max-width: 1025px){
+  .main-nav li a .caret {
+    margin-left: auto;
+  }
+  .about{
+    position: relative;
+    top: 440px;
+    left: -210px;
+    color: #2D0174;
+    font-family: "Lora", Sans-serif;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 1.4em;
+  }
+  .texts p{
+    color: rgba(41, 28, 87, 0.85);
+    font-family: "Roboto", Sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.8em;
+    width: 50%;
+    margin-left: 500px;
+    margin-top: -480px;
+  }
+  .texts .p{
+    margin-top: 50px;
+  }
+  
+  #btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #001967;
+    color: #fff;
+    font-size: 16px;
+    width: 200px;
+    height: 60px;
+    font-weight: 700;
+    text-decoration: none;
+    border-radius: 5px;
+    border: navajowhite;
+    position: relative;
+    top: 100px;
+    font-family: "Lora", Sans-serif;
+    left: 500px;
+    transition: background-color 0.3s ease-in;
+  }
+  .about-us{
+    margin-top: 1050px;
+  }
+  .background {
+    background-color: transparent;
+    min-height: 180vh; /* Ensures it covers the full viewport height */
+    height: auto; /* Allows the height to adjust based on content */
+    max-width: 100vw;
+    
+    margin-top: 0; /* Ensure no additional top margin */
+    z-index: 10;
+    background-image: linear-gradient(180deg, #F8F4FF 0%, #F8F4FF 100%);
+}
+
+  /*1st card container*/
+.card_container1{
+  width: 470px;
+  height: 260px;
+  background-color: #fff;
+  margin-top: -530px;
+  margin-left: 15px;
+  box-shadow: 0 12px 24px rgba(177, 149, 234, 0.8); 
+  border-radius: 20px;
+  animation: slidein-left 1s ease-out forwards;
+}
+
+.card_container2{
+  width: 470px;
+  height: 260px;
+  background-color: #fff;
+  margin-top: 20px;
+  margin-left: 530px;
+  box-shadow: 0 12px 24px rgba(177, 149, 234, 0.8);
+  border-radius: 20px;
+  animation: slidein-bottom 1s ease-out forwards;
+}
+
+.card_container3{
+  width: 470px;
+  height: 260px;
+  background-color: #fff;
+  margin-top: 300px;
+  margin-left: 46px;
+  box-shadow: 0 12px 24px rgba(177, 149, 234, 0.8); 
+  border-radius: 20px;
+  animation: slidein-top 1s ease-out forwards;
+}
+
+.card_container4{
+  width: 470px;
+  height: 260px;
+  background-color: #fff;
+  margin-top: 20px;
+  margin-left: 530px;
+  box-shadow: 0 12px 24px rgba(177, 149, 234, 0.8); 
+  border-radius: 20px;
+  animation: slidein-right 1s ease-out forwards;
+}
+
+/*=========footer==========*/
+#footer {
+  background-color: #000;
+  color: #fff;
+  width: 100%;
+  height: 73vh;
+  padding:  0;
+  position: absolute;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 180px; /* Eliminate any top margin */
+  justify-content: space-between;
+  align-items: flex-start;
+  
+}
+#img{
+  height: 110px;
+  width: 310px;
+  position: relative;
+  top: 40px;
+  left: 40px;
+}
+
+.content{
+  margin-left: 108px;
+  position: relative;
+  top: 10px;
+}
+#p{
+  color: darkgrey;
+  position: relative;
+  top: 230px;
+  margin-left: -458px;
+  font-size: 14px;
+  font-weight: 450;
+}
+.social-media{
+  margin-left: -98px;
+}
+.rights1{
+  margin-top: -50px;
+  margin-left: -50px;
+}
+/*Quick links*/
+#footer .quick_links h1{
+  color: #fff;
+  position: relative;
+  left: -420px;
+  top: 55px;
+  font-size: 23px;
+  font-family: 'Arial';
+  font-weight: bold;
+  
+}
+/*blue line*/
+.quick_links::after{
+  content: '';
+  display: block;
+  width: 45%; /* This will ensure the underline is as wide as the content */
+  height: 3px; /* Adjust the height of the underline */
+  background-color: blue; /* Set the color of the underline */
+  position: relative;
+  left: -415px;
+  top: -138px;
+}
+.quick_links ul{
+  font-size: 17.5px; 
+  list-style: none;
+}
+.quick_links ul li a{
+  text-decoration: none;
+  color: darkgrey;
+  position: relative;
+  left: -450px;
+  top: 110px;
+  line-height: 35px;
+}
+.quick_links li a:hover {
+  color: #8c52ff;
+}
+/*Contact Details*/
+#contact h2{
+  color: #fff;
+  position: relative;
+  left: 680px;
+  top: -195px;
+  font-family: 'Arial';
+  font-size: 23px;
+  font-weight: bold;
+}
+#contact::after{
+  content: '';
+  display: block;
+  width: 21.5%; /* This will ensure the underline is as wide as the content */
+  height: 3px; /* Adjust the height of the underline */
+  background-color: blue; /* Set the color of the underline */
+  position: relative;
+  left: 685px;
+  top: -325px;
+}
+.contact-info{
+  line-height: 32px;
+  font-size: 14.5px;
+  font-weight: normal;
+  position: relative;
+  left: 935px;
+  top: -315px;
+}
+#contact i{
+  position: relative;
+  top: 175px;
+  color: #fff;
+  left: -250px;
+
+}
+#contact i span{
+  padding: 10px;
+  font-family: 'Times New Roman', Times, serif;
+}
+/*+1 (561) 774-7978*/
+#contact i .span{
+  position: relative;
+  top: 20px;
+  font-style: 'Arial';
+  font-weight: 450;
+  font-size: 18px;
+}
+#contact_1 i{
+  padding-top: 10px; line-height: 10px;
+}
+}
+
+
+@media (max-width: 769px){
+  nav {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    height: 310px;
+    text-align: center;
+    position: absolute;
+    top: 185px; /* Adjust based on your header height */
+    left: -20px;
+    padding: 20px;
+    background-color: #fff;
+    border-top: 1px solid #ddd;
+    z-index: 1000;
+  }
+
+  nav.active {
+    display: flex;
+  }
+
+  .main-nav {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .main-nav li ul {
+    position: static;
+    max-height: 0;
+    overflow: hidden;
+  }
+
+  .main-nav li.active ul {
+    display: block;
+    max-height: 600px; /* Adjust based on content */
+  }
+
+  .caret {
+    margin-left: 0;
+    display: inline;
+    transition: transform 0.3s;
+  }
+
+  .menuToggle {
+    display: block;
+    font-size: 30px;
+    color: #333;
+    transition: color 0.3s;
+  }
+  /*=====================Main Section====================*/
+  main{
+  height: 300px; /* Adjust the height as needed */
+  background-image: url('https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQB4yQ14rMlPb9nSnAln1PwGUarnS46qfnL2vOMkNA4P7d0g22C'); /* Path to your image */
+  background-size: cover; /* Ensure the image covers the header */
+  background-position: center; /* Center the image */
+  background-attachment: fixed; /* Fix the background image */
+  position: relative;
+  top: -15px;
+  z-index: 10;
+  }
+  .text{
+    position: relative;
+    top: 200px;
+    color: #fff;
+    z-index: 20;
+  }
+  .about{
+  position: relative;
+  top: 380px;
+  left: -330px;
+  width: 100%;
+  color: #2D0174;
+  font-family: "Lora", Sans-serif;
+  font-size: 23px;
+  font-weight: 700;
+  line-height: 1.4em;
+  }
+  .texts p{
+    color: rgba(41, 28, 87, 0.85);
+    font-family: "Roboto", Sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    width: 50%;
+    margin-left: 380px;
+    margin-top: -430px;
+  }
+  .texts .p{
+    margin-top: 50px;
+  }
+  #btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #001967;
+  color: #fff;
+  font-size: 16px;
+  width: 200px;
+  height: 60px;
+  font-weight: 700;
+  text-decoration: none;
+  border-radius: 5px;
+  border: navajowhite;
+  position: relative;
+  top: 100px;
+  font-family: "Lora", Sans-serif;
+  left: 380px;
+  transition: background-color 0.3s ease-in;
+  }
+  
+  /*=================Image with Text=====================*/
+  .about-us{
+    margin-top: 850px;
+  }
+  .background h1{
+    color: #2D0174;
+    font-family: "Georgia", Helvetica, sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 1em;
+    position: relative;
+    top: 30px;
+    text-align: center;
+  }
+  .background p{
+    text-align: center;
+    color: #291C57;
+    font-family: "Roboto", Sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 50px;
+    line-height: 1.8em;
+  }
+  /*1st card container*/
+  .card_container1{
+    width: 320px;
+    height: 280px;
+    background-color: #fff;
+    position: relative;
+    top: -410px;
+    margin-left: 30px;
+    box-shadow: 0 12px 24px rgba(177, 149, 234, 0.8); /* Enhanced purple box-shadow */
+    border-radius: 20px;
+    animation: slidein-left 1s ease-out forwards;
+  }
+  .card_container2{
+    width: 320px;
+    height: 280px;
+    background-color: #fff;
+    position: relative;
+    top: -710px;
+    margin-left: 400px;
+    box-shadow: 0 12px 24px rgba(177, 149, 234, 0.8); /* Enhanced purple box-shadow */
+    border-radius: 20px;
+    animation: slidein-bottom 1s ease-out forwards;
+  }
+  .card_container3{
+    width: 320px;
+    height: 280px;
+    margin-top: 240px;
+    margin-left: 60px;
+    background-color: #fff;
+    box-shadow: 0 12px 24px rgba(177, 149, 234, 0.8); /* Enhanced purple box-shadow */
+    border-radius: 20px;
+    animation: slidein-top 1s ease-out forwards;
+  }
+  .card_container4{
+    width: 320px;
+    height: 280px;
+    background-color: #fff;
+    box-shadow: 0 12px 24px rgba(177, 149, 234, 0.8); /* Enhanced purple box-shadow */
+    margin-left: 400px;
+    margin-top: -2px;
+    border-radius: 20px;
+    animation: slidein-right 1s ease-out forwards;
+  }
+  /*=========footer==========*/
+  #footer {
+    background-color: #000;
+    color: #fff;
+    width: 100%;
+    height: 73vh;
+    padding: 0;
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 200px; /* Eliminate any top margin */
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  #p{
+    color: darkgrey;
+    position: relative;
+    top: 230px;
+    margin-left: -425px;
+    font-size: 14px;
+    font-weight: 450;
+  }
+  .social-media{
+    margin-left: -23px;
+  }
+  .rights1{
+    margin-top: -50px;
+    position: relative;
+    left: -480px;
+  }
+  
+  /*Quick links*/
+  #footer .quick_links h1{
+    color: #fff;
+    position: relative;
+    left: 400px;
+    top: -135px;
+    font-size: 23px;
+    font-family: 'Arial';
+    font-weight: bold;
+  }
+  /*blue line*/
+  .quick_links::after{
+    content: '';
+    display: block;
+    width: 45%; /* This will ensure the underline is as wide as the content */
+    height: 3px; /* Adjust the height of the underline */
+    background-color: blue; /* Set the color of the underline */
+    position: relative;
+    left: 400px;
+    top: -300px;
+  }
+  .quick_links ul{
+    font-size: 17.5px;
+    list-style: none;
+  }
+  .quick_links ul li a{
+    text-decoration: none;
+    color: darkgrey;
+    position: relative;
+    left: 370px;
+    top: -110px;
+    line-height: 30px;
+  }
+  .quick_links li a:hover {
+    color: #8c52ff;
+  }
+  /*Contact Details*/
+  #contact h2{
+    color: #fff;
+    position: relative;
+    left:-32px;
+    top: 95px;
+    font-family: 'Arial';
+    font-size: 23px;
+    font-weight: bold;
+  }
+  #contact::after{
+    content: '';
+    display: block;
+    width: 21.5%; /* This will ensure the underline is as wide as the content */
+    height: 3px; /* Adjust the height of the underline */
+    background-color: blue; /* Set the color of the underline */
+    position: relative;
+    left: -30px;
+    top: -30px;
+  }
+  .contact-info{
+    line-height: 30px;
+    font-size: 14.5px;
+    font-weight: normal;
+    position: relative;
+    left: 218px;
+    top: -65px;
+  }
+  #contact i{
+    position: relative;
+    top: 175px;
+    color: #fff;
+    left: -250px;
+  }
+  #contact i span{
+    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  /*+1 (561) 774-7978*/
+  #contact i .span{
+    position: relative;
+    top: 20px;
+    font-style: 'Arial';
+    font-weight: 450;
+    font-size: 18px;
+  }
+  #contact_1 i{
+    padding-top: 10px; 
+    line-height: 10px;
+  }
+}
+
+@media (max-width:426px){
+  /* Header Image */
+  header img{
+    height: 120px;
+    z-index: 50;
+    width: 280px;
+    position: relative;
+    top: 5px;
+    left: -10px;
+  }
+  nav {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    height: 310px;
+    text-align: center;
+    position: absolute;
+    top: 185px; /* Adjust based on your header height */
+    left: -20px;
+    padding: 20px;
+    background-color: #fff;
+    border-top: 1px solid #ddd;
+    z-index: 1000;
+  }
+
+  nav.active {
+    display: flex;
+  }
+
+  .main-nav {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .main-nav li ul {
+    position: static;
+    max-height: 0;
+    overflow: hidden;
+  }
+
+  .main-nav li.active ul {
+    display: block;
+    max-height: 600px; /* Adjust based on content */
+  }
+
+  .caret {
+    margin-left: 0;
+    display: inline;
+    transition: transform 0.3s;
+  }
+
+  .menuToggle {
+    display: block;
+    font-size: 30px;
+    color: #333;
+    transition: color 0.3s;
+  }
+  /*=====================Main Section====================*/
+  main{
+    height: 300px; /* Adjust the height as needed */
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSi0Oqfs_65QszNg6MZ3Gi3ndOC0hOF4ln6_8747tsC6Z946ZdK'); /* Path to your image */
+    background-size: cover; /* Ensure the image covers the header */
+    background-position: center; /* Center the image */
+    background-attachment: fixed; /* Fix the background image */
+    position: relative;
+    top: -30px;
+    z-index: 10;
+    }
+  main .image{
+    height: auto;
+    max-width: 100%;
+    margin-top: 280px;
+    margin-left: 10px;
+    width: 100%;
+    animation: fadeinleft 1s ease-out;
+  }
+  #about{
+    position: relative;
+    left: -30px;
+  }
+  .texts p{
+    color: rgba(41, 28, 87, 0.85);
+    font-family: "Roboto", Sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.8em;
+    width: 95%;
+    margin-left: 10px;
+    margin-top: -40px;
+  }
+  .texts .p{
+    margin-top: 30px;
+  }
+  
+  #btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #001967;
+    color: #fff;
+    font-size: 16px;
+    width: 200px;
+    height: 60px;
+    font-weight: 700;
+    text-decoration: none;
+    border-radius: 5px;
+    border: navajowhite;
+    position: relative;
+    top: 100px;
+    font-family: "Lora", Sans-serif;
+    left: 10px;
+    transition: background-color 0.3s ease-in;
+  }
+/*=================Image with Text=====================*/
+.background {
+  margin-top: 1150px;
+  height: 1500px; /* Allow height to adjust based on content */
+}
+  /*1st card container*/
+  .card_container1{
+    width: 320px;
+    height: 280px;
+    background-color: #fff;
+    position: relative;
+    top: -800px;
+    margin-left: 50px;
+    box-shadow: 0 12px 24px rgba(177, 149, 234, 0.8); /* Enhanced purple box-shadow */
+    border-radius: 20px;
+    animation: slidein-left 1s ease-out forwards;
+    }
+
+  .card_container2{
+    width: 320px;
+    height: 280px;
+    background-color: #fff;
+    position: relative;
+    top: -780px;
+    margin-left: 50px;
+    box-shadow: 0 12px 24px rgba(177, 149, 234, 0.8); /* Enhanced purple box-shadow */
+    border-radius: 20px;
+    animation: slidein-bottom 1s ease-out forwards;
+  }
+  .card_container3{
+    width: 320px;
+    height: 280px;
+    margin-top: 200px;
+    margin-left: 80px;
+    background-color: #fff;
+    box-shadow: 0 12px 24px rgba(177, 149, 234, 0.8); /* Enhanced purple box-shadow */
+    border-radius: 20px;
+    animation: slidein-top 1s ease-out forwards;
+  }
+  .card_container4{
+    width: 320px;
+    height: 280px;
+    background-color: #fff;
+    box-shadow: 0 12px 24px rgba(177, 149, 234, 0.8); /* Enhanced purple box-shadow */
+    margin-left: 50px;
+    margin-top: 320px;
+    border-radius: 20px;
+    animation: slidein-right 1s ease-out forwards;
+  }
+  /* Adjusting footer */
+  #footer {
+    height: 800px;
+    margin-top: 950px;
+    padding: 20px 10px; /* Adjust padding for smaller screens */
+    display: block; /* Ensure footer items stack vertically */
+  }
+  #img{
+    height: 110px;
+    width: 350px;
+    position: relative;
+    top: -5px;
+    left: 40px;
+  }
+  #p{
+    color: rgba(255, 255, 255, 0.7);
+    position: relative;
+    top: 80px;
+    margin-left: -65px;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: "Open Sans", Sans-serif;
+  }
+  .social-media{
+    position: relative;
+    left: 500px;
+    top: -200px;
+  }
+  .rights1{
+    margin-top: -400px;
+    position: relative;
+    left: 85px;
+  }
+  /*Quick links*/
+  #footer .quick_links h1{
+    color: #fff;
+    position: relative;
+    left: 40px;
+    top: 435px;
+    font-size: 23px;
+    font-family: 'Arial';
+    font-weight: bold;
+    
+    }
+    /*blue line*/
+    .quick_links::after{
+    content: '';
+    display: block;
+    width: 15%; /* This will ensure the underline is as wide as the content */
+    height: 3px; /* Adjust the height of the underline */
+    background-color: blue; /* Set the color of the underline */
+    position: relative;
+    left: 40px;
+    top: 268px;
+    }
+    .quick_links ul{
+    font-size: 17.5px;
+    list-style: none;
+    }
+    .quick_links ul li a{
+    text-decoration: none;
+    color: darkgrey;
+    position: relative;
+    left: 5px;
+    top: 450px;
+    line-height: 30px;
+    }
+    .quick_links li a:hover {
+    color: #8c52ff;
+    }
+  .contact-info{
+    line-height: 30px;
+    font-size: 14.5px;
+    font-weight: normal;
+    position: relative;
+    left: 285px;
+    top: 320px;
+    }
+    /*Contact Details*/
+  #contact h2{
+    color: #fff;
+    position: relative;
+    left: 35px;
+    top: 450px;
+    font-family: 'Arial';
+    font-size: 23px;
+    font-weight: bold;
+    }
+    #contact::after{
+    content: '';
+    display: block;
+    width: 21.5%; /* This will ensure the underline is as wide as the content */
+    height: 3px; /* Adjust the height of the underline */
+    background-color: blue; /* Set the color of the underline */
+    position: relative;
+    left: 36px;
+    top: 330px;
+    }
+}
+
+@media (max-width: 376px){
+  /* Header Image */
+  header img{
+    height: 100px;
+    z-index: 50;
+    width: 210px;
+    position: relative;
+    top: -8px;
+  }
+  nav {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    height: 310px;
+    text-align: center;
+    position: absolute;
+    top: 145px; /* Adjust based on your header height */
+    left: -20px;
+    padding: 20px;
+    background-color: #fff;
+    border-top: 1px solid #ddd;
+    z-index: 1000;
+  }
+
+  nav.active {
+    display: flex;
+  }
+
+  .main-nav {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .main-nav li ul {
+    position: static;
+    max-height: 0;
+    overflow: hidden;
+  }
+
+  .main-nav li.active ul {
+    display: block;
+    max-height: 600px; /* Adjust based on content */
+  }
+
+  .caret {
+    margin-left: 0;
+    display: inline;
+    transition: transform 0.3s;
+  }
+
+  .menuToggle {
+    display: block;
+    font-size: 30px;
+    color: #333;
+    transition: color 0.3s;
+  }
+  main {
+    height: 300px;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSi0Oqfs_65QszNg6MZ3Gi3ndOC0hOF4ln6_8747tsC6Z946ZdK');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    position: relative;
+    top: -55px;
+  }
+  .text{
+    position: relative;
+    top: 150px;
+  }
+  /*1st card container*/
+  .card_container1{
+    width: 320px;
+    height: 280px;
+    background-color: #fff;
+    position: relative;
+    top: -800px;
+    margin-left: 30px;
+    box-shadow: 0 12px 24px rgba(177, 149, 234, 0.8); /* Enhanced purple box-shadow */
+    border-radius: 20px;
+    animation: slidein-left 1s ease-out forwards;
+    }
+
+  .card_container2{
+    width: 320px;
+    height: 280px;
+    background-color: #fff;
+    position: relative;
+    top: -780px;
+    margin-left: 30px;
+    box-shadow: 0 12px 24px rgba(177, 149, 234, 0.8); /* Enhanced purple box-shadow */
+    border-radius: 20px;
+    animation: slidein-bottom 1s ease-out forwards;
+  }
+  .card_container3{
+    width: 320px;
+    height: 280px;
+    margin-top: 200px;
+    margin-left: 60px;
+    background-color: #fff;
+    box-shadow: 0 12px 24px rgba(177, 149, 234, 0.8); /* Enhanced purple box-shadow */
+    border-radius: 20px;
+    animation: slidein-top 1s ease-out forwards;
+  }
+  .card_container4{
+    width: 320px;
+    height: 280px;
+    background-color: #fff;
+    box-shadow: 0 12px 24px rgba(177, 149, 234, 0.8); /* Enhanced purple box-shadow */
+    margin-left: 30px;
+    margin-top: 320px;
+    border-radius: 20px;
+    animation: slidein-right 1s ease-out forwards;
+  }
+  /* Adjusting footer */
+  #img{
+    height: 110px;
+    width: 300px;
+    position: relative;
+    top: -5px;
+    left: 40px;
+  }
+}
+
+@media (max-width:321px){
+  /*1st card container*/
+  .card_container1{
+    width: 260px;
+    height: 280px;
+    background-color: #fff;
+    position: relative;
+    top: -800px;
+    margin-left: 30px;
+    box-shadow: 0 12px 24px rgba(177, 149, 234, 0.8); /* Enhanced purple box-shadow */
+    border-radius: 20px;
+    animation: slidein-left 1s ease-out forwards;
+    }
+
+  .card_container2{
+    width: 260px;
+    height: 280px;
+    background-color: #fff;
+    position: relative;
+    top: -780px;
+    margin-left: 30px;
+    box-shadow: 0 12px 24px rgba(177, 149, 234, 0.8); /* Enhanced purple box-shadow */
+    border-radius: 20px;
+    animation: slidein-bottom 1s ease-out forwards;
+  }
+  .card_container3{
+    width: 260px;
+    height: 280px;
+    margin-top: 200px;
+    margin-left: 60px;
+    background-color: #fff;
+    box-shadow: 0 12px 24px rgba(177, 149, 234, 0.8); /* Enhanced purple box-shadow */
+    border-radius: 20px;
+    animation: slidein-top 1s ease-out forwards;
+  }
+  .card_container4{
+    width: 260px;
+    height: 280px;
+    background-color: #fff;
+    box-shadow: 0 12px 24px rgba(177, 149, 234, 0.8); /* Enhanced purple box-shadow */
+    margin-left: 30px;
+    margin-top: 320px;
+    border-radius: 20px;
+    animation: slidein-right 1s ease-out forwards;
+  }
+  /* Adjusting footer */
+  #img{
+    height: 110px;
+    width: 280px;
+    position: relative;
+    top: -5px;
+    left: 10px;
+  }
+  #p{
+    color: rgba(255, 255, 255, 0.7);
+    position: relative;
+    top: 120px;
+    margin-left: -95px;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: "Open Sans", Sans-serif;
+  }
+  .social-media{
+    position: relative;
+    left: 480px;
+    top: -150px;
+  }
+    .rights1{
+    margin-top: -50px;
+    position: relative;
+    left: -480px;
+  }
+  /*Quick links*/
+  #footer .quick_links h1{
+    color: #fff;
+    position: relative;
+    left: 15px;
+    top: 105px;
+    font-size: 23px;
+    font-family: 'Arial';
+    font-weight: bold;
+  }
+    /*blue line*/
+    .quick_links::after{
+    content: '';
+    display: block;
+    width: 15%; /* This will ensure the underline is as wide as the content */
+    height: 3px; /* Adjust the height of the underline */
+    background-color: blue; /* Set the color of the underline */
+    position: relative;
+    left: 15px;
+    top: -60px;
+    }
+    .quick_links ul{
+    font-size: 17.5px;
+    list-style: none;
+    }
+    .quick_links ul li a{
+    text-decoration: none;
+    color: darkgrey;
+    position: relative;
+    left: -15px;
+    top: 120px;
+    line-height: 30px;
+    }
+    .quick_links li a:hover {
+    color: #8c52ff;
+    }
+  .contact-info{
+    line-height: 30px;
+    font-size: 14.5px;
+    font-weight: normal;
+    position: relative;
+    left: 262px;
+    top: -35px;
+    }
+    /*Contact Details*/
+  #contact h2{
+    color: #fff;
+    position: relative;
+    left: 15px;
+    top: 125px;
+    font-family: 'Arial';
+    font-size: 23px;
+    font-weight: bold;
+    }
+    #contact::after{
+    content: '';
+    display: block;
+    width: 21.5%; /* This will ensure the underline is as wide as the content */
+    height: 3px; /* Adjust the height of the underline */
+    background-color: blue; /* Set the color of the underline */
+    position: relative;
+    left: 15px;
+    top: 5px;
+    }
+}
+
+******JS******
+function toggleMenu() {
+  document.querySelector('nav').classList.toggle('active');
+}
+
+function toggleDropdown(event, dropdownId) {
+  event.preventDefault();
+  const dropdown = document.getElementById(dropdownId);
+  dropdown.classList.toggle('active');
+  const parentLi = dropdown.parentElement;
+  parentLi.classList.toggle('active');
+
+  // Update the caret icon
+  const caret = event.currentTarget.querySelector('.caret');
+  if (dropdown.classList.contains('active')) {
+    caret.style.transform = 'rotate(180deg)';
+  } else {
+    caret.style.transform = 'rotate(0deg)';
+  }
+}
+
+
