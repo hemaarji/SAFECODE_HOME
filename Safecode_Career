@@ -1,0 +1,3343 @@
+******HTML******
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us - SafeCodeSoft</title>
+  <!-- Linking css file-->
+  <link rel="stylesheet" href="safecode_career.css">
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+  integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+  crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- Link Swiper's CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/d38609c0ef.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  
+  <!--Header and Navbar-->
+  <header>
+    <a href="#">
+      <img src="https://safecodesoft.com/wp-content/uploads/2022/11/logo.jpeg" alt="">
+    </a>
+    <div class="menuToggle" onclick="toggleMenu()">☰</div>
+    <nav>
+      <ul class="main-nav">
+        <li><a href="#">Home</a></li>
+        <li>
+          <a href="#" onclick="toggleDropdown(event, 'company-dropdown')">
+            Company
+            <i class="fa fa-caret-down caret"></i>
+          </a>
+          <ul class="dropdown-container" id="company-dropdown">
+            <li><a href="http://127.0.0.1:5500/safecode_about.html">About us</a></li>
+            <li><a href="http://127.0.0.1:5500/safecode_clients.html">Our Clients</a></li>
+            <li><a href="http://127.0.0.1:5500/safecode_career.html">Career</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#" onclick="toggleDropdown(event, 'services-dropdown')">
+            Services
+            <i class="fa fa-caret-down caret"></i>
+          </a>
+          <ul class="dropdown-container" id="services-dropdown">
+            <li><a href="http://127.0.0.1:5500/safecode_erp.html">ERP Services</a></li>
+            <li><a href="http://127.0.0.1:5500/safecode_application-management.html">Application Managed Services</a></li>
+            <li><a href="http://127.0.0.1:5500/safecode_it-staff.html">IT Staffing & Recruitment Services</a></li>
+            <li><a href="http://127.0.0.1:5500/safecode_lean-on.html">Lean on IT Services</a></li>
+            <li><a href="http://127.0.0.1:5500/safecode_cloud-migration.html">Cloud Migration</a></li>
+            <li><a href="http://127.0.0.1:5500/safecode_data-migration.html">Data Migrations</a></li>
+            <li><a href="http://127.0.0.1:5500/safecode_nearshore.html">Nearshore Development & Support Services</a></li>
+            <li><a href="http://127.0.0.1:5500/safecode_database-management.html">Database Administration</a></li>
+            <li><a href="http://127.0.0.1:5500/safecode_bi-analytics.html">Bi Advanced Analytics</a></li>
+            <li><a href="http://127.0.0.1:5500/safecode_web-development.html">Web Development</a></li>
+            <li><a href="http://127.0.0.1:5500/safecode_custom-development.html">Custom Development</a></li>
+            <li><a href="http://127.0.0.1:5500/safecode_cyber-security.html">Cyber Security</a></li>
+            <li><a href="http://127.0.0.1:5500/safecode_mobile-application.html">Mobile Application Development Services</a></li>
+          </ul>
+        </li>
+        <li>
+          <a href="#" onclick="toggleDropdown(event, 'practice-dropdown')">
+            Practices
+            <i class="fa fa-caret-down caret"></i>
+          </a>
+          <ul class="dropdown-container" id="practice-dropdown">
+            <li><a href="http://127.0.0.1:5500/safecode_people-soft.html">People Soft</a></li>
+            <li><a href="http://127.0.0.1:5500/safecode_oracle-cloud.html">Oracle Cloud Applications</a></li>
+            <li><a href="http://127.0.0.1:5500/safecode_oracle-ebusiness.html">Cloud E-Business Suite</a></li>
+            <li><a href="http://127.0.0.1:5500/safecode_sap.html">SAP</a></li>
+            <li><a href="http://127.0.0.1:5500/safecode_workday.html">Workday</a></li>
+            <li><a href="http://127.0.0.1:5500/safecode_salesforce.html">Salesforce</a></li>
+            <li><a href="http://127.0.0.1:5500/safecode_robotics.html"></a></li>
+            <li><a href="#">Robotic Process Automation</a></li>
+            <li><a href="http://127.0.0.1:5500/safecode_AR&VR.html">AR & VR</a></li>
+          </ul>
+        </li>
+        <li><a href="http://127.0.0.1:5500/safecode_contact.html">Contact us</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h1 class="text">Career</h1>
+  </main>
+      <div class="job_container">
+    <!--JOB 1-->
+    <div class="job_section" id="job_1_section">
+      <div class="job_1">
+          <a href="#" onclick="toggleVisibility('firstjob_info')">
+            <p>Penetration <span class="span">Tester/</span></p>
+            <p class="p">Security <span class="span1">Engineer</span></p>
+          </a>
+          <div class="firstjob_info" id="firstjob_info">
+            <h1>
+              <p>Penetration Tester / Security Engineer</p><br>
+              <p>Location: Austin, TX</p><br>
+              <p>Duration: Long term</p>
+            </h1>
+            <h2>
+              Role/s Requested:
+              <p>Must understand all aspects of security engineering. Should be able to:</p>
+              <ul>
+                <li>Identify vulnerabilities through test, system design review or code analysis;</li>
+                <li>Explain how a vulnerability exploitation works and root cause;</li>
+                <li>Recommend secure solutions and mitigations, tailored to each environment.</li>
+                <li>Have strong communication skills (Written/Verbal)</li>
+                <li>Must be able to work through a project from Mobilization to Testing/Validation phases</li>
+                <li>Understanding of QE/QA process</li>
+                <li>Strong Documentation capabilities</li>
+                <li>
+                  Vendor needs to procure Security Tools required for testing:
+                  <ul>
+                    <li>ie. Burp Suite Pro.</li>
+                  </ul>
+                </li>
+                <li>
+                  Vendor needs to provide security requirements to allow resource to work securely:
+                  <li>ie. Screen protector for their device.</li>
+                </li>
+              </ul>
+            </h2>
+      </div>
+    </div>
+      <!--JOB 2-->
+    
+    </div>
+    <!--JOB 2-->
+    <div class="job_section" id="job_2_section">
+      <div class="job_2">
+        <a href="#" onclick="toggleVisibility('secondjob_info')">
+          <p>Golang</p>
+          <p class="second">Developer</p>
+        </a>
+        <div class="secondjob_info" id="secondjob_info">
+          <h1>
+            <p>Golang Developer </p><br>
+            <p>Location: Austin, TX</p><br>
+            <p>Duration: Long term</p>
+          </h1>
+          <h2>Minimum 8 years’ experience required as a Golang Developer</h2>
+          <table>
+            <tbody>
+              <thead>
+                <td>Skill Sets</td>
+                <td>Niche Skill</td>
+                <td>Experience</td>
+                <td>Preference</td>
+              </thead>
+              <tr>
+                <td>DevOps</td>
+                <td>No</td>
+                <td>At least 1 year</td>
+                <td>Is Required</td>
+              </tr>
+              <tr>
+                <td>DevOps/SRE</td>
+                <td>No</td>
+                <td>At least 1 year</td>
+                <td>Is Required</td>
+              </tr>
+              <tr>
+                <td>Kubernetes</td>
+                <td>No</td>
+                <td>At least 1 year</td>
+                <td>Is Required</td>
+              </tr>
+              <tr>
+                <td>GoLang</td>
+                <td>No</td>
+                <td>At least 1 year</td>
+                <td>Is Required</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div> 
+    </div>
+    
+    <!--JOB 3-->
+    <div class="job_section" id="job_3_section">
+      <div class="job_3">
+        <a href="#" onclick="toggleVisibility('thirdjob_info')">
+          <p>AEM</p>
+          <p class="third">Developer</p>
+        </a>
+        <div class="thirdjob_info" id="thirdjob_info">
+          <h1>
+            <p>AEM Developer </p><br>
+            <p>Location: Austin, TX</p><br>
+            <p>Duration: Long term</p>
+          </h1>
+          <h2>
+            Apple Digital Experience Solutions and CMS team is looking for an outstanding AEM software engineer to function as a Sr. Developer for a CMS project using Adobe Experience Manager.<br>
+            <span class="first_span">Candidate must show deep understand of core AEM technology and be able to go deep into the technology.</span><br>
+            <span class="second_span">At least 5 years with AEM projects.</span>
+            <span class="third_span">Strong Java programming foundation</span>
+            <span class="fourth_span">Extensive hands-on workflows, Sling servlet, REST, JSON, lucene indexing is a must.</span><br>
+            <span class="fifth_span">Exposure to Coral / Granite UI, Adobe UI customization is a must</span>
+            <span class="sixth_span">Must have worked on AEM 6.5 or newer versions.</span>
+            <span class="seventh_span">Working Experience with Sightly / Sling models.</span>
+            <span class="eighth_span">
+            Strong understanding of core AEM components such as oak, sling and dispatcher Experience<br>
+            Automated test execution and building tools such as Jenkins, Hudson, Selenium or Maven
+            </span>
+          </h2>
+          <b>Prior Apple experience is a strong plus </b>
+          <table>
+            <tbody>
+              <thead>
+                <td>Skill Sets</td>
+                <td>Niche Skill</td>
+                <td>Experience</td>
+                <td>Preference</td>
+              </thead>
+              <tr>
+                <td>AEM</td>
+                <td>No</td>
+                <td>5-10 years</td>
+                <td>Is Required</td>
+              </tr>
+              <tr>
+                <td>Content Management Systems</td>
+                <td>No</td>
+                <td>5-10 years</td>
+                <td>Is Required</td>
+              </tr>
+              <tr>
+                <td>Core Java</td>
+                <td>No</td>
+                <td>5-10 years</td>
+                <td>Is Required</td>
+              </tr>
+              <tr>
+                <td>Java/J2EE</td>
+                <td>No</td>
+                <td>5-10 years</td>
+                <td>Is Required</td>
+              </tr>
+              <tr>
+                <td>Html/CSS/Javascript</td>
+                <td>No</td>
+                <td>2-5 years</td>
+                <td>Is Required</td>
+              </tr>
+              <tr>
+                <td>Analytical Thinking </td>
+                <td>No</td>
+                <td>5-10 years</td>
+                <td>Is Required</td>
+              </tr>
+              <tr>
+                <td>Problem Solving</td>
+                <td>No</td>
+                <td>5-10 years</td>
+                <td>Is Required</td>
+              </tr>
+              <tr>
+                <td>Verbal Communication </td>
+                <td>No</td>
+                <td>5-10 years</td>
+                <td>Is Required</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+    
+    <!--JOB 4-->
+    <div class="job_section" id="job_4_section">
+      <div class="job_4">
+        <a href="#" onclick="toggleVisibility('fourthjob_info')">
+          <p>QA Lead with</p>
+          <p class="p">strong POS <span class="span1">experience</span></p>
+        </a>
+        <div class="fourthjob_info" id="fourthjob_info">
+          <h1>
+            <p>QA Lead with strong POS exp.</p><br>
+            <p>Location: Austin, TX / Sunnyvale, CA</p><br>
+            <p>Duration: long term</p>
+          </h1>
+          <h2>
+            <p>Apple POS Experience.</p>
+            <p>Must be local and be willing to come into the office 3 days a week for SCV only.</p>
+            <p>Please internally review candidates before submitting.</p>
+            <p>Candidate must be comfortable leading and doing manual and automation work. Communication skills a must.</p>
+            <p>Preferred candidates must have hands on automation experience with Selenium and API.</p>
+            <li>Other preferred skills of the role:</li>
+            <p>Strong experience developing and implementing test plans & test cases.</p>
+            <p>Strong experience performing manual testing</p>
+            <p>Strong experience implementing QA process and methodologies</p>
+            <p>Retail or Online Store background</p>
+            <p>Good team and people skills</p>
+            <p>Excellent oral/written communication skills</p>
+            <p>Able to host status meeting and ad hoc working sessions</p>
+            <p>Able to work independently under pressure and comfortable working in a dynamic environment.</p>
+            <p>Able to work with cross-functional teams to build and deliver a project.</p>
+            <p>Able to collaborate with business partners, developers, and various support teams to troubleshoot and resolve defects and issues.</p>
+            <p>Able to coordinate end to end validation with various backend systems and vendors</p>
+          </h2>
+          <table>
+            <tbody>
+              <thead>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td>Preference</td>
+              </thead>
+              <tr>
+                <td>Problem Management</td>
+                <td>No</td>
+                <td>5-10 years</td>
+                <td>Is Required</td>
+              </tr>
+              <tr>
+                <td>Project Management</td>
+                <td>No</td>
+                <td>5-10 years</td>
+                <td>Is Required</td>
+              </tr>
+              <tr>
+                <td>QA Automation</td>
+                <td>No</td>
+                <td>5-10 years</td>
+                <td>Is Required</td>
+              </tr>
+              <tr>
+                <td>Selenium</td>
+                <td>No</td>
+                <td>5-10 years</td>
+                <td>Nice To Have</td>
+              </tr>
+              <tr>
+                <td>WebApp UI Automation</td>
+                <td>No</td>
+                <td>2-5 years</td>
+                <td>Is Required</td>
+              </tr>
+              <tr>
+                <td>QA - SAP</td>
+                <td>No</td>
+                <td>2-5 years</td>
+                <td>Nice To Have</td>
+              </tr>
+              <tr>
+                <td>Technical Writing</td>
+                <td>No</td>
+                <td>2-5 years</td>
+                <td>Nice To Have</td>
+              </tr>
+              <tr>
+                <td>Training Material Documentation</td>
+                <td>No</td>
+                <td>2-5 years</td>
+                <td>Nice To Have</td>
+              </tr>
+              <tr>
+                <td>API Testing Automation</td>
+                <td>No</td>
+                <td>5-10 years</td>
+                <td>Is Required</td>
+              </tr>
+              <tr>
+                <td>Core Java </td>
+                <td>No</td>
+                <td>5-10 years</td>
+                <td>Is Required</td>
+              </tr>
+              <tr>
+                <td>Verbal Communication</td>
+                <td>No</td>
+                <td>10+ years</td>
+                <td>Is Required</td>
+              </tr>
+              <tr>
+                <td>Written Communication </td>
+                <td>No</td>
+                <td>10+ years</td>
+                <td>Is Required</td>
+              </tr>
+              <tr>
+                <td>Web Application Testing</td>
+                <td>No</td>
+                <td>5-10 years</td>
+                <td>Is Required</td>
+              </tr>
+              <tr>
+                <td>Functional Testing</td>
+                <td>No</td>
+                <td>5-10 years</td>
+                <td>Is Required</td>
+              </tr>
+              <tr>
+                <td>Radar</td>
+                <td>No</td>
+                <td>2-5 years</td>
+                <td>Nice To Have</td>
+              </tr>
+              <tr>
+                <td>Mobile Apps Testing </td>
+                <td>No</td>
+                <td>2-5 years</td>
+                <td>Is Required</td>
+              </tr>
+              <tr>
+                <td>Agile Project Management</td>
+                <td>No</td>
+                <td>5-10 years</td>
+                <td>Nice To Have</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>  
+    </div>
+    
+    <!--JOB 5-->
+    <div class="job_section" id="job_5_section">
+      <div class="job_5">
+        <a href="#" onclick="toggleVisibility('fifthjob_info')">
+          <p>UI</p>
+          <p class="five">Developer</p>
+        </a>
+        <div class="fifthjob_info" id="fifthjob_info">
+          <h1>
+            <p>
+              Position: UI Developer (Strong UI Developer with Java Script, Angular, React, HTML, CSS, Responsive design)
+            </p><br>
+            <p>Client: Apple</p><br>
+            <p>
+              Start Date: ASAP<br>
+              Apple needed 2 more candidates urgently.
+            </p>
+            <p>Location: Onsite in Austin, TX</p>
+            <p>Duration – Long term contract</p>
+            <p>Work Authorization – US Citizen, Green card, H1B, H4EAD, and TN</p>
+          </h1>
+          <h2>
+            <p>We are looking for a front-end developer, who is solid, when it comes to JavaScript. They should work extensively in any one of the popular JS frameworks like Angular, React, Vue.js, Svelte, etc.</p>
+            <p>This person’s role is to maintain a UI component library with the following responsibilities.</p>
+            <p>Contribute and maintain a UI framework, by working with designers and developers</p>
+            <p>Implement reusable, testable and accessible UI components, based on modern web tools and technologies </p>
+            <p>Work with developers from other teams, to help them use the library in their applications </p>
+            <p>Participate in architectural strategies, from PoC, proposal to implementation </p>
+            <p>Actively look for new opportunities to modernize the library with latest tools and technologies </p>
+          </h2>
+          <table>
+            <tbody>
+              <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>JavaScript</td>
+                <td>No</td>
+                <td>2-5 years</td>
+                <td>Is Required</td>
+              </tr>
+              <tr>
+                <td>HTML</td>
+                <td>No</td>
+                <td>2-5 years</td>
+                <td>Is Required</td>
+              </tr>
+              <tr>
+                <td>CSS</td>
+                <td>No</td>
+                <td>2-5 years</td>
+                <td>Is Required</td>
+              </tr>
+              <tr>
+                <td>Typescript</td>
+                <td>No</td>
+                <td>2-5 years</td>
+                <td>Is Required</td>
+              </tr>
+              <tr>
+                <td>Responsive design</td>
+                <td>No</td>
+                <td>2-5 years</td>
+                <td>Is Required</td>
+              </tr>
+              <tr>
+                <td>Accessibility</td>
+                <td>No</td>
+                <td>At least 1 year</td>
+                <td>Nice To Have</td>
+              </tr>
+              <tr>
+                <td>ReactJS</td>
+                <td>No</td>
+                <td>At least 1 year</td>
+                <td>Nice To Have</td>
+              </tr>
+              <tr>
+                <td>Vue.js</td>
+                <td>No</td>
+                <td>At least 1 year</td>
+                <td>Nice To Have</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div> 
+    
+    <!--JOB 6-->
+    <div class="job_section" id="job_6_section">
+      <div class="job_6">
+        <a href="#" onclick="toggleVisibility('sixthjob_info')">
+          <p>QA <span class="span">Automation</span></p>
+          <p class="p">with Strong <span class="span1">Java Coding</span></p>
+        </a>
+        <div class="sixthjob_info" id="sixthjob_info">
+          <h1>
+            <p>
+              QA Automation with Strong Java Coding<br>
+            </p>
+            <p>
+              Client: Apple<br>
+            </p>
+            <p>
+              Start Date: ASAP<br>
+              Apple needed 3 more candidates urgently.
+            </p>
+            <p>
+              Location: Day 1 Onsite in Sunnyvale, CA (Prefer Local to CA Candidates Only)
+            </p>
+            <p>
+              Duration – Long term contract
+            </p>
+            <p>
+              Work Authorization – US Citizen, Green card, H1B, H4EAD, and TN
+            </p>
+            <p>
+              Consider H1B Transfer.
+            </p>
+          </h1>
+          <h2>
+            <p>Minimum 8 -12 years of experience in QA.</p>
+            <p>Jenkins experience is required.</p>
+            <p>Cradle is nice to have.</p>
+            <p>Prefer first ex Apple Candidates.</p>
+          </h2>
+        </div>
+      </div>   
+    </div>
+      
+    <!--JOB 7-->
+    <div class="job_section" id="job_7_section">
+      <div class="job_7">
+        <a href="#" onclick="toggleVisibility('seventhjob_info')">
+          <p>Mac OS </p>
+          <p class="p">Software<span class="span1">Engineer</span></p>
+        </a>
+        <div class="seventhjob_info" id="seventhjob_info">
+          <h1>
+            <p>
+              Mac OS Software Engineer (Mac OS, swift, Objective C)
+            </p><br>
+            <p>Client: Apple</p><br>
+            <p>
+              Start Date: ASAP<br>
+              Apple needed 3 more candidates urgently.
+            </p>
+            <p>Location: Day 1 Onsite in Austin, TX</p>
+            <p>Duration – Long term contract</p>
+            <p>Work Authorization – US Citizen, Green card, H1B, H4EAD, and TN</p>
+            <p>Consider H1B Transfer.</p>
+          </h1>
+          <h2>
+            <p>Required: macOS development experience </p>
+            <p>Required: Swift, Objective-C, App Kit </p>
+            <p>Required: Austin on-site (pending office re-open)</p>
+            <p>Development will be on Radar and Radar related features, components, etc.</p>
+            <p>Note: Please have candidates that are strong with macOS — not just strong with iOS and </p>
+            <p>Want to do macOS or have limited macOS.</p>
+          </h2>
+          <table>
+            <tbody>
+              <thead>
+                <td>Skill Sets</td>
+                <td>Niche Skill</td>
+                <td>Experience</td>
+                <td>Preference</td>
+              </thead>
+              <tr>
+                <td>Objective C</td>
+                <td>Yes</td>
+                <td>2-5 years</td>
+                <td>Is Required</td>
+              </tr>
+              <tr>
+                <td>Mac OS X</td>
+                <td>Yes</td>
+                <td>2-5 years</td>
+                <td>Is Required</td>
+              </tr>
+              <tr>
+                <td>Swift</td>
+                <td>Yes</td>
+                <td>2-5 years</td>
+                <td>Is Required</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+    
+    <!--JOB 8-->
+    <div class="job_section" id="job_8_section">
+      <div class="job_8">
+        <a href="#" onclick="toggleVisibility('eighthjob_info')">
+          <p>Database</p>
+          <p class="eight">Administrator</p>
+        </a>
+        <div class="eighthjob_info" id="eighthjob_info">
+          <h1>
+            <p>
+              Database Administrator – Single Store/Mem SQL DBA (vertica, greenplum, snowflake or singlestore)
+            </p><br>
+            <p>Client: Apple</p><br>
+            <p>
+              Start Date: ASAP<br>
+              Apple needed 2 more candidates urgently.
+            </p>
+            <p>Location: Day 1 Onsite in Austin, TX</p>
+            <p>Duration – Long term contract</p>
+            <p>Work Authorization – US Citizen, Green card, H1B, H4EAD, OPT EAD, CPT EAD, TN – Any visa will work (Candidate must be willing to relocate)</p>
+            <p>Consider H1B Transfer.</p>
+          </h1>
+          <h2>
+            <p>Minimum 8 Years’ experience as a Database Administrator</p>
+            <p>Candidate should have worked on at least one of the distributed columnar databases like vertica, greenplum, snowflake or singlestore.</p>
+            <p>Strong mySQL DBA, with linux background work</p>
+          </h2>
+          <table>
+            <tbody>
+              <thead>
+                <td>Skill Sets</td>
+                <td>Niche Skill</td>
+                <td>Experience</td>
+                <td>Preference</td>
+              </thead>
+              <tr>
+                <td>PostgreSQL</td>
+                <td>No</td>
+                <td>At least 5 years</td>
+                <td>Is Required</td>
+              </tr>
+              <tr>
+                <td>AWS</td>
+                <td>No</td>
+                <td>At least 3 years</td>
+                <td>Is Required</td>
+              </tr>
+              <tr>
+                <td>Google Cloud Platform (GCP)</td>
+                <td>No</td>
+                <td>At least 2 years</td>
+                <td>Is Required</td>
+              </tr>
+              <tr>
+                <td>python</td>
+                <td>No</td>
+                <td>At least 2 years</td>
+                <td>Nice To Have</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>  
+    </div>
+    
+    <!--JOB 9-->
+    <div class="job_section" id="job_9_section">
+      <div class="job_9">
+        <a href="#" onclick="toggleVisibility('ninthjob_info')">
+          <p>ML</p>
+          <p class="nine">Engineer</p>
+        </a>
+        <div class="ninthjob_info" id="ninthjob_info">
+          <h1>
+            <p>ML Engineer – Must be BS in Computer science</p>
+            <p class="p">Onsite Austin, TX</p>
+            <p class="p">Long term contract</p>
+          </h1>
+          <h2>
+            <p>Summary</p>
+            <p>We are looking for a Machine Learning Engineer, who has hands-on experience in machine learning system development, Cloud computing, backend development and AI/ML.</p>
+            <ul>
+              <li> Automate end-to-end ETL/ML pipelines with structural understanding of data products. Automate, deploy and maintain ML pipelines into existing cloud resources.</li>
+              <li>Work with team members to assist with data-related technical issues and support their data product needs.</li>
+              <li>Work with team members to evaluate and improve existing ML system and models.</li>
+            </ul>
+          </h2>
+          <h3>
+            <p>Required Skills</p>
+            <ul>
+              <li>A background in computer science, engineering, mathematics, or similar quantitative field with a minimum of 2 years professional experience. Strong Python/Java programming skills</li>
+              <li>Experience in implementing data pipelines using python</li>
+              <li>Experience with workflow scheduling / orchestration such as Kubernetes, Airflow or Oozie</li>
+              <li>Extract Transform Load (ETL) experience using Spark, Kafka, Hadoop, or similar technologies</li>
+              <li>Experience with query APIs using JSON, Protocol Buffers, or XML</li>
+              <li>Experience with Unix-based command line interface and Bash scripts</li>
+            </ul>
+          </h3>
+          <h4>
+            <p>Optional Skills</p>
+            <ul>
+              <li>Experience with computer vision or natural language processing a plus.</li>
+              <li>Database development experience with Relational or MPP/distributed systems such as Oracle/Teradata/Vertica/Hive a plus</li>
+              <li>Data visualization or web development skills a plus</li>
+            </ul>
+          </h4>
+          <h5>
+            <p>Education</p>
+            <p>Bachelors in computer science or engineering; Advanced degree preferred</p>
+          </h5>
+        </div>
+      </div>
+    </div>
+    
+    <!--JOB 10-->
+    <div class="job_section" id="job_10_section">
+      <div class="job_10">
+        <a href="#" onclick="toggleVisibility('tenthjob_info')">
+          <p>Java <span class="span">Backend</span></p>
+          <p class="p">Spring <span class="span1">Engineer</span></p>
+        </a>
+        <div class="tenthjob_info" id="tenthjob_info">
+          <h1>
+            <p>Java Backend Engineer</p><br>
+            <p>Location: Onsite Austin, TX</p><br>
+            <p>Duration: Long term contract</p>
+          </h1>
+          <h2>
+            <p>– Need 9 – 12 years exp candidate.</p>
+            <p>– Full stack Developer wont’ work, need someone who worked as Java Developer OR more on Java Backend development only*</p>
+          </h2>
+          <h3>
+            <p>-Need More on Spring, Strong hands-on experience in Spring</p>
+            <p>-Hands on ReactJs exp s required.</p>
+          </h3>
+        </div>
+      </div>  
+    </div>
+      
+    <!--JOB 11-->
+    <div class="job_section" id="job_11_section">
+      <div class="job_11">
+        <a href="#" onclick="toggleVisibility('eleventhjob_info')">
+          <p>Java <span class="span">Backend</span></p>
+          <p class="p">Engineer</p>
+        </a>
+        <div class="eleventhjob_info" id="eleventhjob_info">
+          <h1>
+            <p>Job Responsibilities:</p>
+            <p>Design and implement Web-based application using core Java, Spring Boot, Rest Web Service</p>
+            <p>Evaluate, suggest, and outline improvements to existing interface flows</p>
+            <p>Build and maintain scalable applications using custom, reusable, and responsive frameworks/components</p>
+            <p>Work closely with design teams and business owners to define, design, and implement features.</p>
+          </h1>
+          <h2>
+            <p>Basic Qualifications:</p>
+            <p>Proficient in Java</p>
+            <p>Strong analytical and problem-solving skills
+            <p>Experience working with source control systems such as Git Knowledge of Relational databases like Oracle/Postgres</p>
+            
+            <p>Nice to Have:</p>
+            <p>Full stack experience</p>
+            <p>Some knowledge of NoSQL technologies (Cassandra, Elastic, etc.)</p>
+          </h2>
+          <table>
+            <tbody>
+              <thead>
+                <td>Skill Sets</td>
+                <td>Niche Skill</td>
+                <td>Experience</td>
+                <td>Preference</td>
+              </thead>
+              <tr>
+                <td>Core Java</td>
+                <td>No</td>
+                <td>At least 1 year</td>
+                <td>Is Required</td>
+              </tr>
+              <tr>
+                <td>Java/J2EE</td>
+                <td>No</td>
+                <td>At least 1 year</td>
+                <td>Is Required</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>   
+    </div>
+    
+    <!--JOB 12-->
+    <div class="job_section" id="job_12_section">
+      <div class="job_12">
+        <a href="#" onclick="toggleVisibility('twelfthjob_info')">
+          <p>Java <span class="span">FullStack</span></p>
+          <p class="p">Developer</p>
+        </a>
+        <div class="twelfthjob_info" id="twelfthjob_info">
+          <h1>
+            <p>Java Fullstack Developer</p>
+            <p>Location: Westmont, IL</p>
+            <p>Duration: Long term</p>
+            <p>Job Description:</p>
+          </h1>
+          <h2>
+            <p>Need to manage transitions of the applications, have been transition lead during multiple transitions.</p>
+            <p>Architect and implement micro-services, with mono-repo setup intra service communications via CQRS, inter-service communication via events in Kafka.</p>
+            <p>Design patterns, Spring Boot, Micro services, Restful webservices, Hibernate, • JPA, Apache POI, ReactJS</p>
+            <p>Be able to handle computer science fundamentals like Algorithms & Data structures.</p>
+            <p>Work on AWS cloud.</p>
+            <p>Build best practices with which, CI/CD pipeline timing reduced by 5 times, resulting in cost reduction, and faster delivery.</p>
+          </h2>
+        </div>
+      </div>
+    </div>
+    
+    <!--JOB 13-->
+    <div class="job_section" id="job_13_section">
+      <div class="job_13">
+        <a href="#" onclick="toggleVisibility('thirteenthjob_info')">
+          <p>Project</p>
+          <p class="thirteen">Manager</p>
+        </a>
+        <div class="thirteenthjob_info" id="thirteenthjob_info">
+          <h1>
+            <p>Role: Project Manager</p>
+            <p>Location: Westmont, IL</p>
+            <p>Duration: Long term</p>
+            <p>Job Description:</p>
+          </h1>
+          <h2>
+            <p>Need to work on software systems analysis, design, and development. Ready to bring my proven abilities to an innovative team. Dedicated team member with strong leadership abilities in start-up environments.</p>
+            <p>Perform Agile Management activities including planning, execution, tracking, and reporting Created and maintained roadmaps for product launch and subsequent releases.</p>
+            <p>Work on each of the phases of Software Development Life Cycle (SDLC), developing projects from stage of concept to full implementation.</p>
+            <p>Need to use environment of FICO Blaze Advisor 6.10 and 7.2.</p>
+            <p>Need to program with a flair for adopting new technologies, designing and building applications in Business Rules Management System (BRMS) tools such as FICO Blaze Advisor.</p>
+            <p>Understand of all aspects of the SDLC from understanding client requirements through direct client.</p>
+          </h2>
+        </div>
+      </div>
+    </div>   
+  </div>
+
+
+  
+<!--Footer-->
+<footer class="footer-section" id="footer">
+  <img src="https://safecodesoft.com/wp-content/uploads/2022/11/logo.jpeg" alt="" id="img">
+  <div class="content">
+    <p id="p">
+      IT solutions and services leveraging our<br>
+      proven methodology and tools,<br>
+      experienced resources and thought<br>
+      leadership.
+    </p>
+  </div>
+  <div class="social-media">
+    <div class="footer_social-media">
+      <i class="fa-brands fa-facebook"></i>
+    </div>
+    <div class="footer_social-media">
+      <i class="fa-brands fa-square-instagram"></i>
+    </div>
+    <div class="footer_social-media">
+      <i class="fa-brands fa-square-x-twitter"></i>
+    </div>
+    <div class="footer_social-media">
+      <i class="fa-brands fa-youtube"></i>
+    </div>
+  </div>
+  <div class="rights1">
+     <p>
+      © Safecodesoft. All rights reserved.
+    </p>
+  </div>   
+ 
+  <!--Quick links-->
+  <div class="quick_links">
+    <h1>
+      QUICK LINKS
+    </h1>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Company</a></li>
+      <li><a href="#">Services</a></li>
+      <li><a href="#">Practices</a></li>
+      <li><a href="#">Contact Us</a></li>
+    </ul>
+  </div>
+
+  <div id="contact">
+    <h2>
+      CONTACT US
+    </h2>
+    <div class="contact-info">
+      <i class="fa-solid fa-phone">
+        <span>
+          +1 (512) 846-3799
+        </span>
+      </i>
+      <div class="contact_1">
+        <i class="fa-solid fa-phone">
+          <span>
+            +1 (561) 774-7978
+          </span>
+        </i>
+      </div>
+      <i class="fa-regular fa-envelope letter">
+        <span>
+          info@safecodesoft.com
+        </span>
+      </i>
+      <div class="location">
+        <i class="fa-solid fa-location-dot">
+          <span>
+            507 Denali Pass, Ste: 105, Cedar Park, TX 78613
+          </span>
+        </i>
+      </div>
+    </div>
+  </div>
+</footer>
+  <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="safecode_career.js"></script>
+
+ 
+</body>
+</html>
+
+******CSS******
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /* Apply box-sizing to all elements */
+}
+body{
+  overflow-x: hidden;
+}
+        /*=================Header================*/
+/* Header Image */
+header img {
+  height: 100px;
+  width: auto;
+  position: relative;
+  margin: 10px 20px;
+}
+
+/* Header Styling */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+  background-color: #f5f5f5; /* Light background color */
+  color: #333; /* Dark text color for contrast */
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Subtle shadow */
+}
+
+/* Header Links */
+header a {
+  color: #333;
+  text-decoration: none;
+}
+
+/* Menu Toggle */
+.menuToggle {
+  display: none;
+  font-size: 30px;
+  cursor: pointer;
+  color: #333;
+  transition: color 0.3s;
+}
+
+.menuToggle:hover {
+  color: #ff5722; /* Bright color on hover */
+}
+
+/* Navigation Styling */
+nav {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  font-weight: 600;
+  
+  margin-left: 20px; /* Adjust space between image and nav */
+}
+
+.main-nav {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.main-nav li {
+  position: relative;
+}
+
+.main-nav li a {
+  padding: 10px 20px;
+  display: block;
+  color: #333;
+  font-weight: 600;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-transform: uppercase;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.main-nav li a:hover {
+  color: #ff5722; /* Bright background on hover */
+}
+
+/* Dropdown Menu Styling */
+.main-nav li ul {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #fff; /* White background */
+  border-radius: 8px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  min-width: 200px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  z-index: 1000;
+}
+
+.main-nav li ul li a {
+  padding: 10px 15px;
+  color: #333;
+}
+
+.main-nav li:hover ul {
+  display: block;
+}
+
+/* Dropdown Container Styling */
+.dropdown-container {
+  max-height: 800px; /* Increase this value as needed */
+  overflow: hidden;
+  background-color: #f5f5f5; /* Light background color */
+  border-radius: 8px;
+  transition: max-height 0.5s ease-in-out;
+}
+
+.dropdown-container.active {
+  max-height: 600px; /* Adjust based on content */
+}
+
+.dropdown-container li:hover a {
+  background-color: #ff5722; /* Bright background on hover */
+  color: #fff; /* Light text color on hover */
+}
+
+/* Caret Icon Styling */
+.caret {
+  margin-left: 5px;
+  transition: transform 0.3s;
+}
+
+/* Rotate caret on active state */
+.dropdown-container.active + a .caret {
+  transform: rotate(180deg);
+}
+#services-dropdown {
+  min-width: 300px; /* Minimum width */
+  width: auto; /* Allow width to adjust based on content */
+  white-space: nowrap; /* Prevent line breaks */
+}
+
+/*=====================Main Section====================*/
+main{
+  height: 270px; /* Adjust the height as needed */
+  background-image: url('https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcS0daSspNwdHK7vOW1WMRjUmEhT6_SuInRp55xH83_WPdNyVT4p'); /* Path to your image */
+  background-size: cover; /* Ensure the image covers the header */
+  background-position: center; /* Center the image */
+  position: relative;
+  top: 40px;
+  animation: change 10s infinite ease;
+}
+.text{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  z-index: 20; /* Ensure text is above the overlay */
+  font-size: 2.375em; /* Adjust font size as needed */
+  text-align: center;
+}
+
+@keyframes change {
+  0%{
+    background-image: url('https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcS0daSspNwdHK7vOW1WMRjUmEhT6_SuInRp55xH83_WPdNyVT4p');
+  }
+  20%{
+    background-image: url('https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQhRPGyy84zC5OVTWMy69Ln40cDjGCZPx5oIGtdFQDSCWInGZsL');
+  }
+  40%{
+    background-image: url('https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQhRPGyy84zC5OVTWMy69Ln40cDjGCZPx5oIGtdFQDSCWInGZsL');
+  }
+  60%{
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcdvTz4M9iLLp2CD5T9eEmf1P9hnTjddufEz0haapiM9L9dNkY');
+  }
+  80%{
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcdvTz4M9iLLp2CD5T9eEmf1P9hnTjddufEz0haapiM9L9dNkY');
+  }
+  100%{
+    background-image: url('https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcS0daSspNwdHK7vOW1WMRjUmEhT6_SuInRp55xH83_WPdNyVT4p');
+  }
+}
+
+/*==============================JOBS_SECTION========================*/
+.job_section {
+  padding: 10px;
+  margin-bottom: 20px;
+  
+}
+.job_1 a, .job_2 a, .job_3 a, .job_4 a, .job_5 a, .job_6 a, .job_7 a, .job_8 a, .job_9 a, .job_10 a, .job_11 a, .job_12 a, .job_13 a{
+  /*position: absolute;*/
+  font-size: 10px;
+  color: #000;
+  text-decoration: none;
+  z-index: 10;
+  font-weight: bold;
+}
+.firstjob_info, .secondjob_info, .thirdjob_info, .fourthjob_info, .fifthjob_info, .sixthjob_info, .seventhjob_info, .eighthjob_info, .tenthjob_info, .eleventhjob_info, .twelfthjob_info, .thirteenthjob_info{
+  padding: 10px;
+  width: 90%;
+  border: 2px solid black; /* Add border here */
+}
+.job_1 a:hover, .job_2 a:hover, .job_3 a:hover, .job_4 a:hover, .job_5 a:hover, .job_6 a:hover, .job_7 a:hover, .job_8 a:hover, .job_9 a:hover, .job_10 a:hover, .job_11 a:hover, .job_12 a:hover, .job_13 a:hover{
+  color: #2b93e3;
+}
+
+/* Positioning the job links */
+.job_1 a{
+  position: absolute;
+  top: 500px;
+  left: 30px;
+  z-index: 10; /* Adjust as needed */
+}
+.job_2 a{
+  position: absolute;
+  bottom: 130px;
+  left: 180px;
+  z-index: 5; /* Adjust as needed */
+}
+.job_3 a{
+  position: absolute;
+  left: 280px;
+  bottom: 130px;
+}
+.job_4 a{
+  position: absolute;
+  left: 400px;
+  bottom: 135px;
+  z-index: 5;
+}
+.job_5 a{
+  position: absolute;
+  left: 560px;
+  bottom: 135px;
+  z-index: 5;
+}
+.job_6 a{
+  position: absolute;
+  left: 650px;
+  bottom: 135px;
+  z-index: 5;
+}
+.job_7 a{
+  position: absolute;
+  left: 800px;
+  bottom: 135px;
+  z-index: 5;
+}
+.job_8 a{
+  position: absolute;
+  left: 930px;
+  bottom: 135px;
+  z-index: 5;
+}
+.job_9 a{
+  position: absolute;
+  left: 1050px;
+  bottom: 135px;
+  z-index: 5;
+}
+.job_10 a{
+  position: absolute;
+  left: 1130px;
+  bottom: 135px;
+  z-index: 5;
+}
+.job_11 a{
+  position: absolute;
+  left: 1240px;
+  bottom: 135px;
+  z-index: 5;
+}
+.job_12 a{
+  position: absolute;
+  left: 1340px;
+  bottom: 135px;
+  z-index: 5;
+}
+.job_13 a{
+  position: absolute;
+  left: 1440px;
+  bottom: 135px;
+  z-index: 5;
+}
+/*====Job 1====*/
+.firstjob_info{
+  display: block;
+  position: relative;
+  top: 190px;
+  left: 20px;
+}
+.firstjob_info h1,
+.firstjob_info h2
+ {
+  font-size: 18px;
+}
+.firstjob_info ul {
+  list-style-type: square;
+  padding-top: 20px;
+}
+
+ul ul li {
+  list-style-type: disc;
+  padding-top: 10px;
+}
+
+
+/*====Job 2====*/
+.secondjob_info {
+  display: none;
+  position: relative;
+  margin-top:155px;
+  left: 20px;
+  cursor: pointer;
+}
+.secondjob_info h1,
+.secondjob_info h2{
+  font-size: 18px;
+}
+/*Job 2 table*/
+.secondjob_info table {
+  width: 90%;
+  border-collapse: collapse;
+  margin-top:20px;
+  /*Extra*/
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+.secondjob_info table td,
+.secondjob_info table th {
+  /*padding: 1em 1.4em;*/
+  padding: 20px 25px !important;
+  border: solid 1px #BBB;
+  text-align: left;
+}
+.secondjob_info table td {
+  border-color: #EAEAEA;
+  padding: 4px 10px;
+}
+/*Extra*/
+.secondjob_info table thead {
+  background-color: #f4f4f4;
+  font-weight: 800;
+}
+.secondjob_info table tr:hover {
+  background-color: #f1f1f1;
+}
+/*====Job 3====*/
+/* Job 3 details */
+.thirdjob_info {
+  display: none;
+  position: relative;
+  margin-top: 115px;
+  left: 25px;
+}
+.thirdjob_info h1, .thirdjob_info h2 {
+  font-size: 18px;
+  position: relative;
+}
+.thirdjob_info .first_span, .thirdjob_info .second_span,
+.thirdjob_info .third_span, .thirdjob_info .fourth_span,
+.thirdjob_info .fifth_span, .thirdjob_info .sixth_span,
+.thirdjob_info .seventh_span, .thirdjob_info .eighth_span {
+  position: relative;
+}
+/* Table for job 3 */
+.thirdjob_info table {
+  position: relative;
+  width: 90%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  /*Extra*/
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+.thirdjob_info table td, .thirdjob_info table th {
+  /*padding: 1em 1.4em;*/
+  padding: 20px 25px !important;
+  border: solid 1px #BBB;
+  text-align: left;
+}
+.thirdjob_info table td {
+  border-color: #EAEAEA;
+  padding: 4px 10px;
+}
+.thirdjob_info table thead {
+  background-color: #f4f4f4;
+  font-weight: 800;
+}
+.thirdjob_info table tr:hover {
+  background-color: #f1f1f1;
+}
+  
+/* Job 4 details */
+.fourthjob_info {
+  display: none;
+  position: relative;
+  margin-top: 75px;
+  left: 20px;
+}
+.fourthjob_info h1, .fourthjob_info h2 {
+  font-size: 18px;
+  position: relative;
+}
+.fourthjob_info li {
+  list-style-type: disc;
+  padding-top: 10px;
+}
+.fourthjob_info table {
+  width: 90%;
+  border-collapse: collapse;
+  margin-top:20px;
+  /*Extra*/
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+.fourthjob_info table td,
+.fourthjob_info table th {
+  /*padding: 1em 1.4em;*/
+  padding: 20px 25px !important;
+  border: solid 1px #BBB;
+  text-align: left;
+}
+.fourthjob_info table td {
+  border-color: #EAEAEA;
+  padding: 4px 10px;
+}
+/*Extra*/
+.fourthjob_info table thead {
+  background-color: #f4f4f4;
+  font-weight: 800;
+}
+.fourthjob_info table tr:hover {
+  background-color: #f1f1f1;
+}
+  
+
+/*====Job 5==== */
+.fifthjob_info {
+  display: none;
+  position: relative;
+  margin-top: 30px;
+  left: 20px;
+}
+.fifthjob_info h1, .fifthjob_info h2 {
+  font-size: 18px;
+  position: relative;
+  }
+  /* Table for job 5 */
+  .fifthjob_info table {
+    width: 90%;
+    border-collapse: collapse;
+    margin-top:20px;
+    /*Extra*/
+    font-family: Arial, sans-serif;
+    color: #333;
+  }
+  .fifthjob_info table td,
+  .fifthjob_info table th {
+    /*padding: 1em 1.4em;*/
+    padding: 20px 25px !important;
+    border: solid 1px #BBB;
+    text-align: left;
+  }
+  .fifthjob_info table td {
+    border-color: #EAEAEA;
+    padding: 4px 10px;
+  }
+  /*Extra*/
+  .fifthjob_info table thead {
+    background-color: #f4f4f4;
+    font-weight: 800;
+  }
+  .fifthjob_info table tr:hover {
+    background-color: #f1f1f1;
+  }
+
+
+/* Job 6 details */
+.sixthjob_info {
+  display: none;
+  position: relative;
+  margin-top: -15px;
+  left: 20px;
+}
+.sixthjob_info h1, .sixthjob_info h2 {
+  font-size: 18px;
+  position: relative;
+}
+
+/*====Job 7====*/
+.seventhjob_info {
+  display: none;
+  position: relative;
+  left: 20px;
+  top: -50px;
+}
+.seventhjob_info h1, .seventhjob_info h2 {
+  font-size: 18px;
+  position: relative;
+}
+/* Table for job 7 */
+.seventhjob_info table {
+  width: 90%;
+  border-collapse: collapse;
+  margin-top:20px;
+  /*Extra*/
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+.seventhjob_info table td,
+.seventhjob_info table th {
+  /*padding: 1em 1.4em;*/
+  padding: 20px 25px !important;
+  border: solid 1px #BBB;
+  text-align: left;
+}
+.seventhjob_info table td {
+  border-color: #EAEAEA;
+  padding: 4px 10px;
+}
+/*Extra*/
+.seventhjob_info table thead {
+  background-color: #f4f4f4;
+  font-weight: 800;
+}
+.seventhjob_info table tr:hover {
+  background-color: #f1f1f1;
+}
+  
+
+/*====Job 8====*/
+.eighthjob_info {
+  display: none;
+  position: relative;
+  margin-top: -90px;
+  left: 20px;
+}
+.eighthjob_info h1, .eighthjob_info h2 {
+  font-size: 18px;
+  position: relative;
+}
+/*Table*/
+.eighthjob_info table {
+  width: 90%;
+  border-collapse: collapse;
+  margin-top:20px;
+  /*Extra*/
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+.eighthjob_info table td,
+.eighthjob_info table th {
+  /*padding: 1em 1.4em;*/
+  padding: 20px 25px !important;
+  border: solid 1px #BBB;
+  text-align: left;
+}
+.eighthjob_info table td {
+  border-color: #EAEAEA;
+  padding: 4px 10px;
+}
+/*Extra*/
+.eighthjob_info table thead {
+  background-color: #f4f4f4;
+  font-weight: 800;
+}
+.eighthjob_info table tr:hover {
+  background-color: #f1f1f1;
+}
+  
+
+/*====Job 9====*/
+.ninthjob_info {
+  display: none;
+  position: relative;
+  margin-top: -130px;
+  left: 20px;
+}
+.ninthjob_info h1, .ninthjob_info h2, .ninthjob_info h3, .ninthjob_info h4, .ninthjob_info h5 {
+  font-size: 18px;
+  position: relative;
+  }
+  .ninthjob_info ul {
+  list-style-type: square;
+  padding-top: 20px;
+  }
+  ul ul li {
+  list-style-type: disc;
+  padding-top: 10px;
+  }
+  
+
+  /* Job 10 details */
+  .tenthjob_info {
+    display: none;
+    position: relative;
+    margin-top: -170px;
+    left: 20px;
+  }
+.tenthjob_info h1, .tenthjob_info h2, .tenthjob_info h3{
+  font-size: 18px;
+  position: relative;
+  }
+  
+  
+  /* Job 11 details */
+  .eleventhjob_info {
+    display: none;
+    position: relative;
+    margin-top: -210px;
+    left: 20px;
+  }
+  .eleventhjob_info h1, .eleventhjob_info h2{
+  font-size: 18px;
+  position: relative;
+  .secondjob_info table {
+    width: 90%;
+    border-collapse: collapse;
+    margin-top:20px;
+    /*Extra*/
+    font-family: Arial, sans-serif;
+    color: #333;
+  }
+  .eleventhjob_info table td,
+  .eleventhjob_info table th {
+    /*padding: 1em 1.4em;*/
+    padding: 20px 25px !important;
+    border: solid 1px #BBB;
+    text-align: left;
+  }
+  .eleventhjob_info table td {
+    border-color: #EAEAEA;
+    padding: 4px 10px;
+  }
+  /*Extra*/
+  .eleventhjob_info table thead {
+    background-color: #f4f4f4;
+    font-weight: 800;
+  }
+  .eleventhjob_info table tr:hover {
+    background-color: #f1f1f1;
+  }
+  }
+  
+  /* Job 12 details */
+  .twelfthjob_info {
+    display: none;
+    position: relative;
+    margin-top: -250px;
+    left: 20px;
+  }
+  .twelfthjob_info h1, .twelfthjob_info h2{
+  font-size: 18px;
+  position: relative;
+  }
+  
+  /* Job 13 details */
+  .thirteenthjob_info {
+    display: none;
+    position: relative;
+    margin-top: -285px;
+    left: 20px;
+  }
+  .thirteenthjob_info h1, .thirteenthjob_info h2{
+  font-size: 18px;
+  position: relative;
+  }
+  /*=====================================Footer*======================================*/
+  #footer {
+  background-color: #000;
+  color: #fff;
+  width: 100%;
+  height: 85vh;
+  padding: 20px 0;
+  margin-top: 70px;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  }
+  /*
+  #footer{
+  background-color: #000;
+  width: 100vw;
+  height: auto !important;
+  margin-top: 20px;
+  padding-bottom: 20px;
+  position: relative;
+  }*/
+  #img{
+  height: 110px;
+  width: 350px;
+  /*position: relative;
+  top: 80px;
+  left: 40px;*/
+  }
+  .content{
+  margin-left: 45px;
+  }
+  #p{
+  color: darkgrey;
+  position: relative;
+  top: 230px;
+  
+  margin-left: -408px;
+  font-size: 18px;
+  font-weight: 450;
+  }
+  /*social media links*/
+  .footer_social-media .fa-facebook{
+  color: #fff;
+  font-size: 25px;
+  position: relative;
+  top: 380px;
+  right: 458px;
+  }
+  
+  .footer_social-media .fa-square-instagram{
+  color: #fff;
+  font-size: 25px;
+  position: relative;
+  top: 355px;
+  left: -395px;
+  }
+  .footer_social-media .fa-square-x-twitter{
+  color: #fff;
+  font-size: 25px;
+  position: relative;
+  top: 328px;
+  left: -330px;
+  }
+  .footer_social-media .fa-youtube{
+  color: #fff;
+  font-size: 25px;
+  position: relative;
+  top: 300px;
+  left: -265px;
+  }
+  .rights1{
+  color: darkgray;
+  position: relative;
+  top: 500px;
+  left: -540px;
+  
+  }
+  /*Quick links*/
+  #footer .quick_links h1{
+  color: #fff;
+  position: relative;
+  left: -278px;
+  top: 95px;
+  font-size: 27px;
+  font-family: 'Arial';
+  font-weight: bold;
+  
+  }
+  /*blue line*/
+  .quick_links::after{
+  content: '';
+  display: block;
+  width: 45%; /* This will ensure the underline is as wide as the content */
+  height: 3px; /* Adjust the height of the underline */
+  background-color: blue; /* Set the color of the underline */
+  position: relative;
+  left: -273px;
+  top: -80px;
+  }
+  .quick_links ul{
+  font-size: 17.5px;
+  list-style: none;
+  }
+  .quick_links ul li a{
+  text-decoration: none;
+  color: darkgrey;
+  position: relative;
+  left: -312px;
+  top: 150px;
+  line-height: 35px;
+  }
+  .quick_links li a:hover {
+  color: #8c52ff;
+  }
+  
+  /*Contact Details*/
+  #contact h2{
+  color: #fff;
+  position: relative;
+  left: -258px;
+  top: 95px;
+  font-family: 'Arial';
+  font-size: 27px;
+  font-weight: bold;
+  }
+  #contact::after{
+  content: '';
+  display: block;
+  width: 21.5%; /* This will ensure the underline is as wide as the content */
+  height: 3px; /* Adjust the height of the underline */
+  background-color: blue; /* Set the color of the underline */
+  position: relative;
+  left: -255px;
+  top: -18px;
+  }
+  .contact-info{
+  line-height: 32px;
+  font-size: 18px;
+  font-weight: normal;
+  }
+  #contact i{
+  position: relative;
+  top: 175px;
+  color: #fff;
+  left: -250px;
+  
+  }
+  #contact i span{
+  padding: 10px;
+  font-family: 'Times New Roman', Times, serif;
+  }
+  /*+1 (561) 774-7978*/
+  #contact i .span{
+  position: relative;
+  top: 20px;
+  font-style: 'Arial';
+  font-weight: 450;
+  font-size: 18px;
+  }
+  #contact_1 i{
+  padding-top: 10px; line-height: 10px;
+  }
+
+
+@media (max-width: 1441px) {
+
+  body{
+    overflow-x: hidden;
+    height: auto;
+    width: 100%;
+    position: relative;
+    top: unset;
+    left: unset;
+    }
+    html{
+    overflow-x: hidden;
+    }
+    .text{
+      position: absolute;
+      top: 280px;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: #fff;
+      z-index: 20; /* Ensure text is above the overlay */
+      font-size: 2.375em; /* Adjust font size as needed */
+      text-align: center;
+    }
+    main{
+      height: 270px; /* Adjust the height as needed */
+      background-image: url('https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcS0daSspNwdHK7vOW1WMRjUmEhT6_SuInRp55xH83_WPdNyVT4p'); /* Path to your image */
+      background-size: cover; /* Ensure the image covers the header */
+      background-position: center; /* Center the image */
+      position: relative;
+      top: 30px;
+      animation: change 10s infinite ease;
+    }
+    /*==============================JOBS_SECTION========================*/
+    /* Positioning the job links */
+.job_1 a{
+  position: absolute;
+  top: 500px;
+  left: 30px;
+  z-index: 10; /* Adjust as needed */
+}
+.job_2 a{
+  position: absolute;
+  top: 500px;
+  left: 180px;
+  display: block;
+  z-index: 5; /* Adjust as needed */
+}
+.job_3 a{
+  position: absolute;
+  left: 280px;
+  top: 500px;
+}
+.job_4 a{
+  position: absolute;
+  left: 400px;
+  top: 500px;
+  z-index: 5;
+}
+.job_5 a{
+  position: absolute;
+  left: 560px;
+  top: 500px;
+  z-index: 5;
+}
+.job_6 a{
+  position: absolute;
+  left: 650px;
+  top: 500px;
+  z-index: 5;
+}
+.job_7 a{
+  position: absolute;
+  left: 800px;
+  top: 500px;
+  z-index: 5;
+}
+.job_8 a{
+  position: absolute;
+  left: 930px;
+  top: 500px;
+  z-index: 5;
+}
+.job_9 a{
+  position: absolute;
+  left: 1050px;
+  top: 500px;
+  z-index: 5;
+}
+.job_10 a{
+  position: absolute;
+  left: 1130px;
+  top: 500px;
+  z-index: 5;
+}
+.job_11 a{
+  position: absolute;
+  left: 1240px;
+  top: 500px;
+  z-index: 5;
+}
+.job_12 a{
+  position: absolute;
+  left: 1340px;
+  top: 500px;
+  z-index: 5;
+}
+.job_13 a{
+  position: absolute;
+  left: 1440px;
+  top: 500px;
+  z-index: 5;
+}
+/*====Job 1====*/
+.firstjob_info{
+  display: block;
+  position: relative;
+  top: 160px;
+  left: 20px;
+}
+.firstjob_info h1,
+.firstjob_info h2
+ {
+  font-size: 18px;
+}
+.firstjob_info ul {
+  list-style-type: square;
+  padding-top: 20px;
+}
+
+ul ul li {
+  list-style-type: disc;
+  padding-top: 10px;
+}
+
+
+/*====Job 2====*/
+.secondjob_info {
+  display: none;
+  position: relative;
+  margin-top: 135px;
+  left: 20px;
+  cursor: pointer;
+}
+.secondjob_info h1,
+.secondjob_info h2{
+  font-size: 18px;
+}
+/*Job 2 table*/
+.secondjob_info table {
+  width: 90%;
+  border-collapse: collapse;
+  margin-top:20px;
+  /*Extra*/
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+.secondjob_info table td,
+.secondjob_info table th {
+  /*padding: 1em 1.4em;*/
+  padding: 20px 25px !important;
+  border: solid 1px #BBB;
+  text-align: left;
+}
+.secondjob_info table td {
+  border-color: #EAEAEA;
+  padding: 4px 10px;
+}
+/*Extra*/
+.secondjob_info table thead {
+  background-color: #f4f4f4;
+  font-weight: 800;
+}
+.secondjob_info table tr:hover {
+  background-color: #f1f1f1;
+}
+/*====Job 3====*/
+/* Job 3 details */
+.thirdjob_info {
+  display: none;
+  position: relative;
+  margin-top: 95px;
+  left: 25px;
+}
+.thirdjob_info h1, .thirdjob_info h2 {
+  font-size: 18px;
+  position: relative;
+}
+.thirdjob_info .first_span, .thirdjob_info .second_span,
+.thirdjob_info .third_span, .thirdjob_info .fourth_span,
+.thirdjob_info .fifth_span, .thirdjob_info .sixth_span,
+.thirdjob_info .seventh_span, .thirdjob_info .eighth_span {
+  position: relative;
+}
+/* Table for job 3 */
+.thirdjob_info table {
+  position: relative;
+  width: 90%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  /*Extra*/
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+.thirdjob_info table td, .thirdjob_info table th {
+  /*padding: 1em 1.4em;*/
+  padding: 20px 25px !important;
+  border: solid 1px #BBB;
+  text-align: left;
+}
+.thirdjob_info table td {
+  border-color: #EAEAEA;
+  padding: 4px 10px;
+}
+.thirdjob_info table thead {
+  background-color: #f4f4f4;
+  font-weight: 800;
+}
+.thirdjob_info table tr:hover {
+  background-color: #f1f1f1;
+}
+  
+/* Job 4 details */
+.fourthjob_info {
+  display: none;
+  position: relative;
+  margin-top: 55px;
+  left: 20px;
+}
+.fourthjob_info h1, .fourthjob_info h2 {
+  font-size: 18px;
+  position: relative;
+}
+.fourthjob_info li {
+  list-style-type: disc;
+  padding-top: 10px;
+}
+.fourthjob_info table {
+  width: 90%;
+  border-collapse: collapse;
+  margin-top:20px;
+  /*Extra*/
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+.fourthjob_info table td,
+.fourthjob_info table th {
+  /*padding: 1em 1.4em;*/
+  padding: 20px 25px !important;
+  border: solid 1px #BBB;
+  text-align: left;
+}
+.fourthjob_info table td {
+  border-color: #EAEAEA;
+  padding: 4px 10px;
+}
+/*Extra*/
+.fourthjob_info table thead {
+  background-color: #f4f4f4;
+  font-weight: 800;
+}
+.fourthjob_info table tr:hover {
+  background-color: #f1f1f1;
+}
+  
+
+/*====Job 5==== */
+.fifthjob_info {
+  display: none;
+  position: relative;
+  margin-top: 10px;
+  left: 20px;
+}
+.fifthjob_info h1, .fifthjob_info h2 {
+  font-size: 18px;
+  position: relative;
+  }
+  /* Table for job 5 */
+  .fifthjob_info table {
+    width: 90%;
+    border-collapse: collapse;
+    margin-top:20px;
+    /*Extra*/
+    font-family: Arial, sans-serif;
+    color: #333;
+  }
+  .fifthjob_info table td,
+  .fifthjob_info table th {
+    /*padding: 1em 1.4em;*/
+    padding: 20px 25px !important;
+    border: solid 1px #BBB;
+    text-align: left;
+  }
+  .fifthjob_info table td {
+    border-color: #EAEAEA;
+    padding: 4px 10px;
+  }
+  /*Extra*/
+  .fifthjob_info table thead {
+    background-color: #f4f4f4;
+    font-weight: 800;
+  }
+  .fifthjob_info table tr:hover {
+    background-color: #f1f1f1;
+  }
+
+
+/* Job 6 details */
+.sixthjob_info {
+  display: none;
+  position: relative;
+  margin-top: -35px;
+  left: 20px;
+}
+.sixthjob_info h1, .sixthjob_info h2 {
+  font-size: 18px;
+  position: relative;
+}
+
+/*====Job 7====*/
+.seventhjob_info {
+  display: none;
+  position: relative;
+  left: -20px;
+  top: -50px;
+}
+.seventhjob_info h1, .seventhjob_info h2 {
+  font-size: 18px;
+  position: relative;
+}
+/* Table for job 7 */
+.seventhjob_info table {
+  width: 90%;
+  border-collapse: collapse;
+  margin-top:20px;
+  /*Extra*/
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+.seventhjob_info table td,
+.seventhjob_info table th {
+  /*padding: 1em 1.4em;*/
+  padding: 20px 25px !important;
+  border: solid 1px #BBB;
+  text-align: left;
+}
+.seventhjob_info table td {
+  border-color: #EAEAEA;
+  padding: 4px 10px;
+}
+/*Extra*/
+.seventhjob_info table thead {
+  background-color: #f4f4f4;
+  font-weight: 800;
+}
+.seventhjob_info table tr:hover {
+  background-color: #f1f1f1;
+}
+  
+
+/*====Job 8====*/
+.eighthjob_info {
+  display: none;
+  position: relative;
+  margin-top: -120px;
+  left: 20px;
+}
+.eighthjob_info h1, .eighthjob_info h2 {
+  font-size: 18px;
+  position: relative;
+}
+/*Table*/
+.eighthjob_info table {
+  width: 90%;
+  border-collapse: collapse;
+  margin-top:20px;
+  /*Extra*/
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+.eighthjob_info table td,
+.eighthjob_info table th {
+  /*padding: 1em 1.4em;*/
+  padding: 20px 25px !important;
+  border: solid 1px #BBB;
+  text-align: left;
+}
+.eighthjob_info table td {
+  border-color: #EAEAEA;
+  padding: 4px 10px;
+}
+/*Extra*/
+.eighthjob_info table thead {
+  background-color: #f4f4f4;
+  font-weight: 800;
+}
+.eighthjob_info table tr:hover {
+  background-color: #f1f1f1;
+}
+  
+
+/*====Job 9====*/
+.ninthjob_info {
+  display: none;
+  position: relative;
+  margin-top: -150px;
+  left: 20px;
+}
+.ninthjob_info h1, .ninthjob_info h2, .ninthjob_info h3, .ninthjob_info h4, .ninthjob_info h5 {
+  font-size: 18px;
+  position: relative;
+  }
+  .ninthjob_info ul {
+  list-style-type: square;
+  padding-top: 20px;
+  }
+  ul ul li {
+  list-style-type: disc;
+  padding-top: 10px;
+  }
+  
+
+  /* Job 10 details */
+  .tenthjob_info {
+    display: none;
+    position: relative;
+    margin-top: -190px;
+    left: 20px;
+  }
+.tenthjob_info h1, .tenthjob_info h2, .tenthjob_info h3{
+  font-size: 18px;
+  position: relative;
+  }
+  
+  
+  /* Job 11 details */
+  .eleventhjob_info {
+    display: none;
+    position: relative;
+    margin-top: -230px;
+    left: 20px;
+  }
+  .eleventhjob_info h1, .eleventhjob_info h2{
+  font-size: 18px;
+  position: relative;
+  .secondjob_info table {
+    width: 90%;
+    border-collapse: collapse;
+    margin-top: -20px;
+    /*Extra*/
+    font-family: Arial, sans-serif;
+    color: #333;
+  }
+  .eleventhjob_info table td,
+  .eleventhjob_info table th {
+    /*padding: 1em 1.4em;*/
+    padding: 20px 25px !important;
+    border: solid 1px #BBB;
+    text-align: left;
+  }
+  .eleventhjob_info table td {
+    border-color: #EAEAEA;
+    padding: 4px 10px;
+  }
+  /*Extra*/
+  .eleventhjob_info table thead {
+    background-color: #f4f4f4;
+    font-weight: 800;
+  }
+  .eleventhjob_info table tr:hover {
+    background-color: #f1f1f1;
+  }
+  }
+  
+  /* Job 12 details */
+  .twelfthjob_info {
+    display: none;
+    position: relative;
+    margin-top: -270px;
+    left: 20px;
+  }
+  .twelfthjob_info h1, .twelfthjob_info h2{
+  font-size: 18px;
+  position: relative;
+  }
+  
+  /* Job 13 details */
+  .thirteenthjob_info {
+    display: none;
+    position: relative;
+    margin-top: -305px;
+    left: 20px;
+  }
+  .thirteenthjob_info h1, .thirteenthjob_info h2{
+  font-size: 18px;
+  position: relative;
+  }
+    /*================Footer===============*/
+  #footer {
+    background-color: #000;
+    color: #fff;
+    width: 100%;
+    height: 85vh;
+    padding: 20px 0;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 250px; /* Eliminate any top margin */
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  
+  #img{
+    height: 110px;
+    width: 350px;
+    position: relative;
+    top: 30px;
+    left: 40px;
+  }
+  .content{
+    margin-left: 62px;
+    margin-top: -70px;
+  }
+  
+  /*social media links*/
+  .footer_social-media .fa-facebook{
+    color: #fff;
+    font-size: 25px;
+    position: relative;
+    top: 300px;
+    left: -440px;
+  }
+  .footer_social-media .fa-square-instagram{
+    color: #fff;
+    font-size: 25px;
+    position: relative;
+    top: 275px;
+    left: -370px;
+  }
+  .footer_social-media .fa-square-x-twitter{
+    color: #fff;
+    font-size: 25px;
+    position: relative;
+    top: 249px;
+    left: -300px;
+  }
+  .footer_social-media .fa-youtube{
+    color: #fff;
+    font-size: 25px;
+    position: relative;
+    top: 222px;
+    left: -230px;
+  }
+  .rights1{
+    position: relative;
+    top: 430px;
+    left: -505px;
+  }
+  
+  /*Quick links*/
+  #footer .quick_links h1{
+    color: #fff;
+    position: relative;
+    left: -278px;
+    top: 95px;
+    font-size: 27px;
+    font-family: 'Arial';
+    font-weight: bold;
+  }
+  
+  /*blue line*/
+  .quick_links::after{
+    content: '';
+    display: block;
+    width: 45%; /* This will ensure the underline is as wide as the content */
+    height: 3px; /* Adjust the height of the underline */
+    background-color: blue; /* Set the color of the underline */
+    position: relative;
+    left: -273px;
+    top: -80px;
+  }
+}
+
+@media (max-width: 1025px){
+  .main-nav li a .caret {
+    margin-left: auto;
+  }
+  /*=====================Main Section====================*/
+  main .image{
+    height: auto;
+    max-width: 100%;
+    margin-top: 350px;
+    margin-left: 20px;
+    width: 50%;
+    animation: fadeinleft 1s ease-out;
+  }
+  .texts p{
+    color: rgba(41, 28, 87, 0.85);
+    font-family: "Roboto", Sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.8em;
+    width: 50%;
+    margin-left: 500px;
+    margin-top: -400px;
+  }
+  .texts .p{
+    margin-top: 50px;
+  }
+  .about{
+    position: relative;
+    top: 450px;
+    left: 500px;
+    color: #2D0174;
+    font-family: "Lora", Sans-serif;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 1.4em;
+  }
+  #btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #001967;
+    color: #fff;
+    font-size: 16px;
+    width: 200px;
+    height: 60px;
+    font-weight: 700;
+    text-decoration: none;
+    border-radius: 5px;
+    border: navajowhite;
+    position: relative;
+    top: 20px;
+    font-family: "Lora", Sans-serif;
+    left: 500px;
+    transition: background-color 0.3s ease-in;
+  }
+  .text{
+    margin-top: -150px;
+  }
+  /*======JOB SECTION=========*/
+.job_container {
+  border: 1px solid #1e1b1b; /* Box border for small devices */
+  padding: 5px; /* Adjust padding as needed */
+  margin-left: 10px;
+  margin-top: 40px; /* Adjust margin-top as needed */
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+.firstjob_info, .secondjob_info, .thirdjob_info, .fourthjob_info, .fifthjob_info, .sixthjob_info, .seventhjob_info, .eighthjob_info, .tenthjob_info, .eleventhjob_info, .twelfthjob_info, .thirteenthjob_info{
+  padding: 10px;
+  width: 90%;
+}
+.job_section {
+  border-bottom: 1px solid #000; /* Remove borders from individual job sections */
+  width: 101.1%;
+  margin: 2px 0; /* Space between job sections */
+  padding: 5px;
+  margin-left: -5px !important;
+}
+
+.job_section:first-child {
+  border-top: none; /* Remove top border for the first job section */
+}
+
+.job_section:last-child {
+  border-bottom: none; /* Remove bottom border for the last job section */
+}
+
+.job_section a {
+  position: static;
+  margin-bottom: 5px;
+}
+.job_1 a, .job_2 a, .job_3 a, .job_4 a, .job_5 a, .job_6 a, .job_7 a, .job_8 a, .job_9 a, .job_10 a, .job_11 a, .job_12 a, .job_13 a{
+  display: block;
+  line-height: 2px;
+  padding-bottom: -30px !important;
+  font-size: 14px; /* Adjust font size as needed */
+  color: #000; /* Text color */
+  text-decoration: none; /* Remove underline from links */
+  /*background-color: #f9f9f9;*/
+  border-radius: 4px; /* Rounded corners (optional) */
+   /*margin: 0 5px; Space between links */
+}
+/*Job links*/
+.job_1 a, .job_2 a, .job_3 a, .job_4 a, .job_5 a, .job_6 a, .job_7 a, .job_8 a, .job_9 a, .job_10 a, .job_11 a, .job_12 a, .job_13 a{
+  margin-top: 15px;
+  margin-left: 10px;
+}
+.job_1 .p{
+  position: relative;
+  top: -19px;
+  left: 130px;
+}
+.job_2 .second, .job_13 .thirteen{
+  position: relative;
+  top: -18px;
+  left: 50px;
+}
+.job_3 .third{
+  position: relative;
+  top: -18px;
+  left: 35px;
+}
+.job_4 .p, .job_10 .p, .job_11 .p, .job_12 .p{
+  position: relative;
+  top: -18px;
+  left: 95px;
+}
+.job_5 .five{
+  position: relative;
+  top: -18px;
+  left: 20px;
+}
+.job_6 .p{
+  position: relative;
+  top: -18px;
+  left: 110px;
+}
+.job_7 .p{
+  position: relative;
+  top: -18px;
+  left: 50px;
+}
+.job_8 .eight{
+  position: relative;
+  top: -18px;
+  left: 65px;
+}
+.job_9 .nine{
+  position: relative;
+  top: -18px;
+  left: 25px;
+}
+
+
+
+
+/* Job details visibility */
+.firstjob_info,
+.secondjob_info,
+.thirdjob_info {
+  display: none;
+  position: static;
+  width: 100%;
+  margin-left: 10px;
+}
+.secondjob_info, .thirdjob_info{
+  margin-top: -10px;
+}
+.fourthjob_info, .fifthjob_info, .sixthjob_info, .seventhjob_info, .eighthjob_info, .ninthjob_info, .tenthjob_info, .eleventhjob_info, .twelfthjob_info, .thirteenthjob_info{
+  margin-left: -10px;
+  margin-top: -10px;
+}
+.job_section.active .firstjob_info,
+.job_section.active .secondjob_info,
+.job_section.active .thirdjob_info {
+  display: block;
+}
+
+/*=====================================Footer*======================================*/
+#footer {
+  background-color: #000;
+  color: #fff;
+  width: 100%;
+  height: 73vh;
+  padding:  0;
+  position: absolute;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 50px; /* Eliminate any top margin */
+  justify-content: space-between;
+  align-items: flex-start;
+  
+}
+#img{
+  height: 110px;
+  width: 310px;
+  position: relative;
+  top: 40px;
+  left: 40px;
+}
+
+.content{
+  margin-left: 108px;
+  position: relative;
+  top: 10px;
+}
+#p{
+  color: darkgrey;
+  position: relative;
+  top: 230px;
+  margin-left: -420px;
+  font-size: 14px;
+  font-weight: 450;
+}
+.social-media{
+  margin-left: -38px;
+  margin-top: -30px;
+}
+.rights1{
+  margin-top: -60px;
+  margin-left: -25px;
+}
+/*Quick links*/
+#footer .quick_links h1{
+  color: #fff;
+  position: relative;
+  left: -420px;
+  top: 55px;
+  font-size: 23px;
+  font-family: 'Arial';
+  font-weight: bold;
+  
+}
+/*blue line*/
+.quick_links::after{
+  content: '';
+  display: block;
+  width: 45%; /* This will ensure the underline is as wide as the content */
+  height: 3px; /* Adjust the height of the underline */
+  background-color: blue; /* Set the color of the underline */
+  position: relative;
+  left: -415px;
+  top: -138px;
+}
+.quick_links ul{
+  font-size: 17.5px; 
+  list-style: none;
+}
+.quick_links ul li a{
+  text-decoration: none;
+  color: darkgrey;
+  position: relative;
+  left: -450px;
+  top: 110px;
+  line-height: 35px;
+}
+.quick_links li a:hover {
+  color: #8c52ff;
+}
+/*Contact Details*/
+#contact h2{
+  color: #fff;
+  position: relative;
+  left: 680px;
+  top: -195px;
+  font-family: 'Arial';
+  font-size: 23px;
+  font-weight: bold;
+}
+#contact::after{
+  content: '';
+  display: block;
+  width: 21.5%; /* This will ensure the underline is as wide as the content */
+  height: 3px; /* Adjust the height of the underline */
+  background-color: blue; /* Set the color of the underline */
+  position: relative;
+  left: 685px;
+  top: -325px;
+}
+.contact-info{
+  line-height: 32px;
+  font-size: 14.5px;
+  font-weight: normal;
+  position: relative;
+  left: 935px;
+  top: -315px;
+}
+#contact i{
+  position: relative;
+  top: 175px;
+  color: #fff;
+  left: -250px;
+
+}
+#contact i span{
+  padding: 10px;
+  font-family: 'Times New Roman', Times, serif;
+}
+/*+1 (561) 774-7978*/
+#contact i .span{
+  position: relative;
+  top: 20px;
+  font-style: 'Arial';
+  font-weight: 450;
+  font-size: 18px;
+}
+#contact_1 i{
+  padding-top: 10px; line-height: 10px;
+}
+
+}
+
+@media (max-width:769px){
+  nav {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    height: 310px;
+    text-align: center;
+    position: absolute;
+    top: 185px; /* Adjust based on your header height */
+    left: -20px;
+    padding: 20px;
+    background-color: #fff;
+    border-top: 1px solid #ddd;
+    z-index: 1000;
+  }
+
+  nav.active {
+    display: flex;
+  }
+
+  .main-nav {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .main-nav li ul {
+    position: static;
+    max-height: 0;
+    overflow: hidden;
+  }
+
+  .main-nav li.active ul {
+    display: block;
+    max-height: 600px; /* Adjust based on content */
+  }
+
+  .caret {
+    margin-left: 0;
+    display: inline;
+    transition: transform 0.3s;
+  }
+
+  .menuToggle {
+    display: block;
+    font-size: 30px;
+    color: #333;
+    transition: color 0.3s;
+  }
+  /* Header Image */
+  header img{
+    height: 130px;
+    z-index: 50;
+    width: 250px;
+    position: relative;
+    left: 30px;
+    top: -10px;
+  }
+  nav {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    height: 310px;
+    text-align: center;
+    position: absolute;
+    top: 185px; /* Adjust based on your header height */
+    left: -20px;
+    padding: 20px;
+    background-color: #fff;
+    border-top: 1px solid #ddd;
+    z-index: 1000;
+  }
+
+  nav.active {
+    display: flex;
+  }
+
+  .main-nav {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .main-nav li ul {
+    position: static;
+    max-height: 0;
+    overflow: hidden;
+  }
+
+  .main-nav li.active ul {
+    display: block;
+    max-height: 600px; /* Adjust based on content */
+  }
+
+  .caret {
+    margin-left: 0;
+    display: inline;
+    transition: transform 0.3s;
+  }
+
+  .menuToggle {
+    display: block;
+    font-size: 30px;
+    color: #333;
+    transition: color 0.3s;
+  }
+  /*============Main Setion========*/
+  main{
+    height: 270px; /* Adjust the height as needed */
+    background-image: url('https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcS0daSspNwdHK7vOW1WMRjUmEhT6_SuInRp55xH83_WPdNyVT4p'); /* Path to your image */
+    background-size: cover; /* Ensure the image covers the header */
+    background-position: center; /* Center the image */
+    position: relative;
+    top: 30px;
+    animation: change 10s infinite ease;
+  }
+  .text{
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    z-index: 20; /* Ensure text is above the overlay */
+    font-size: 2.375em; /* Adjust font size as needed */
+    text-align: center;
+  }
+
+  /*====================JOBS SECTION================*/
+.job_container {
+  border: 1px solid #1e1b1b; /* Box border for small devices */
+  padding: 5px; /* Adjust padding as needed */
+  margin-left: 10px;
+  margin-top: 135px; /* Adjust margin-top as needed */
+  margin-right: 10px;
+  margin-bottom: 10px;
+  position: relative;
+  top: -90px;
+}
+.firstjob_info, .secondjob_info, .thirdjob_info, .fourthjob_info, .fifthjob_info, .sixthjob_info, .seventhjob_info, .eighthjob_info, .tenthjob_info, .eleventhjob_info, .twelfthjob_info, .thirteenthjob_info{
+  padding: 10px;
+  width: 90%;
+  display: none;
+  border: 2px solid black; /* Add border here */
+}
+.job_section {
+  border-bottom: 1px solid #000; /* Remove borders from individual job sections */
+  width: 101.1%;
+  margin: 2px 0; /* Space between job sections */
+  padding: 5px;
+  margin-left: -5px !important;
+}
+
+.job_section:first-child {
+  border-top: none; /* Remove top border for the first job section */
+}
+
+.job_section:last-child {
+  border-bottom: none; /* Remove bottom border for the last job section */
+}
+
+.job_section a {
+  position: static;
+  margin-bottom: 5px;
+}
+.job_1 a, .job_2 a, .job_3 a, .job_4 a, .job_5 a, .job_6 a, .job_7 a, .job_8 a, .job_9 a, .job_10 a, .job_11 a, .job_12 a, .job_13 a{
+  display: block;
+  line-height: 2px;
+  padding-bottom: -30px !important;
+  font-size: 14px; /* Adjust font size as needed */
+  color: #000; /* Text color */
+  text-decoration: none; /* Remove underline from links */
+  /*background-color: #f9f9f9;*/
+  border-radius: 4px; /* Rounded corners (optional) */
+   /*margin: 0 5px; Space between links */
+}
+/*Job links*/
+.job_1 a, .job_2 a, .job_3 a, .job_4 a, .job_5 a, .job_6 a, .job_7 a, .job_8 a, .job_9 a, .job_10 a, .job_11 a, .job_12 a, .job_13 a{
+  margin-top: 15px;
+  margin-left: 10px;
+}
+.job_1 .p{
+  position: relative;
+  top: -19px;
+  left: 130px;
+}
+.job_2 .second, .job_13 .thirteen{
+  position: relative;
+  top: -18px;
+  left: 50px;
+}
+.job_3 .third{
+  position: relative;
+  top: -18px;
+  left: 35px;
+}
+.job_4 .p, .job_10 .p, .job_11 .p, .job_12 .p{
+  position: relative;
+  top: -18px;
+  left: 95px;
+}
+.job_5 .five{
+  position: relative;
+  top: -18px;
+  left: 20px;
+}
+.job_6 .p{
+  position: relative;
+  top: -18px;
+  left: 110px;
+}
+.job_7 .p{
+  position: relative;
+  top: -18px;
+  left: 50px;
+}
+.job_8 .eight{
+  position: relative;
+  top: -18px;
+  left: 65px;
+}
+.job_9 .nine{
+  position: relative;
+  top: -18px;
+  left: 25px;
+}
+
+
+
+
+/* Job details visibility */
+.firstjob_info,
+.secondjob_info,
+.thirdjob_info {
+  display: none;
+  position: static;
+  width: 100%;
+  margin-left: 10px;
+}
+.secondjob_info, .thirdjob_info{
+  margin-top: -10px;
+}
+.fourthjob_info, .fifthjob_info, .sixthjob_info, .seventhjob_info, .eighthjob_info, .ninthjob_info, .tenthjob_info, .eleventhjob_info, .twelfthjob_info, .thirteenthjob_info{
+  margin-left: -10px;
+  margin-top: -10px;
+}
+.job_section.active .firstjob_info,
+.job_section.active .secondjob_info,
+.job_section.active .thirdjob_info {
+  display: block;
+}
+/*============================Footer Section======================*/
+#footer {
+  background-color: #000;
+  color: #fff;
+  width: 100%;
+  height: 73vh;
+  padding: 0;
+  position: absolute;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: -60px;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+#p{
+  color: darkgrey;
+  position: relative;
+  top: 230px;
+  margin-left: -428px;
+  font-size: 14px;
+  font-weight: 450;
+}
+.social-media{
+  position: relative;
+  left: 8px !important;
+}
+.rights1{
+  margin-top: -50px;
+  position: relative;
+  left: -480px;
+}
+
+/*Quick links*/
+#footer .quick_links h1{
+  color: #fff;
+  position: relative;
+  left: 400px;
+  top: -135px;
+  font-size: 23px;
+  font-family: 'Arial';
+  font-weight: bold;
+}
+/*blue line*/
+.quick_links::after{
+  content: '';
+  display: block;
+  width: 45%; /* This will ensure the underline is as wide as the content */
+  height: 3px; /* Adjust the height of the underline */
+  background-color: blue; /* Set the color of the underline */
+  position: relative;
+  left: 400px;
+  top: -300px;
+}
+.quick_links ul{
+  font-size: 17.5px;
+  list-style: none;
+}
+.quick_links ul li a{
+  text-decoration: none;
+  color: darkgrey;
+  position: relative;
+  left: 370px;
+  top: -110px;
+  line-height: 30px;
+}
+.quick_links li a:hover {
+  color: #8c52ff;
+}
+/*Contact Details*/
+#contact h2{
+  color: #fff;
+  position: relative;
+  left:-32px;
+  top: 95px;
+  font-family: 'Arial';
+  font-size: 23px;
+  font-weight: bold;
+}
+#contact::after{
+  content: '';
+  display: block;
+  width: 21.5%; /* This will ensure the underline is as wide as the content */
+  height: 3px; /* Adjust the height of the underline */
+  background-color: blue; /* Set the color of the underline */
+  position: relative;
+  left: -30px;
+  top: -30px;
+}
+.contact-info{
+  line-height: 30px;
+  font-size: 14.5px;
+  font-weight: normal;
+  position: relative;
+  left: 218px;
+  top: -65px;
+}
+#contact i{
+  position: relative;
+  top: 175px;
+  color: #fff;
+  left: -250px;
+}
+#contact i span{
+  padding: 10px;
+  font-family: 'Times New Roman', Times, serif;
+}
+/*+1 (561) 774-7978*/
+#contact i .span{
+  position: relative;
+  top: 20px;
+  font-style: 'Arial';
+  font-weight: 450;
+  font-size: 18px;
+}
+#contact_1 i{
+  padding-top: 10px; 
+  line-height: 10px;
+}
+
+}
+ 
+@media (max-width:426px){
+  main{
+    height: 350px;
+  }
+  nav{
+    height: 360px;
+  }
+  main p{
+    margin-top: 45px;
+  }
+  .firstjob_info, .secondjob_info, .thirdjob_info, .fourthjob_info, .fifthjob_info, .sixthjob_info, .seventhjob_info, .eighthjob_info, .tenthjob_info, .eleventhjob_info, .twelfthjob_info, .thirteenthjob_info{
+    padding: 10px;
+    width: 90%;
+    display: none;
+    border: 2px solid black; /* Add border here */
+  }
+  /*========================Footer=================*/
+#footer {
+  height: 800px;
+  margin-top: -45px;
+  padding: 20px 10px; /* Adjust padding for smaller screens */
+  display: block; /* Ensure footer items stack vertically */
+}
+#img{
+  height: 110px;
+  width: 350px;
+  position: relative;
+  top: -5px;
+  left: 40px;
+}
+#p{
+  color: rgba(255, 255, 255, 0.7);
+  position: relative;
+  top: 60px;
+  margin-left: -65px;
+  font-size: 15px;
+  font-weight: 400;
+  font-family: "Open Sans", Sans-serif;
+}
+.social-media{
+  position: relative;
+  left: 510px !important;
+  color: #000;
+  top: -210px;
+  z-index: 20;
+}
+.rights1{
+  margin-top: -380px;
+  position: relative;
+  left: 60px;
+}
+/*Quick links*/
+#footer .quick_links h1{
+  color: #fff;
+  position: relative;
+  left: 40px;
+  top: 455px;
+  font-size: 23px;
+  font-family: 'Arial';
+  font-weight: bold;
+  
+  }
+  /*blue line*/
+  .quick_links::after{
+  content: '';
+  display: block;
+  width: 15%; /* This will ensure the underline is as wide as the content */
+  height: 3px; /* Adjust the height of the underline */
+  background-color: blue; /* Set the color of the underline */
+  position: relative;
+  left: 40px;
+  top: 288px;
+  }
+  .quick_links ul{
+  font-size: 17.5px;
+  list-style: none;
+  }
+  .quick_links ul li a{
+  text-decoration: none;
+  color: darkgrey;
+  position: relative;
+  left: 5px;
+  top: 480px;
+  line-height: 30px;
+  }
+  .quick_links li a:hover {
+  color: #8c52ff;
+  }
+.contact-info{
+  line-height: 30px;
+  font-size: 14.5px;
+  font-weight: normal;
+  position: relative;
+  left: 285px;
+  top: 350px;
+  }
+  /*Contact Details*/
+#contact h2{
+  color: #fff;
+  position: relative;
+  left: 35px;
+  top: 500px;
+  font-family: 'Arial';
+  font-size: 23px;
+  font-weight: bold;
+  }
+  #contact::after{
+  content: '';
+  display: block;
+  width: 21.5%; /* This will ensure the underline is as wide as the content */
+  height: 3px; /* Adjust the height of the underline */
+  background-color: blue; /* Set the color of the underline */
+  position: relative;
+  left: 36px;
+  top: 380px;
+  }
+}
+
+@media (max-width:376px){
+  header img{
+    margin-left: -10px;
+  }
+  main p{
+    margin-top: 45px;
+  }
+  .firstjob_info, .secondjob_info, .thirdjob_info, .fourthjob_info, .fifthjob_info, .sixthjob_info, .seventhjob_info, .eighthjob_info, .tenthjob_info, .eleventhjob_info, .twelfthjob_info, .thirteenthjob_info{
+    padding: 10px;
+    width: 90%;
+    display: none;
+    border: 2px solid black; /* Add border here */
+  }
+  /*===================Footer Section=======================*/
+  #footer{
+    margin-top: -40px;
+  }
+  #img{
+    height: 110px;
+    width: 300px;
+    position: relative;
+    top: -5px;
+    left: 40px;
+  }
+}
+
+@media (max-width:321px){
+  /*Header Image*/
+header img {
+  width: 75vw; /* Adjust image width for smaller screens */
+  /* other styles */
+  position: relative;
+  left: 10px;
+}
+  .firstjob_info, .secondjob_info, .thirdjob_info, .fourthjob_info, .fifthjob_info, .sixthjob_info, .seventhjob_info, .eighthjob_info, .tenthjob_info, .eleventhjob_info, .twelfthjob_info, .thirteenthjob_info{
+    padding: 10px;
+    width: 90%;
+    display: none;
+    border: 2px solid black; /* Add border here */
+  }
+  /*=========================Footer==========================*/
+  #footer{
+    margin-top: 80px;
+  }
+  #img{
+    height: 110px;
+    width: 280px;
+    position: relative;
+    top: -5px;
+    left: 10px;
+  }
+  #p{
+    color: rgba(255, 255, 255, 0.7);
+    position: relative;
+    top: 70px;
+    margin-left: -95px;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: "Open Sans", Sans-serif;
+  }
+  .social-media{
+    position: relative;
+    margin-left: -60px;
+    top: -195px;
+  }
+    .rights1{
+    margin-top: -360px;
+    position: relative;
+    left: 30px;
+  }
+  /*Quick links*/
+  #footer .quick_links h1{
+    color: #fff;
+    position: relative;
+    left: 15px;
+    top: 455px;
+    font-size: 23px;
+    font-family: 'Arial';
+    font-weight: bold;
+  }
+    /*blue line*/
+    .quick_links::after{
+    content: '';
+    display: block;
+    width: 15%; /* This will ensure the underline is as wide as the content */
+    height: 3px; /* Adjust the height of the underline */
+    background-color: blue; /* Set the color of the underline */
+    position: relative;
+    left: 18px;
+    top: 285px;
+    }
+    .quick_links ul{
+    font-size: 17.5px;
+    list-style: none;
+    }
+    .quick_links ul li a{
+    text-decoration: none;
+    color: darkgrey;
+    position: relative;
+    left: -15px;
+    top: 480px;
+    line-height: 30px;
+    }
+    .quick_links li a:hover {
+    color: #8c52ff;
+    }
+  .contact-info{
+    line-height: 30px;
+    font-size: 14.5px;
+    font-weight: normal;
+    position: relative;
+    left: 262px;
+    top: 335px;
+    }
+/*Contact Details*/
+  #contact h2{
+    color: #fff;
+    position: relative;
+    left: 15px;
+    top: 485px;
+    font-family: 'Arial';
+    font-size: 23px;
+    font-weight: bold;
+    }
+    #contact::after{
+    content: '';
+    display: block;
+    width: 21.5%; /* This will ensure the underline is as wide as the content */
+    height: 3px; /* Adjust the height of the underline */
+    background-color: blue; /* Set the color of the underline */
+    position: relative;
+    left: 15px;
+    top: 350px;
+    }
+}
+
+******JS******
+function toggleMenu() {
+  document.querySelector('nav').classList.toggle('active');
+}
+
+function toggleDropdown(event, dropdownId) {
+  event.preventDefault();
+  const dropdown = document.getElementById(dropdownId);
+  dropdown.classList.toggle('active');
+  const parentLi = dropdown.parentElement;
+  parentLi.classList.toggle('active');
+
+  // Update the caret icon
+  const caret = event.currentTarget.querySelector('.caret');
+  if (dropdown.classList.contains('active')) {
+    caret.style.transform = 'rotate(180deg)';
+  } else {
+    caret.style.transform = 'rotate(0deg)';
+  }
+}
+
+
+
+/*JOB SECTION*/
+function toggleVisibility(jobId) {
+  const jobInfo = document.getElementById(jobId);
+  
+  if (jobInfo.style.display === 'none' || jobInfo.style.display === '') {
+    // Hide all job information divs
+    const allJobInfos = document.querySelectorAll('.firstjob_info, .secondjob_info, .thirdjob_info, .fourthjob_info, .fifthjob_info, .sixthjob_info, .seventhjob_info, .eighthjob_info, .ninthjob_info, .tenthjob_info, .eleventhjob_info, .twelfthjob_info, .thirteenthjob_info' );
+    allJobInfos.forEach(info => {
+      info.style.display = 'none';
+    });
+
+    // Show the selected job information
+    jobInfo.style.display = 'block';
+  } else {
+    // Hide the selected job information
+    jobInfo.style.display = 'none';
+  }
+}
